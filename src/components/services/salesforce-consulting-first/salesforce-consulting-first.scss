@@ -1,0 +1,75 @@
+.salesforce-consulting {
+  margin-top: 170px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  .salesforce-consulting-img {
+    position: absolute;
+  }
+
+  .salesforce-consulting-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+
+    .salesforce-consulting-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 55px;
+
+      .salesforce-consulting-title-left {
+        margin-top: 30px;
+        width: 360px;
+        color: #ffffff;
+        font-family: "Proxima Nova";
+        font-size: 33px;
+        font-weight: 700;
+        letter-spacing: 1.65px;
+      }
+
+      .salesforce-consulting-text-left {
+        margin-top: 28px;
+        width: 489px;
+        color: #c2c2c2;
+        font-family: "Proxima Nova";
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.9px;
+        text-align: center;
+        margin-bottom: 42px;
+      }
+    }
+    
+    .salesforce-consulting-right {
+      margin-top: 79px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .salesforce-consulting-title-right {
+        width: 358px;
+        color: #ffffff;
+        font-family: "Proxima Nova";
+        font-size: 33px;
+        font-weight: 700;
+        letter-spacing: 1.65px;
+        margin-top: 30px;
+      }
+
+      .salesforce-consulting-text-right {
+        text-align: center;
+        width: 488px;
+        color: #c2c2c2;
+        font-family: "Proxima Nova";
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.9px;
+        margin-top: 24px;
+        margin-bottom: 46px;
+      }
+    }
+  }
+}

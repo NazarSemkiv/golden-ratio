@@ -1,0 +1,34 @@
+@import "./reset";
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap');
+
+
+*, a, p, span {
+  font-family: 'Raleway', sans-serif;
+
+}
+a, p, span {
+  font-weight: 500;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.yellow-btn {
+  color: #333234;
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  width: 215px;
+  height: 57px;
+  background-color: #f4f05e;
+}
+
+p {
+  strong {
+    font-weight: 700;
+  }
+}

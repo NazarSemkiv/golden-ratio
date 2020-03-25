@@ -1,0 +1,15 @@
+.current-status-content {
+  margin-top: 140px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  .current-status-bg-separator {
+    position: absolute;
+  }
+
+  .current-status-section-img {
+    position: absolute;
+    margin-top: 263px;
+  }
+}

@@ -1,0 +1,95 @@
+#leadership-content {
+  margin-top: 142px;
+  margin-bottom: 700px;
+
+  .leadership-pre-title {
+    opacity: 0.8;
+    color: #333234;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    text-align: center;
+  }
+
+  .leadership-title {
+    color: #333234;
+    font-family: "Proxima Nova";
+    font-size: 89px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -3.59px;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .leadership-content-top {
+    display: flex;
+    flex-direction: row;
+    margin-top: 59px;
+    justify-content: center;
+
+    .leadership-arrow {
+      width: 83px;
+      height: 83px;
+      display: flex;
+      align-self: center;
+    }
+
+    .arrow-left {
+      position: absolute;
+      left: 150px;
+    }
+
+    .arrow-right {
+      position: absolute;
+      right: 150px;
+    }
+  }
+
+  .leadership-content-bottom {
+    padding-left: 20px;
+    position: relative;
+
+    .johndoe-lawrence-big-img {
+      width: 100%;
+      margin-top: 28px;
+      position: absolute;
+    }
+
+    .leadership-content-bottom-inner {
+      position: absolute;
+      right: 75px;
+      top: 119px;
+
+      .leadership-bottom-title {
+        width: 560px;
+        color: #333234;
+        font-family: "Proxima Nova";
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: -2.91px;
+        margin-bottom: 35px;
+      }
+
+      .leadership-bottom-text {
+        width: 572px;
+        color: #333234;
+        font-family: "Proxima Nova";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.2;
+      }
+
+      .text-top {
+        margin-bottom: 20px;
+      }
+
+      .linked-in-img {
+        margin-top: 29px;
+      }
+    }
+  }
+}

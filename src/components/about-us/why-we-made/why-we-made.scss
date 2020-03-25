@@ -1,0 +1,99 @@
+#why-we-made-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .why-we-made-main-img-wrapper {
+    .why-we-made-main-img {
+      margin-top: 56px;
+    }
+  }
+
+  .why-we-made-top {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .why-we-made-pre-title {
+      margin-top: 246px;
+      color: #ffffff;
+      font-family: "Proxima Nova";
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 3.6px;
+    }
+
+    .why-we-made-title p {
+      width: 787px;
+      color: #f4f05e;
+      font-family: "Proxima Nova";
+      font-size: 89px;
+      font-weight: 700;
+      letter-spacing: -3.59px;
+      text-align: center;
+    }
+
+    .why-we-made-text {
+      width: 1087px;
+      color: #ffffff;
+      font-family: "Proxima Nova";
+      font-size: 30px;
+      font-weight: 400;
+      margin-top: 32px;
+      margin-bottom: 35px;
+      text-align: center;
+    }
+
+    .why-we-made-quotes {
+      color: #f4f05e;
+      font-family: Times;
+      font-size: 44px;
+      font-weight: 700;
+      margin-bottom: 36px;
+    }
+  }
+
+  .why-we-made-yellow-bg {
+    margin-top: 730px;
+    position: absolute;
+    z-index: -99;
+  }
+  
+  .why-we-made-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 45px;
+
+    .why-we-made-bottom-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .why-we-made-bottom-imgs {
+        width: 82px;
+        height: 82px;
+      }
+
+      .why-we-made-bottom-bold-text {
+        color: #333234;
+        font-family: "Proxima Nova";
+        font-size: 97px;
+        font-weight: 700;
+        letter-spacing: -1.8px;
+        margin-top: 13px;
+      }
+
+      .why-we-made-bottom-text {
+        color: #333234;
+        font-family: "Proxima Nova";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 58.15px;
+      }
+    }
+  }
+}

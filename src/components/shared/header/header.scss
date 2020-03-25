@@ -1,0 +1,52 @@
+.header {
+  .inner-header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 37px;
+    margin-bottom: 155px;
+
+    .logo-img {
+      img {
+        width: 304px;
+        height: 86px;
+      }
+    }
+
+    .header-links {
+      .links-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 784px;
+        height: 18px;
+
+        .links-list-li {
+          color: #333234;
+          font-family: "Proxima Nova";
+          font-size: 20px;
+          font-weight: 400;
+          letter-spacing: 0.5px;
+          text-decoration: none;
+
+          a {
+            &:link {
+              text-decoration: none;
+              color: #333234;
+              font-family: "Proxima Nova";
+              font-size: 20px;
+              font-weight: 400;
+              letter-spacing: 0.5px;
+            }
+
+            &:active {
+              color: #333234;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

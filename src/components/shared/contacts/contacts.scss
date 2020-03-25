@@ -1,0 +1,226 @@
+.contacts-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .contacts-yellow-bg-grid {
+        position: absolute;
+        left: 0;
+        z-index: -1;
+    }
+
+    .contacts-brown-img {
+        position: absolute;
+        top: 96px;
+        left: 143px;
+        z-index: -1;
+    }
+
+    .contacts-circles {
+        position: absolute;
+        right: 27px;
+        top: 154px;
+        z-index: -1;
+    }
+
+    .contacts-bg-two {
+       //position: absolute;
+       margin-top: 290px;
+    }
+
+    .contacts-left-right-container {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        //align-items: center;
+        top: 400px;  
+        padding-left: 65px;
+        padding-right: 10px;
+
+        .contacts-left {
+            margin-top: 30px;
+
+            .contacts-pre-title {
+                color: #ffffff;
+                font-family: "Proxima Nova";
+                font-size: 18px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 3.6px;
+                margin-bottom: 20px;
+            }
+
+            .contacts-title {
+                width: 359px;
+                color: #ffffff;
+                font-family: "Proxima Nova";
+                font-size: 72px;
+                font-weight: 700;
+                letter-spacing: -2.91px;
+                margin-bottom: 53px;
+            }
+
+            .contacts-left-content {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 20px;
+                align-items: center;
+
+                .contacts-left-content-img {
+                    margin-right: 24px;
+                }
+                
+
+                #location-img {
+                    display: flex;
+                    align-self: flex-start;
+                }
+
+                .contacts-left-content-text {
+                    width: 181px;
+                    color: #ffffff;
+                    font-family: "Proxima Nova";
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: 0.18px;
+                }
+
+                .location-text {
+                    margin-top: -9px;
+
+                    .location-text-p {
+                        line-height: 2.1;
+                    }
+                }
+            }
+
+            .reach-us-content {
+                margin-top: 65px;
+                position: relative;
+
+                .reach-us-title {
+                    margin-bottom: 22px;
+                    width: 113px;
+                    color: #ffffff;
+                    font-family: "Proxima Nova";
+                    font-size: 18px;
+                    font-weight: 400;
+                    letter-spacing: 0.18px;
+                    margin-left: 10px;
+
+                }
+
+                .reach-us-icons-container {
+                    width: 220px;
+                    height: 36px;
+                    position: relative;
+
+                    .reach-us-icons {
+                        position: absolute;
+
+                        // a {
+                        //     .instagram {
+                        //         position: absolute;
+                        //         left: 0;
+                        //         top: 0;
+                        //         z-index: 0;
+                        //     }
+
+                        //     .pinterest {
+                        //         //position: absolute;
+                        //         top: 0;
+                        //         z-index: 1;
+                        //     }
+
+                        //     .facebook {
+                        //         //position: absolute;
+                        //     }
+                        // }
+                    }
+                }
+            }
+        }
+    
+        .contacts-right {
+            position: relative;
+            display: flex;
+            //align-items: center;
+    
+            .contact-form-container {
+                position: relative;
+
+                .contact-form-top {
+                    border-top-left-radius: 30px;
+                    border-top-right-radius: 30px;
+                    width: 594px;
+                    height: 109px;
+                    background-color: #f4f05e;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .contact-form-title {
+                        color: #333234;
+                        font-family: "Proxima Nova - Extrabld";
+                        font-size: 33px;
+                        font-weight: 400;
+                        letter-spacing: -0.67px;
+                    }
+                }
+
+                .contact-form-user-data {
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 60px;
+                    padding-right: 60px;
+                    padding-top: 54px;
+                    width: 594px;
+                    height: 605px;
+                    background-color: #2a2a2b;
+                    border-bottom-left-radius: 30px;
+                    border-bottom-right-radius: 30px;
+        
+                    .user-data {
+                        border-bottom-color: #f4f05e;
+                        border-top: none;
+                        border-right: none;
+                        border-left: none;
+                        background-color: #2a2a2b;
+                        margin-bottom: 35px;
+                        height: 40px;
+        
+                        &::placeholder {
+                            width: 113px;
+                            opacity: 0.5;
+                            color: #ffffff;
+                            font-family: "Proxima Nova";
+                            font-size: 27px;
+                            font-weight: 400;
+                            letter-spacing: 0.27px;
+                        }
+                    }
+        
+                    #message {
+                        height: 120px;
+                    }
+        
+                    .user-data-btn {
+                        width: 484px;
+                        height: 59px;
+                        background-color: #f4f05e;
+                        color: #2a2a2b;
+                        font-family: "Proxima Nova";
+                        font-size: 27px;
+                        font-weight: 700;
+                        letter-spacing: 0.27px;
+                        border-radius: 30px;
+                    }
+                }
+            }
+    
+        }
+    }
+}

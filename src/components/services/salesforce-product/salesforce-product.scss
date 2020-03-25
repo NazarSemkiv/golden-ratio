@@ -1,0 +1,213 @@
+#salesforce-product {
+  margin-top: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  .salesforce-product-title {
+    width: 750px;
+    color: #333234;
+    //font-family: "Proxima Nova";
+    font-size: 89px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -3.59px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .salesforce-product-icons-container {
+    display: flex;
+    width: 996px;
+    justify-content: center;
+
+    .salesforce-product-icons-content {
+      width: 157px;
+      height: 157px;
+      box-shadow: 0 1px 15px rgba(0, 0, 1, 0.13);
+      border: 8px solid #ffffff;
+      background-color: #fdfdfd;
+      border-radius: 50%;
+      margin-left: 10px;
+      margin-right: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .icons-content-img {
+        z-index: 99;
+        margin-top: 27px;
+        margin-bottom: 10px;
+      }
+
+      .icons-content-text {
+        width: 102px;
+        color: #333234;
+        font-family: "Proxima Nova";
+        font-size: 18px;
+        font-weight: 700;
+        z-index: 99;
+        text-align: center;
+      }
+
+      .salesforce-product-icons-content-active {
+        width: 126px;
+        height: 126px;
+        border: 14px solid #f4f05e;
+        background-color: #333234;
+        border-radius: 50%;
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .icons-content-img-active {
+          width: 53px;
+          height: 60px;
+          margin-top: 15px;
+        }
+
+        .icons-content-active-triangle {
+          width: 0; 
+          height: 0; 
+          border-left: 20px solid transparent;
+          border-right: 20px solid transparent;
+          border-top: 20px solid #f4f05e;
+          margin-top: 26px;
+        }
+
+        .icons-content-text-active {
+          margin-top: 1px;
+        }
+      }
+    }
+  }
+
+  .white-area {
+    width: 1030px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: -75px;
+  }
+
+  .salesforce-product-content-bg {
+    position: relative;
+    margin-top: 65px;
+  }
+
+  .salesforce-product-content {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 37%;
+
+    .salesforce-product-content-left {
+      width: 50%;
+      position: relative;
+
+      .content-left-img {
+        position: absolute;
+      }
+
+      .content-left-yellow-circle {
+        position: absolute;
+        top: -64px;
+        left: 84px;
+      }
+
+      .content-left-half-cirle {
+        position: absolute;
+        top: -45px;
+        left: -45px;
+        z-index: -1;
+      }
+
+      .content-left-two-circles {
+        position: absolute;
+        right: -30px;
+        top: -25px;
+      }
+
+      .content-left-curvy-bg {
+        position: absolute;
+        top: 200px;
+        left: -390px;
+        z-index: -1;
+      }
+
+      .content-left-two-triangles {
+        position: absolute;
+        left: -30px;
+        bottom: -60px;
+      }
+
+      .content-left-yellow-circle-two {
+        position: absolute;
+        width: 176px;
+        height: 176px;
+        border-radius: 80%;
+        background-color: #f4f05e;
+        bottom: -157px;
+        left: 249px;
+        z-index: -1;
+      }
+
+      .content-left-yellow-grid {
+        position: absolute;
+        right: 0;
+        bottom: -220px;
+        z-index: -2;
+      }
+    }
+
+    .salesforce-product-content-right {
+      width: 46.5%;
+      margin-top: 55px;
+
+      .salesforce-product-content-title {
+        color: #333234;
+        //font-family: "Proxima Nova";
+        font-size: 45px;
+        font-weight: 700;
+        letter-spacing: -1.82px;
+        margin-bottom: 26px;
+      }
+  
+      .salesforce-product-content-text {
+        width: 480px;
+        color: #333234;
+        font-family: "Proxima Nova";
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 41px;
+      }
+
+      // .salesforce-product-content-btn {
+      //   position: relative;
+      //   display: flex;
+      //   background: none;
+      //   border: none;
+      //   width: 215px;
+      //   height: 57px;
+      //   align-items: center;
+      //   justify-content: center;
+      //   margin-top: 41px;
+
+      //   .salesforce-product-content-btn-img {
+      //     position: absolute;
+      //   }
+
+      //   .salesforce-product-content-btn-text {
+      //     position: absolute;
+      //     color: #333234;
+      //     font-family: "Proxima Nova";
+      //     font-size: 20px;
+      //     font-weight: 700;
+      //     letter-spacing: 1px;
+      //   }
+      // }
+    }
+  }
+}

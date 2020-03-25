@@ -1,0 +1,57 @@
+.digital-product-content {
+  position: relative;
+
+  .digital-product-content-img {
+    margin-top: -300px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .digital-product-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .digital-product-wrapper-left {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+
+      .digital-product-pre-title {
+        width: 167px;
+        opacity: 0.8;
+        color: #333234;
+        font-family: "Proxima Nova";
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3.6px;
+        margin-left: 13px;
+        margin-bottom: 13px;
+      }
+
+      .digital-product-title {
+        width: 431px;
+        color: #333234;
+        font-family: "Proxima Nova";
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: -2.91px;
+        margin-bottom: 29px;
+      }
+
+      .digital-product-text {
+        width: 492px;
+        color: #333234;
+        font-family: "Proxima Nova";
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+
+    .digital-product-wrapper-right {
+      width: 40%;
+    }
+  }
+}
