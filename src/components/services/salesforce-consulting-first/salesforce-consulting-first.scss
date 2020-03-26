@@ -14,13 +14,11 @@
     justify-content: space-between;
     position: absolute;
 
-    .salesforce-consulting-left {
+    .content {
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 55px;
-
-      .salesforce-consulting-title-left {
+      h3 {
         margin-top: 30px;
         width: 360px;
         color: #ffffff;
@@ -30,7 +28,7 @@
         letter-spacing: 1.65px;
       }
 
-      .salesforce-consulting-text-left {
+      p {
         margin-top: 28px;
         width: 489px;
         color: #c2c2c2;
@@ -42,31 +40,20 @@
         margin-bottom: 42px;
       }
     }
-    
-    .salesforce-consulting-right {
-      margin-top: 79px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
 
-      .salesforce-consulting-title-right {
+    .content-left {
+      margin-top: 55px;
+    }
+    
+    .content-right {
+      margin-top: 79px;
+      h3 {
         width: 358px;
-        color: #ffffff;
-        font-family: "Proxima Nova";
-        font-size: 33px;
-        font-weight: 700;
-        letter-spacing: 1.65px;
         margin-top: 30px;
       }
 
-      .salesforce-consulting-text-right {
-        text-align: center;
+      p {
         width: 488px;
-        color: #c2c2c2;
-        font-family: "Proxima Nova";
-        font-size: 18px;
-        font-weight: 400;
-        letter-spacing: 0.9px;
         margin-top: 24px;
         margin-bottom: 46px;
       }
