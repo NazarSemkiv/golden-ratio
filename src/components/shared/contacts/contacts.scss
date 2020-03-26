@@ -2,29 +2,32 @@
     position: relative;
     display: flex;
     justify-content: center;
+    
+    .contacts-bg-one {
+        position: relative;
 
-    .contacts-yellow-bg-grid {
-        position: absolute;
-        left: 0;
-        z-index: -1;
-    }
-
-    .contacts-brown-img {
-        position: absolute;
-        top: 96px;
-        left: 143px;
-        z-index: -1;
-    }
-
-    .contacts-circles {
-        position: absolute;
-        right: 27px;
-        top: 154px;
-        z-index: -1;
+        .contacts-yellow-bg-grid {
+            position: absolute;
+            left: 0;
+            z-index: -1;
+        }
+    
+        .contacts-brown-img {
+            position: absolute;
+            top: 96px;
+            left: 143px;
+            z-index: -1;
+        }
+    
+        .contacts-circles {
+            position: absolute;
+            top: 154px;
+            z-index: -1;
+            margin-left: 995px;
+        }
     }
 
     .contacts-bg-two {
-       //position: absolute;
        margin-top: 290px;
     }
 
@@ -33,7 +36,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        //align-items: center;
         top: 400px;  
         padding-left: 65px;
         padding-right: 10px;
@@ -146,7 +148,6 @@
         .contacts-right {
             position: relative;
             display: flex;
-            //align-items: center;
     
             .contact-form-container {
                 position: relative;

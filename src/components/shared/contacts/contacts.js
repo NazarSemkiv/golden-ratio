@@ -40,9 +40,11 @@ const Contacts = () => {
 
   return (
     <div className="contacts-container">
-      <img className="contacts-yellow-bg-grid" src={data.contactsYellowBgGrid.publicURL}/>
-      <img className="contacts-brown-img" src={data.contactsBrownImg.publicURL}/>
-      <img className="contacts-circles" src={data.contactsCircles.publicURL}/>
+      <div className="contacts-bg-one">
+        <img className="contacts-yellow-bg-grid" src={data.contactsYellowBgGrid.publicURL}/>
+        <img className="contacts-brown-img" src={data.contactsBrownImg.publicURL}/>
+        <img className="contacts-circles" src={data.contactsCircles.publicURL}/>
+      </div>
       {/* <img className="contacts-bg-one" src={data.contactsBgOne.publicURL}/> */}
       <img className="contacts-bg-two" src={data.contactsBgTwo.publicURL}/>
       <div className="contacts-left-right-container container">
