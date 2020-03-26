@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="container inner-header-content">
+      <div className="inner-header-content">
         <div className="logo-img">
           {/* <Img fixed={data.imageOne.childImageSharp.fixed}/> */}
           <img src={data.logoGoldenRatio.publicURL}/>

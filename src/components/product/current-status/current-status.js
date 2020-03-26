@@ -8,7 +8,7 @@ const CurrentStatus = () => {
       separationBg: file(relativePath: { eq: "separation_bg.svg" }) {
         publicURL
       },
-      currentStatusSectionImg: file(relativePath: { eq: "current-status-section-img.svg" }) {
+      currentStatusSectionImg: file(relativePath: { eq: "current-status-section-img.png" }) {
         publicURL
       }
     }

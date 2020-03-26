@@ -1,11 +1,28 @@
 #estimator-first {
-  margin-top: 730px;
+  width: 1600px;
+  margin: 0 auto 0;
   position: relative;
   display: flex;
   justify-content: center;
 
   .estimator-first-content-img {
     position: absolute;
+
+    &:nth-child(1) {
+      top: 431px;
+      left: 148px;
+    }
+
+    &:nth-child(2) {
+      left: 1172px;
+      top: 68px;
+    }
+
+    &:nth-child(3) {
+      left: 0;
+      top: 39px;
+      z-index: -1;
+    }
   }
 
   .estimator-first-content {
@@ -31,32 +48,6 @@
       font-weight: 400;
       text-align: center;
       margin-bottom: 41px;
-    }
-
-    .estimator-yellow-btn-content {
-      position: relative;
-      display: flex;
-      background: none;
-      border: none;
-      width: 215px;
-      height: 57px;
-      align-items: center;
-      justify-content: center;
-
-      .estimator-yellow-btn {
-        position: absolute;
-        left: 0;
-        top: 0;    
-      }
-
-      .estimator-yellow-btn-text {
-        position: absolute;
-        color: #333234;
-        font-family: "Proxima Nova";
-        font-size: 20px;
-        font-weight: 700;
-        letter-spacing: 1px;
-      }
     }
   }
 }

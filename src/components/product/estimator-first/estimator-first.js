@@ -6,18 +6,23 @@ const EstimatorFirst = () => {
 
   const data = useStaticQuery(graphql`
     query {
-      estimatorFirstImgBg: file(relativePath: { eq: "estimator-first-img-bg.png" }) {
+      estimatorFirstImgBg: file(relativePath: { eq: "estimator-first-1.png" }) {
         publicURL
       },
-      yellowBtn: file(relativePath: { eq: "yellow-btn.svg" }) {
+      estimatorSecondImgBg: file(relativePath: { eq: "estimator-first-2.png" }) {
         publicURL
-      }
+      },
+      estimatorThirdImgBg: file(relativePath: { eq: "estimator-first-3.png" }) {
+        publicURL
+      },
     }
   `)
 
     return (
       <div id="estimator-first">
         <img className="estimator-first-content-img" src={data.estimatorFirstImgBg.publicURL}/>
+        <img className="estimator-first-content-img" src={data.estimatorSecondImgBg.publicURL}/>
+        <img className="estimator-first-content-img" src={data.estimatorThirdImgBg.publicURL}/>
         <div className="estimator-first-content">
           <h3 className="estimator-first-content-title">Estimator</h3>
           <p className="estimator-first-content-text">Golden Ratio Systems is a digital product development and consulting 
@@ -25,9 +30,8 @@ const EstimatorFirst = () => {
             scalable complex enterprise grade applicatzions on salesforce that 
             integrate with multiple systems.
           </p>
-          <button className="estimator-yellow-btn-content">
-            <img className="estimator-yellow-btn" src={data.yellowBtn.publicURL}/>
-            <p className="estimator-yellow-btn-text">Learn more</p>
+          <button className="yellow-btn">
+            Learn more
           </button>
         </div>
       </div>

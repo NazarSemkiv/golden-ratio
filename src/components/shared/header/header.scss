@@ -1,20 +1,24 @@
 .header {
+  margin: 0 auto;
+  width: 1600px;
+
   .inner-header-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-top: 37px;
-    margin-bottom: 155px;
 
     .logo-img {
       img {
+        margin-left: 198px;
         width: 304px;
         height: 86px;
       }
     }
 
     .header-links {
+      margin-right: 203px;
       .links-list {
         display: flex;
         flex-direction: row;
