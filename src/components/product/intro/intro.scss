@@ -1,4 +1,4 @@
-.products-container{
+.products-container {
   margin: 0 auto;
   width: 1600px;
   display: flex;
@@ -7,23 +7,20 @@
 
   .products-left {
     margin-left: 222px;
+    color: #333234;
 
-    .products-left-title {
-      width: 321px;
-      color: #333234;
+    &-title {
       font-size: 89px;
       font-weight: 700;
       line-height: 90px;
       letter-spacing: -3.6px;
-      margin-bottom: 45px;
-      margin-top: 124px;
-      margin-left: -5px;
+      margin: 124px 0 45px -5px;
+      font-family: "Proxima Nova";
     }
 
-    .products-left-text {
+    &-text {
       p {
         width: 498px;
-        color: #333234;
         font-family: "Proxima Nova";
         font-size: 18px;
         font-weight: 400;
@@ -35,10 +32,5 @@
     position: absolute;
     right: 0;
     margin-top: -30px;
-
-    .products-img {
-      width: 734px;
-      height: 629px;
-    }
   }
 }

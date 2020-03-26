@@ -3,11 +3,11 @@
   margin: 140px auto 0;
   position: relative;
 
-  .current-status-bg-separator {
+  &-bg-separator {
     position: absolute;
   }
 
-  .current-status-section-img {
+  &-section-img {
     margin: 263px 0 0 148px;
   }
 }

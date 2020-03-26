@@ -1,11 +1,12 @@
-#estimator-first {
+.estimator-first {
   width: 1600px;
-  margin: 0 auto 0;
+  height: 963px;
+  margin: 0 auto;
   position: relative;
   display: flex;
   justify-content: center;
 
-  .estimator-first-content-img {
+  &-content-img {
     position: absolute;
 
     &:nth-child(1) {
@@ -25,24 +26,24 @@
     }
   }
 
-  .estimator-first-content {
+  &-content {
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #333234;
 
-    .estimator-first-content-title {
-      color: #333234;
+    &-title {
       font-size: 72px;
       font-weight: 700;
       line-height: 72px;
       letter-spacing: -2.91px;
       margin-bottom: 37px;
+      font-family: "Proxima Nova";
     }
 
-    .estimator-first-content-text {
+    &-text {
       width: 563px;
-      color: #333234;
       font-family: "Proxima Nova";
       font-size: 18px;
       font-weight: 400;
