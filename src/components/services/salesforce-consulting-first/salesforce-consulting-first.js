@@ -24,16 +24,16 @@ const SalesforceConsultingFirst = () => {
     <div className="salesforce-consulting">
       <img className="salesforce-consulting-img" src={data.salesforceConsulting.publicURL}/>
       <div className="salesforce-consulting-content container">
-        <div className="salesforce-consulting-left">
+        <div className="content-left content">
           <img src={data.digitalProductDevelopmentImg.publicURL}/>
-          <h3 className="salesforce-consulting-title-left">Salesforce and Digital Product Development</h3>
-          <p className="salesforce-consulting-text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aliquam architecto atque beatae ea error est, excepturi fuga harum ipsam mollitia natus provident quibusdam quos ratione, saepe sed ut!</p>
+          <h3>Salesforce and Digital Product Development</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aliquam architecto atque beatae ea error est, excepturi fuga harum ipsam mollitia natus provident quibusdam quos ratione, saepe sed ut!</p>
           <img src={data.salesforceConsultingNext.publicURL}/>
         </div>
-        <div className="salesforce-consulting-right">
+        <div className="content-right content">
           <img src={data.salesforceConsultingIcon.publicURL}/>
-          <h3 className="salesforce-consulting-title-right">Salesforce Consulting</h3>
-          <p className="salesforce-consulting-text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aliquam architecto atque beatae ea error est, excepturi fuga harum ipsam mollitia natus provident quibusdam quos ratione, saepe sed ut!</p>
+          <h3>Salesforce Consulting</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aliquam architecto atque beatae ea error est, excepturi fuga harum ipsam mollitia natus provident quibusdam quos ratione, saepe sed ut!</p>
           <img src={data.salesforceConsultingNext.publicURL}/>
         </div>
       </div>
