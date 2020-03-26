@@ -16,8 +16,8 @@ const CurrentStatus = () => {
 
   return (
     <div className="current-status-content">
-      <img className="current-status-bg-separator" src={data.separationBg.publicURL}/>
-      <img className="current-status-section-img" src={data.currentStatusSectionImg.publicURL}/>
+      <img className="current-status-content-bg-separator" src={data.separationBg.publicURL}/>
+      <img className="current-status-content-section-img" src={data.currentStatusSectionImg.publicURL}/>
     </div>
   )
 }

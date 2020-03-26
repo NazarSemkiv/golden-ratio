@@ -1,6 +1,5 @@
 import React from "react"
 import "./estimator-third.scss";
-import { graphql, useStaticQuery } from "gatsby";
 
 const EstimatorThird = () => {
     return (
