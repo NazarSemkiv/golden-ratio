@@ -22,7 +22,7 @@ const SalesforceConsultingFirst = () => {
 
   return (
     <div className="salesforce-consulting">
-      <img className="salesforce-consulting-img" src={data.salesforceConsulting.publicURL}/>
+      <img src={data.salesforceConsulting.publicURL}/>
       <div className="salesforce-consulting-content container">
         <div className="content-left content">
           <img src={data.digitalProductDevelopmentImg.publicURL}/>
