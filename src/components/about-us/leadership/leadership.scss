@@ -1,8 +1,8 @@
-#leadership-content {
+.leadership-content {
   margin-top: 142px;
   margin-bottom: 700px;
 
-  .leadership-pre-title {
+  &-pre-title {
     opacity: 0.8;
     color: #333234;
     font-family: "Proxima Nova";
@@ -13,7 +13,7 @@
     text-align: center;
   }
 
-  .leadership-title {
+  &-title {
     color: #333234;
     font-family: "Proxima Nova";
     font-size: 89px;
@@ -24,13 +24,13 @@
     text-align: center;
   }
 
-  .leadership-content-top {
+  &-top {
     display: flex;
     flex-direction: row;
     margin-top: 59px;
     justify-content: center;
 
-    .leadership-arrow {
+    &-arrow {
       width: 83px;
       height: 83px;
       display: flex;
@@ -48,22 +48,22 @@
     }
   }
 
-  .leadership-content-bottom {
+  &-bottom {
     padding-left: 20px;
     position: relative;
 
-    .johndoe-lawrence-big-img {
+    &-johndoe-lawrence-big-img {
       width: 100%;
       margin-top: 28px;
       position: absolute;
     }
 
-    .leadership-content-bottom-inner {
+    &-inner {
       position: absolute;
       right: 75px;
       top: 119px;
 
-      .leadership-bottom-title {
+      &-title {
         width: 560px;
         color: #333234;
         font-family: "Proxima Nova";
@@ -74,7 +74,7 @@
         margin-bottom: 35px;
       }
 
-      .leadership-bottom-text {
+      &-text {
         width: 572px;
         color: #333234;
         font-family: "Proxima Nova";
@@ -87,7 +87,7 @@
         margin-bottom: 20px;
       }
 
-      .linked-in-img {
+      &-linked-in-img {
         margin-top: 29px;
       }
     }
