@@ -5,22 +5,22 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-    .golden-ration-inner {
+    &-inner {
       display: flex;
       flex-direction: column;
       align-items: center;
       position: relative;
 
-      .goldenBgOne {
+      &-goldenBgOne {
         position: absolute;
       }
 
-      .goldenBgTwo {
+      &-goldenBgTwo {
         position: absolute;
         top: 150px;
       }
 
-      .golden-ration-title p{
+      &-title p{
         width: 684px;
         color: #333234;
         font-family: "Proxima Nova";
@@ -31,7 +31,7 @@
         text-align: center;
       }
 
-      .golden-ration-text {
+      &-text {
         width: 761px;
         color: #333234;
         font-family: "Proxima Nova";
@@ -44,7 +44,7 @@
         margin-bottom: 29px;
       }
 
-      .golden-ration-btn {
+      &-btn {
         width: 215px;
         height: 57px;
         background-color: #f4f05e;

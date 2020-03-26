@@ -1,23 +1,23 @@
 .digital-product-content {
   position: relative;
 
-  .digital-product-content-img {
+  &-img {
     margin-top: -300px;
     position: absolute;
     z-index: -1;
   }
 
-  .digital-product-wrapper {
+  &-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
 
-    .digital-product-wrapper-left {
+    &-left {
       display: flex;
       flex-direction: column;
       width: 40%;
 
-      .digital-product-pre-title {
+      &-pre-title {
         width: 167px;
         opacity: 0.8;
         color: #333234;
@@ -30,7 +30,7 @@
         margin-bottom: 13px;
       }
 
-      .digital-product-title {
+      &-title {
         width: 431px;
         color: #333234;
         font-family: "Proxima Nova";
@@ -41,7 +41,7 @@
         margin-bottom: 29px;
       }
 
-      .digital-product-text {
+      &-text {
         width: 492px;
         color: #333234;
         font-family: "Proxima Nova";
@@ -50,7 +50,7 @@
       }
     }
 
-    .digital-product-wrapper-right {
+    &-right {
       width: 40%;
     }
   }
