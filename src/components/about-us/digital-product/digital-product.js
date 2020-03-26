@@ -8,12 +8,17 @@ const DigitalProduct = () => {
       digitalProductDev: file(relativePath: { eq: "digital-product-dev.svg" }) {
         publicURL
       },
-      digitalProduct: file(relativePath: { eq: "digital-product.png" }) {
-        childImageSharp {
-          fixed(width: 466, height: 395) {
-            ...GatsbyImageSharpFixed
-          }
-        }
+      digitalProductMainImg: file(relativePath: { eq: "digital-product-main-img.png" }) {
+        publicURL
+      },
+      digitalProductYellowStars: file(relativePath: { eq: "digital-product-yellow-stars.svg" }) {
+        publicURL
+      },
+      digitalProductGreyGrid: file(relativePath: { eq: "digital-product-grey-grid.svg" }) {
+        publicURL
+      },
+      digitalProductHalfCircle: file(relativePath: { eq: "digital-product-half-circle.svg" }) {
+        publicURL
       }
     }
   `)
@@ -36,7 +41,12 @@ const DigitalProduct = () => {
           <p className="digital-product-text">with multiple systems.</p>
         </div>
         <div className="digital-product-wrapper-right">
-          <img className="digital-product-wrapper-img" src={data.digitalProduct.childImageSharp.fixed.src}/>
+          <img className="digital-product-wrapper-img" src={data.digitalProductMainImg.publicURL}/>
+          <img className="digital-product-yellow-stars" src={data.digitalProductYellowStars.publicURL}/>
+          <img className="digital-product-grey-grid" src={data.digitalProductGreyGrid.publicURL}/>
+          <div className="digital-product-yellow-circle"></div>
+          <img className="digital-product-half-circle" src={data.digitalProductHalfCircle.publicURL}/>
+          {/* <img className="digital-product-wrapper-img" src={data.digitalProduct.childImageSharp.fixed.src}/> */}
         </div>
       </div>
     </div>

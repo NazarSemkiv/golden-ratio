@@ -9,25 +9,31 @@ const Leadership = () => {
       arrowPrev: file(relativePath: { eq: "arrow-prev.svg" }) {
         publicURL
       },
-      johndoeLawrence: file(relativePath: { eq: "johndoe-lawrence.png" }) {
+      leadershipTeamActive: file(relativePath: { eq: "leadership-team-active.svg" }) {
         publicURL
       },
-      johndoeLawrenceTwo: file(relativePath: { eq: "johndoe-lawrence-two.svg" }) {
+      leadershipTeamImg: file(relativePath: { eq: "leadership-team-img.svg" }) {
         publicURL
       },
-      johndoeLawrenceThree: file(relativePath: { eq: "johndoe-lawrence-three.svg" }) {
+      johndoeLawrenceFirst: file(relativePath: { eq: "johndoe-lawrence-first.png" }) {
         publicURL
       },
-      johndoeLawrenceFour: file(relativePath: { eq: "johndoe-lawrence-four.svg" }) {
+      johndoeLawrenceSecond: file(relativePath: { eq: "johndoe-lawrence-second.png" }) {
         publicURL
       },
-      johndoeLawrenceFive: file(relativePath: { eq: "johndoe-lawrence-five.svg" }) {
+      johndoeLawrenceThird: file(relativePath: { eq: "johndoe-lawrence-third.png" }) {
+        publicURL
+      },
+      johndoeLawrenceFourth: file(relativePath: { eq: "johndoe-lawrence-fourth.png" }) {
+        publicURL
+      },
+      johndoeLawrenceFifth: file(relativePath: { eq: "johndoe-lawrence-fifth.png" }) {
         publicURL
       },
       arrowNext: file(relativePath: { eq: "arrow-next.svg" }) {
         publicURL
       },
-      johndoeLawrenceBigImg: file(relativePath: { eq: "johndoe-lawrence-big-img.png" }) {
+      leadershipContentBottomImg: file(relativePath: { eq: "leadership-content-bottom-img.png" }) {
         publicURL
       },
       linkedIn: file(relativePath: { eq: "linked-in.png" }) {
@@ -41,17 +47,93 @@ const Leadership = () => {
         <h5 className="leadership-pre-title container">the team</h5>
         <h2 className="leadership-title container">Our leadership</h2>
         <div className="leadership-content-top container">
-          <img className="leadership-arrow arrow-left" src={data.arrowPrev.publicURL}/>
-          <img src={data.johndoeLawrence.publicURL}/>
-          <img src={data.johndoeLawrenceTwo.publicURL}/>
-          <img src={data.johndoeLawrenceThree.publicURL}/>
-          <img src={data.johndoeLawrenceFour.publicURL}/>
-          <img src={data.johndoeLawrenceFive.publicURL}/>
-          <img className="leadership-arrow arrow-right" src={data.arrowNext.publicURL}/>
+          <button className="leadership-arrow leadership-left-btn">
+            <div className="arrow-left"></div>
+          </button>
+          <div className="leadership-team-container" id="left-righr-btn-margin">
+            <div className="leadership-team-box">
+              <div className="border-active">
+                <div className="leadership-team-content">
+                  <img className="johndoe-lawrence-first" src={data.johndoeLawrenceFirst.publicURL}/>
+                </div>
+                <div className="triangle-first"></div>
+                <div className="white-area"></div>
+                <div className="triangle-second"></div>
+              </div>
+              <div className="team-text">
+                <h6>Johndoe Lawrence</h6>
+                <p>CEO & Founder</p>
+              </div>
+            </div>
+            <div className="leadership-team-box">
+              <div className="border-box-color">
+                <div className="leadership-team-content">
+                  <img className="johndoe-lawrence-img" src={data.johndoeLawrenceSecond.publicURL}/>
+                </div>
+                <div className="triangle-first"></div>
+                <div className="white-area"></div>
+                <div className="triangle-second"></div>
+              </div>
+              <div className="team-text">
+                <h6>Johndoe Lawrence</h6>
+                <p>CEO & Founder</p>
+              </div>
+            </div>
+            <div className="leadership-team-box">
+              <div className="border-box-color">
+                <div className="leadership-team-content">
+                  <img className="johndoe-lawrence-img" src={data.johndoeLawrenceThird.publicURL}/>
+                </div>
+                <div className="triangle-first"></div>
+                <div className="white-area"></div>
+                <div className="triangle-second"></div>
+              </div>
+              <div className="team-text">
+                <h6>Johndoe Lawrence</h6>
+                <p>CEO & Founder</p>
+              </div>
+            </div>
+            <div className="leadership-team-box">
+              <div className="border-box-color">
+                <div className="leadership-team-content">
+                  <img className="johndoe-lawrence-img" src={data.johndoeLawrenceFourth.publicURL}/>
+                </div>
+                <div className="triangle-first"></div>
+                <div className="white-area"></div>
+                <div className="triangle-second"></div>
+              </div>
+              <div className="team-text">
+                <h6>Johndoe Lawrence</h6>
+                <p>CEO & Founder</p>
+              </div>
+            </div>
+            <div className="leadership-team-box">
+              <div className="border-box-color">
+                <div className="leadership-team-content">
+                  <img className="johndoe-lawrence-img" src={data.johndoeLawrenceFifth.publicURL}/>
+                </div>
+                <div className="triangle-first"></div>
+                <div className="white-area"></div>
+                <div className="triangle-second"></div>
+              </div>
+              <div className="team-text">
+                <h6>Johndoe Lawrence</h6>
+                <p>CEO & Founder</p>
+              </div>
+            </div>
+          </div>
+          <button className="leadership-arrow leadership-right-btn">
+            <div className="arrow-right"></div>
+          </button>
         </div>
         <div className="leadership-content-bottom container">
-          <img className="johndoe-lawrence-big-img" src={data.johndoeLawrenceBigImg.publicURL}/>
-          <div className="leadership-content-bottom-inner">
+          <div className="circle"></div>
+          <div className="up-triangle"></div>
+          <div className="down-triangle"></div>
+          <div className="leadership-content-bottom-left">
+            <img className="johndoe-lawrence-big-img" src={data.leadershipContentBottomImg.publicURL}/> 
+          </div>
+          <div className="leadership-content-bottom-right">
             <h4 className="leadership-bottom-title">Johndoe Lawrence</h4>
             <p className="leadership-bottom-text text-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu tellus massa. Nullam nec vulputate ex. Sed at consequat tortor. Donec vitae commodo augue, non imperdiet ex. Vivamus mollis at purus ac congue. Proin nec nibh quis tortor venenatis euismod et sed tortor. Mauris lobortis mattis commodo.</p>
             <p className="leadership-bottom-text">Etiam sem lectus, pellentesque eget consectetur vitae, sodales tempus augue. In non tincidunt augue. Phasellus mattis nunc dui, a dapibus mi pulvinar nec. Fusce luctus mauris a elementum posuere. Aenean eu consequat nibh, ac ulla- mcorper quam. In sodales tincidunt bibendum. Proin fringilla cursus nunc. Ut neque est, pellentesque a ligula eget, sagittis molestie erat. Vestibulum sed tellus sem. Fusce malesuada ullamcorper fringilla. Donec eget faucibus massa, vel laoreet quam. Nulla nec condimentum orci, ut efficitur ante. Quisque lobor- tis hendrerit tellus, et placerat erat volutpat sit amet. Integer ultricies tempor elit vitae congue. Ut porta et lectus et dictum.</p>
