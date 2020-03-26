@@ -3,18 +3,6 @@ import "./estimator-third.scss";
 import { graphql, useStaticQuery } from "gatsby";
 
 const EstimatorThird = () => {
-
-  const data = useStaticQuery(graphql`
-    query {
-      estimatorSecondImgBg: file(relativePath: { eq: "estimator-second-img-bg.png" }) {
-        publicURL
-      },
-      yellowBtn: file(relativePath: { eq: "yellow-btn.svg" }) {
-        publicURL
-      }
-    }
-  `)
-
     return (
       <div className="estimator-third container">
         <div className="estimator-third-content">
@@ -24,9 +12,8 @@ const EstimatorThird = () => {
             scalable complex enterprise grade applicatzions on salesforce that 
             integrate with multiple systems.
           </p>
-          <button className="estimator-yellow-btn-content">
-            <img className="estimator-yellow-btn" src={data.yellowBtn.publicURL}/>
-            <p className="estimator-yellow-btn-text">Learn more</p>
+          <button className="yellow-btn">
+            Learn more
           </button>
         </div>
       </div>
