@@ -26,9 +26,12 @@ const Intro = () => {
             <p>The golden</p> 
             <p>ration system story</p>
             </h2>
-          <p className="golden-ration-system-inner-text">Digital product development and consulting company. Specialize primarily in salesforce.com
-              development. We build scalable complex enterprise grade applications on salesforce 
-              that integrate with multiple systems.</p>
+          <p className="golden-ration-system-inner-text">
+            Digital product development and consulting
+            company. Specialize primarily in salesforce.com
+            development. We build scalable complex enterprise grade applications on salesforce
+            that integrate with multiple systems.
+          </p>
           <button className="golden-ration-system-inner-btn">Read more</button>
         </div>
       </div>

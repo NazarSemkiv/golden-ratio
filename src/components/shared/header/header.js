@@ -2,7 +2,6 @@ import React from "react";
 import {Link} from "gatsby";
 import "./header.scss"
 import { graphql, useStaticQuery } from "gatsby";
-import Img from "gatsby-image";
 
 const Header = () => {
 

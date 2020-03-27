@@ -4,6 +4,7 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 100px;
 
     &-inner {
       display: flex;
@@ -21,7 +22,8 @@
       }
 
       &-title p{
-        width: 684px;
+        //width: 684px;
+        width: 761px;
         color: #333234;
         font-family: "Proxima Nova";
         font-size: 89px;
@@ -40,7 +42,7 @@
         line-height: 30px;
         letter-spacing: 0.45px;
         text-align: center;
-        margin-top: 35px;
+        margin-top: 16px;
         margin-bottom: 29px;
       }
 
