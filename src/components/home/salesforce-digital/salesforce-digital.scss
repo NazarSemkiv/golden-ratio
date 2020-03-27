@@ -1,0 +1,74 @@
+.salesforce-digital {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+
+  .salesforce-digital-bg {
+    margin-top: -260px;
+  }
+
+  .salesforce-digital-container {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+
+    .salesforce-digital-left {
+      width: 49%;
+      background-color: #fff;
+      border-radius: 25px;
+      padding: 70px 94px 57px 57px;
+
+      h3, p {
+        color: #333234;
+        font-family: "Proxima Nova";
+      }
+
+      h3 {
+        width: 359px;
+        font-size: 33px;
+        font-weight: 700;
+        letter-spacing: 1.65px;
+        margin-top: 30px;
+        margin-bottom: 28px;
+      }
+
+      p {
+        width: 469px;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.9px;
+        margin-bottom: 30px;
+      }
+    }
+    
+    .salesforce-digital-right {
+      width: 49%;
+      background-color: #fff;
+      border-radius: 25px;
+      padding: 72px 106px 145px 57px;
+
+      h3, p {
+        color: #333234;
+        font-family: "Proxima Nova";
+      }
+
+      h3 {
+        width: 358px;
+        font-size: 33px;
+        font-weight: 700;
+        letter-spacing: 1.65px;
+        margin-top: 25px;
+        margin-bottom: 34px;
+      }
+
+      p {
+        width: 468px;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.9px;
+        margin-bottom: 31px;
+      }
+    }
+  }
+}

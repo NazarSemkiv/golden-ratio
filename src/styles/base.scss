@@ -27,6 +27,18 @@ a, p, span {
   background-color: #f4f05e;
 }
 
+.transparent-btn {
+  width: 124px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #333234;
+  background-color: transparent;
+  color: #333234;
+  font-family: "Proxima Nova";
+}
+
 p {
   strong {
     font-weight: 700;
