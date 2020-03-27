@@ -4,15 +4,13 @@ import { Link } from "gatsby"
 import Layout from "../components/shared/layout/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Intro from "../components/home/intro/intro"
 
-const IndexPage = () => (
+const HomePage = () => (
   <Layout>
     <SEO title="Home" />
-  
-    {/* <Link to="/about-us/">Go to page 2</Link>
-    <Link to="/product/">Go to page 3</Link>
-    <Link to="/services/">Go to page 4</Link> */}
+    <Intro/>
   </Layout>
 )
 
-export default IndexPage
+export default HomePage
