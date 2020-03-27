@@ -26,7 +26,9 @@ const Header = () => {
         </div>
         <div className="header-links">
           <ul className="links-list">
-            <li className="links-list-li">Home</li>
+            <li className="links-list-li">
+              <Link to="/home/">Home</Link>
+            </li>
             <li className="links-list-li">
               <Link to="/about-us/">About</Link>
             </li>

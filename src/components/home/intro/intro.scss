@@ -1,0 +1,24 @@
+.make-software {
+  display: flex;
+  flex-direction: row;
+
+  .make-software-left {
+    h2 {
+      width: 540px;
+      color: #333234;
+      font-family: "Proxima Nova";
+      font-size: 89px;
+      font-weight: 700;
+      line-height: 90px;
+      margin-bottom: 42px;
+      letter-spacing: -3.6px;
+      margin-top: 115px;
+    }
+  }
+
+  .make-software-right {
+    img {
+      margin-left: -350px;
+    }
+  }
+}
