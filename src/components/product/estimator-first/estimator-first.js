@@ -19,7 +19,7 @@ const EstimatorFirst = () => {
   `)
 
     return (
-      <div id="estimator-first">
+      <div className="estimator-first">
         <img className="estimator-first-content-img" src={data.estimatorFirstImgBg.publicURL}/>
         <img className="estimator-first-content-img" src={data.estimatorSecondImgBg.publicURL}/>
         <img className="estimator-first-content-img" src={data.estimatorThirdImgBg.publicURL}/>

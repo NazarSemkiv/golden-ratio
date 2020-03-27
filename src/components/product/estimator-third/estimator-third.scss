@@ -1,22 +1,23 @@
 .estimator-third {
-  margin-top: 947px;
-  .estimator-third-content {
+  width: 1600px;
+  height: 268px;
+  &-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #333234;
 
-    .estimator-third-content-title {
-      color: #333234;
+    &-title {
       font-size: 72px;
       font-weight: 700;
       line-height: 72px;
       letter-spacing: -2.91px;
       margin-bottom: 37px;
+      font-family: "Proxima Nova";
     }
 
-    .estimator-third-content-text {
+    &-text {
       width: 563px;
-      color: #333234;
       font-family: "Proxima Nova";
       font-size: 18px;
       font-weight: 400;
