@@ -13,7 +13,7 @@ import OurClients from '../components/home/our-clients/our-clients';
 import Blog from "../components/home/blog/blog"
 import SuccessStories from '../components/home/success-story/success-story';
 
-const HomePage = () => (
+const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Intro/>
@@ -27,4 +27,4 @@ const HomePage = () => (
   </Layout>
 )
 
-export default HomePage
+export default IndexPage

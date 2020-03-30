@@ -1,6 +1,8 @@
 .blog {
   position: relative;
   margin-bottom: -35px;
+  display: flex;
+  justify-content: center;
 
   .blog-bg {
     position: absolute;
