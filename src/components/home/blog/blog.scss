@@ -1,0 +1,84 @@
+.blog {
+  position: relative;
+  margin-bottom: -35px;
+
+  .blog-bg {
+    position: absolute;
+    z-index: -1;
+  }
+
+  .blog-wrapper {
+    padding-top: 300px;
+    width: 1204px;
+    margin: 0 auto;
+    
+    h5, h2 {
+      color: #333234;
+      font-family: "Proxima Nova";
+      font-weight: 700;
+      text-align: center;
+    }
+
+    h5 {
+      opacity: 0.8;
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 3.6px;
+      margin-bottom: 21px;
+    }
+
+    h2 {
+      font-size: 72px; 
+      letter-spacing: -2.91px;
+      margin-bottom: 33px;
+    }
+
+    .blog-wrapper-bottom {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .blog-wrapper-bottom-content {
+        position: relative;
+        width: 383px;
+        background-color: #f7f7f7;
+        border-radius: 30px;
+
+        .blog-curvy-bg {
+          position: absolute;
+          bottom: 404px;
+          left: 185px;
+          z-index: -1;
+        }
+
+        .bottom-block {
+          padding: 42px 46px 47px 39px;
+
+          .calendar-content {
+            display: flex;
+            margin-bottom: 12px;
+
+            h6 {
+              opacity: 0.8;
+              color: #333234;
+              font-family: "Proxima Nova";
+              font-size: 18px;
+              font-weight: 400;
+              letter-spacing: 0.18px;
+              margin-left: 7px;
+            }
+          }
+
+          h4 {
+            color: #333234;
+            font-family: "Proxima Nova";
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 0.22px;
+            margin-bottom: 17px;
+          }
+        }
+      }
+    }
+  }
+}

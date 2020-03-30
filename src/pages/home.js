@@ -10,6 +10,7 @@ import AboutUs from "../components/home/about-us/about-us"
 import Partners from "../components/home/partners/partners"
 import DigitalProduct from '../components/home/digital-product/digital-product';
 import OurClients from '../components/home/our-clients/our-clients';
+import Blog from "../components/home/blog/blog"
 
 const HomePage = () => (
   <Layout>
@@ -20,6 +21,7 @@ const HomePage = () => (
     <Partners/>
     <DigitalProduct/>
     <OurClients/>
+    <Blog/>
   </Layout>
 )
 
