@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import "./contacts.scss"
 import { graphql, useStaticQuery } from "gatsby";
 
-const Contacts = () => {
+const Contacts = (switcher) => {
   const data = useStaticQuery(graphql`
   query {
     contactsBgOne: file(relativePath: { eq: "contacts-bg-one.png" }) {
@@ -37,17 +37,18 @@ const Contacts = () => {
     }
   }
 `)
-
   return (
     <div className="contacts-container">
-      <div className="contacts-bg-one">
-        <img className="contacts-yellow-bg-grid" src={data.contactsYellowBgGrid.publicURL}/>
-        <img className="contacts-brown-img" src={data.contactsBrownImg.publicURL}/>
-        <img className="contacts-circles" src={data.contactsCircles.publicURL}/>
-      </div>
+      {switcher.page === 'stories' ? "" :
+        <div className="contacts-bg-one">
+          <img className="contacts-yellow-bg-grid" src={data.contactsYellowBgGrid.publicURL}/>
+          <img className="contacts-brown-img" src={data.contactsBrownImg.publicURL}/>
+          <img className="contacts-circles" src={data.contactsCircles.publicURL}/>
+        </div>
+      }
       {/* <img className="contacts-bg-one" src={data.contactsBgOne.publicURL}/> */}
-      <img className="contacts-bg-two" src={data.contactsBgTwo.publicURL}/>
-      <div className="contacts-left-right-container container">
+      <img className={switcher.page === 'stories' ? 'contacts-bg-two-hide' : 'contacts-bg-two'} src={data.contactsBgTwo.publicURL}/>
+      <div className={switcher.page === 'stories' ? 'contacts-left-right-container container contacts-left-right-container-hide' : 'contacts-left-right-container container'}>
         <div className="contacts-left">
           <h5 className="contacts-pre-title">get in touch</h5>
           <h2 className="contacts-title">Let’s work together</h2>

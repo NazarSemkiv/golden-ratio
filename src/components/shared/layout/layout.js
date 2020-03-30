@@ -14,12 +14,14 @@ import Footer from "../footer/footer"
 import Contacts from "../../shared/contacts/contacts"
 //import "./layout.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, page }) => {
+  console.log('children', children);
+  console.log('page', page);
   return (
     <>
       <Header/>
         <main>{children}</main>
-      <Contacts/>
+      <Contacts page={page}/>
       <Footer/>
     </>
   )

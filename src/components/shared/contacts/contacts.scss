@@ -31,12 +31,16 @@
        margin-top: 290px;
     }
 
+    .contacts-bg-two-hide {
+        margin-top: 0;
+    }
+
     .contacts-left-right-container {
         position: absolute;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        top: 400px;  
+        top: 400px;
         padding-left: 65px;
         padding-right: 10px;
 
@@ -223,5 +227,9 @@
             }
     
         }
+    }
+
+    .contacts-left-right-container-hide {
+        top: 110px;
     }
 }
