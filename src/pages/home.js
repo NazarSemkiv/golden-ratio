@@ -8,6 +8,7 @@ import Intro from "../components/home/intro/intro"
 import SalesforceDigital from "../components/home/salesforce-digital/salesforce-digital"
 import AboutUs from "../components/home/about-us/about-us"
 import Partners from "../components/home/partners/partners"
+import Blog from "../components/home/blog/blog"
 
 const HomePage = () => (
   <Layout>
@@ -16,6 +17,7 @@ const HomePage = () => (
     <SalesforceDigital/>
     <AboutUs/>
     <Partners/>
+    <Blog/>
   </Layout>
 )
 
