@@ -1,0 +1,28 @@
+.intro-software {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .intro-software-left {
+    h2 {
+      margin-top: 115px;
+      width: 540px;
+      color: #333234;
+      font-family: "Proxima Nova";
+      font-size: 89px;
+      font-weight: 700;
+      line-height: 90px;
+      letter-spacing: -3.6px;
+      margin-bottom: 31px;
+    }
+  }
+
+  .intro-software-right {
+    .right-block-content {
+      width: 585px;
+      height: 650px;
+      box-shadow: 0 1px 51px rgba(0, 0, 1, 0.06);
+      border-radius: 30px;
+    }
+  }
+}
