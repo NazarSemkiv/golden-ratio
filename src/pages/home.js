@@ -11,6 +11,7 @@ import Partners from "../components/home/partners/partners"
 import DigitalProduct from '../components/home/digital-product/digital-product';
 import OurClients from '../components/home/our-clients/our-clients';
 import Blog from "../components/home/blog/blog"
+import SuccessStories from '../components/home/success-story/success-story';
 
 const HomePage = () => (
   <Layout>
@@ -21,6 +22,7 @@ const HomePage = () => (
     <Partners/>
     <DigitalProduct/>
     <OurClients/>
+    <SuccessStories/>
     <Blog/>
   </Layout>
 )
