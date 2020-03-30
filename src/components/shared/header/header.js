@@ -20,13 +20,12 @@ const Header = () => {
     <header className="header">
       <div className="inner-header-content">
         <div className="logo-img">
-          {/* <Img fixed={data.imageOne.childImageSharp.fixed}/> */}
           <img src={data.logoGoldenRatio.publicURL}/>
         </div>
         <div className="header-links">
           <ul className="links-list">
             <li className="links-list-li">
-              <Link to="/home/">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li className="links-list-li">
               <Link to="/about-us/">About</Link>
