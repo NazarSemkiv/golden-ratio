@@ -1,0 +1,42 @@
+.our-family {
+  width: 1600px;
+  height: 643px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  p {
+    font-family: "Proxima Nova";
+    font-weight: 700;
+    color: #333234;
+    text-align: center;
+  }
+
+  &-header-one {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    padding-bottom: 15px;
+  }
+
+  &-header-two {
+    width: 640px;
+    font-size: 72px;
+    letter-spacing: -2.91px;
+    padding-bottom: 60px;
+  }
+
+  &-logos {
+    padding-bottom: 175px;
+  }
+
+  &-background {
+    top: 109px;
+    position: absolute;
+    z-index: -1;
+  }
+
+}
