@@ -8,6 +8,8 @@ import Intro from "../components/home/intro/intro"
 import SalesforceDigital from "../components/home/salesforce-digital/salesforce-digital"
 import AboutUs from "../components/home/about-us/about-us"
 import Partners from "../components/home/partners/partners"
+import DigitalProduct from '../components/home/digital-product/digital-product';
+import OurClients from '../components/home/our-clients/our-clients';
 import Blog from "../components/home/blog/blog"
 
 const HomePage = () => (
@@ -17,6 +19,8 @@ const HomePage = () => (
     <SalesforceDigital/>
     <AboutUs/>
     <Partners/>
+    <DigitalProduct/>
+    <OurClients/>
     <Blog/>
   </Layout>
 )
