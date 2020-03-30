@@ -29,7 +29,7 @@ const Intro = () => {
           <div className="yellow-half"></div>
           <div className="right-block-content-bottom">
             <p>Etiam bibendum tempus massa id placerat. 
-              Vivamus libero purus,<strong>bibendum a massa sed</strong>, 
+              Vivamus libero purus, <span>bibendum a massa sed</span>,
             </p>
             <p>
               finibus fermentum arcu. Nullam gravida, orci vitae gravida dapibus, augue ante tempor 
