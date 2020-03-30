@@ -18,11 +18,84 @@
   }
 
   .intro-software-right {
+    margin-top: 60px;
+
     .right-block-content {
+      position: relative;
       width: 585px;
-      height: 650px;
       box-shadow: 0 1px 51px rgba(0, 0, 1, 0.06);
       border-radius: 30px;
+
+      .intro-software-main-img {
+        position: relative;
+      }
+
+      .intro-grid-circle-img {
+        position: absolute;
+        top: -68px;
+        left: -148px;
+        z-index: -2;
+      }
+
+      .yellow-half {
+        position: absolute;
+        border: 59px solid #f4f05e;
+        width: 355px;
+        height: 355px;
+        border-radius: 50%;
+        right: -113px;
+        bottom: -70px;
+        z-index: -2;
+      }
+
+      .right-block-content-bottom {
+        padding: 63px 46px 55px 52px;
+        background-color: #fff;
+        border-radius: 30px;
+
+        p {
+          color: #333234;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 30px;
+          font-family: "Proxima Nova Rg";
+
+          &:nth-child(1) {
+            width: 449px;
+          }
+  
+          &:nth-child(2) {
+            width: 446px;
+          }  
+        }
+
+        .bottom-left-right {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 33px;
+
+          .bottom-left {
+            display: flex;
+            flex-direction: column;
+
+            span {
+              color: #333234;
+              font-family: "Proxima Nova";
+              font-size: 18px;
+
+              &:nth-child(1) {
+                font-weight: 700;
+                margin-bottom: 6px;
+              }
+      
+              &:nth-child(2) {
+                font-weight: 400;
+              } 
+            }
+          }
+        }
+      }
     }
   }
 }

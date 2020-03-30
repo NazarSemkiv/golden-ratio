@@ -10,6 +10,9 @@ const Intro = () => {
       },
       introGridCircleImg: file(relativePath: { eq: "intro-grid-circle-img.svg" }) {
         publicURL
+      },
+      cocaCola: file(relativePath: { eq: "coca-cola.svg" }) {
+        publicURL
       }
     }
   `)
@@ -21,7 +24,25 @@ const Intro = () => {
       </div>
       <div className="intro-software-right">
         <div className="right-block-content">
-          <img src={data.introSoftwareMainImg.publicURL}/>
+          <img className="intro-software-main-img" src={data.introSoftwareMainImg.publicURL}/>
+          <img className="intro-grid-circle-img" src={data.introGridCircleImg.publicURL}/>
+          <div className="yellow-half"></div>
+          <div className="right-block-content-bottom">
+            <p>Etiam bibendum tempus massa id placerat. 
+              Vivamus libero purus,<strong>bibendum a massa sed</strong>, 
+            </p>
+            <p>
+              finibus fermentum arcu. Nullam gravida, orci vitae gravida dapibus, augue ante tempor 
+              eros, in pretium dolor dui quis lorem.
+            </p>
+            <div className="bottom-left-right">
+              <div className="bottom-left">
+                <span>Stephanie Bolton</span>
+                <span>CEO & Founder</span>
+              </div>
+              <img className="coca-cola-img" src={data.cocaCola.publicURL}/>
+            </div>
+          </div>
         </div>
       </div>
     </div>
