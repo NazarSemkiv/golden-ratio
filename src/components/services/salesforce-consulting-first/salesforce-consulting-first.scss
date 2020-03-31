@@ -5,7 +5,7 @@
   justify-content: center;
 
   .salesforce-consulting-content {
-    width: 1600px;
+    //width: 1600px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,6 +17,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      
       h3 {
         margin-top: 30px;
         width: 489px;
@@ -42,11 +43,12 @@
     }
 
     .content-left {
-      width: 800px;
+      //width: 800px;
     }
     
     .content-right {
-      width: 800px;
+      //width: 800px;
+
       h3 {
         width: 488px;
         margin-top: 30px;
