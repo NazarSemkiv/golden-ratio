@@ -1,6 +1,7 @@
 import React from "react";
 import "./success-story.scss";
 import { graphql, useStaticQuery } from "gatsby";
+import Slider from "react-slick";
 
 const SuccessStories = () => {
   const data = useStaticQuery(graphql`
@@ -18,7 +19,48 @@ const SuccessStories = () => {
         publicURL
       }
     }
-  `)
+  `);
+
+  const settings = {
+    dots: true,
+    centerMode: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 1000,
+    pauseOnHover: true,
+    autoplaySpeed: 5000,
+    arrows: false,
+    className: "success-story",
+    // fade: true,
+    // responsive: [
+    //   {
+    //     breakpoint: 1024,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 3,
+    //       infinite: true,
+    //       dots: true,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 600,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 2,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 480,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+    // ],
+  };
+
   return (
     <div className="success-story">
       <img className="success-story-left-img1" src={data.leftImg1.publicURL}/>
@@ -32,26 +74,88 @@ const SuccessStories = () => {
       <div className="success-story-logos">
         <img src={data.logos.publicURL}/>
       </div>
-      <div className="success-story-comment">
-        <p className="success-story-comment-text"><span>“</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sus
-          pendisse at justo non dui malesuada sodales. Vestibulum con
-          sequat non mi eu convallis. Ut sed interdum justo. Mauris bibendum eros lectus, quis
-          ultricies odio varius eu. <span>”</span></p>
-        <div className="success-story-comment-author">
-            <img src={data.userIcon.publicURL}/>
-          <span className="success-story-comment-author-name">Stephanie Mardell</span>
-          <span className="success-story-comment-author-role">Vice President of People</span>
+
+      <Slider {...settings} className="slider container">
+        <div className="slider-item">
+          {/*<div className="success-story-logos">*/}
+          {/*  <img src={data.logos.publicURL}/>*/}
+          {/*</div>*/}
+          <div className="success-story-comment">
+            <p className="success-story-comment-text"><span>“</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sus
+              pendisse at justo non dui malesuada sodales. Vestibulum con
+              sequat non mi eu convallis. Ut sed interdum justo. Mauris bibendum eros lectus, quis
+              ultricies odio varius eu. <span>”</span></p>
+            <div className="success-story-comment-author">
+              <img src={data.userIcon.publicURL}/>
+              <span className="success-story-comment-author-name">Stephanie Mardell</span>
+              <span className="success-story-comment-author-role">Vice President of People</span>
+            </div>
+            <div className="success-story-comment-button">Read more</div>
+            <div className="up-triangle"></div>
+            <div className="down-triangle"></div>
+          </div>
         </div>
-        <div className="success-story-comment-button">Read more</div>
-        <div className="up-triangle"></div>
-        <div className="down-triangle"></div>
-      </div>
-      <div className="success-story-tabs">
-        <div className="success-story-tabs-active"></div>
-        <div className="success-story-tabs-disable"></div>
-        <div className="success-story-tabs-disable"></div>
-        <div className="success-story-tabs-disable"></div>
-      </div>
+
+        <div className="slider-item">
+          {/*<div className="success-story-logos">*/}
+          {/*  <img src={data.logos.publicURL}/>*/}
+          {/*</div>*/}
+          <div className="success-story-comment">
+            <p className="success-story-comment-text"><span>“</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sus
+              pendisse at justo non dui malesuada sodales. Vestibulum con
+              sequat non mi eu convallis. Ut sed interdum justo. Mauris bibendum eros lectus, quis
+              ultricies odio varius eu. <span>”</span></p>
+            <div className="success-story-comment-author">
+              <img src={data.userIcon.publicURL}/>
+              <span className="success-story-comment-author-name">Stephanie Mardell</span>
+              <span className="success-story-comment-author-role">Vice President of People</span>
+            </div>
+            <div className="success-story-comment-button">Read more</div>
+            <div className="up-triangle"></div>
+            <div className="down-triangle"></div>
+          </div>
+        </div>
+
+        <div className="slider-item">
+          {/*<div className="success-story-logos">*/}
+          {/*  <img src={data.logos.publicURL}/>*/}
+          {/*</div>*/}
+          <div className="success-story-comment">
+            <p className="success-story-comment-text"><span>“</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sus
+              pendisse at justo non dui malesuada sodales. Vestibulum con
+              sequat non mi eu convallis. Ut sed interdum justo. Mauris bibendum eros lectus, quis
+              ultricies odio varius eu. <span>”</span></p>
+            <div className="success-story-comment-author">
+              <img src={data.userIcon.publicURL}/>
+              <span className="success-story-comment-author-name">Stephanie Mardell</span>
+              <span className="success-story-comment-author-role">Vice President of People</span>
+            </div>
+            <div className="success-story-comment-button">Read more</div>
+            <div className="up-triangle"></div>
+            <div className="down-triangle"></div>
+          </div>
+        </div>
+
+        <div className="slider-item">
+          {/*<div className="success-story-logos">*/}
+          {/*  <img src={data.logos.publicURL}/>*/}
+          {/*</div>*/}
+          <div className="success-story-comment">
+            <p className="success-story-comment-text"><span>“</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sus
+              pendisse at justo non dui malesuada sodales. Vestibulum con
+              sequat non mi eu convallis. Ut sed interdum justo. Mauris bibendum eros lectus, quis
+              ultricies odio varius eu. <span>”</span></p>
+            <div className="success-story-comment-author">
+              <img src={data.userIcon.publicURL}/>
+              <span className="success-story-comment-author-name">Stephanie Mardell</span>
+              <span className="success-story-comment-author-role">Vice President of People</span>
+            </div>
+            <div className="success-story-comment-button">Read more</div>
+            <div className="up-triangle"></div>
+            <div className="down-triangle"></div>
+          </div>
+        </div>
+      </Slider>
     </div>
   )
 };
