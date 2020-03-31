@@ -44,3 +44,9 @@ p {
     font-weight: 700;
   }
 }
+
+@media screen and(max-width: 1799px) {
+  main {
+    overflow: hidden;
+  }
+}

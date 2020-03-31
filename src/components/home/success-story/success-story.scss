@@ -212,3 +212,17 @@ div.slick-slider.slider.container.slick-initialized {
     }
   }
 }
+
+@media screen and(max-width: 1599px) {
+  .success-story {
+    width: 1170px;
+
+    .success-story-logos {
+      img {
+        z-index: -4;
+        position: relative;
+        margin-top: 8px;
+      }
+    }
+  }
+}

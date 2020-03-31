@@ -1,13 +1,14 @@
 .products-container {
-  margin: 0 auto;
-  width: 1600px;
+  //margin: 0 auto;
+  //width: 1600px;
   display: flex;
   flex-direction: row;
   position: relative;
 
   .products-left {
-    margin-left: 222px;
+    //margin-left: 222px;
     color: #333234;
+    margin-left: 20px;
 
     &-title {
       font-size: 89px;
@@ -29,8 +30,13 @@
   }
 
   .products-right {
-    position: absolute;
-    right: 0;
+    // position: absolute;
+    // right: 0;
     margin-top: -30px;
+    margin-left: 125px;
   }
+}
+
+@media screen and(max-width: 1599px) {
+
 }

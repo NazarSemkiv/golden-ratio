@@ -46,7 +46,6 @@ const Contacts = (switcher) => {
           <img className="contacts-circles" src={data.contactsCircles.publicURL}/>
         </div>
       }
-      {/* <img className="contacts-bg-one" src={data.contactsBgOne.publicURL}/> */}
       <img className={switcher.page === 'stories' ? 'contacts-bg-two-hide' : 'contacts-bg-two'} src={data.contactsBgTwo.publicURL}/>
       <div className={switcher.page === 'stories' ? 'contacts-left-right-container container contacts-left-right-container-hide' : 'contacts-left-right-container container'}>
         <div className="contacts-left">
@@ -73,21 +72,6 @@ const Contacts = (switcher) => {
               <div className="reach-us-icons-container">
                 <div className="reach-us-icons">
                   <img src={data.reachUsIcons.publicURL}/>
-                  {/* <a href="#">
-                    <img className="instagram" src={data.reachUsIcons.publicURL}/>
-                  </a> */}
-                  {/* <a href="#">
-                    <img className="pinterest" src={data.reachUsIcons.publicURL}/>
-                  </a>
-                  <a href="#">
-                    <img className="facebook" src={data.reachUsIcons.publicURL}/>
-                  </a>
-                  <a href="#">
-                    <img className="twitter" src={data.reachUsIcons.publicURL}/>
-                  </a>
-                  <a href="#">
-                    <img className="linkedin" src={data.reachUsIcons.publicURL}/>
-                  </a> */}
                 </div>
               </div>
             </div>
@@ -105,7 +89,6 @@ const Contacts = (switcher) => {
               <button className="user-data-btn">Submit</button>
             </div>
           </div>
-          {/* <img className="contact-form-img" src={data.contactForm.publicURL}/> */}
         </div>
       </div>
     </div>

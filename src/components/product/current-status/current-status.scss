@@ -1,6 +1,6 @@
 .current-status-content {
   width: 1600px;
-  margin: 140px auto 0;
+  margin: -125px auto 0;
   position: relative;
 
   &-bg-separator {
@@ -9,5 +9,15 @@
 
   &-section-img {
     margin: 263px 0 0 148px;
+  }
+}
+
+@media screen and(max-width: 1599px) {
+  .current-status-content {
+    width: 1170px;
+
+    &-section-img {
+      margin: 263px 0 0 0;
+    }
   }
 }
