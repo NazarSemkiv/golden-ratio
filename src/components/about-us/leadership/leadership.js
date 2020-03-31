@@ -1,6 +1,7 @@
 import React from "react"
 import "./leadership.scss";
 import { graphql, useStaticQuery } from "gatsby";
+import Slider from "react-slick";
 
 const Leadership = () => {
 
@@ -40,98 +41,199 @@ const Leadership = () => {
         publicURL
       }
     }
-  `)
+  `);
+
+  const settings = {
+    dots: false,
+    // centerMode: true,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 1000,
+    pauseOnHover: true,
+    autoplaySpeed: 2000,
+    arrows: true,
+    className: "leadership",
+    // responsive: [
+    //   {
+    //     breakpoint: 1024,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 3,
+    //       infinite: true,
+    //       dots: true,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 600,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 2,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 480,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+    // ],
+  };
 
     return (
       <div id="leadership-content">
         <h5 className="leadership-pre-title container">the team</h5>
         <h2 className="leadership-title container">Our leadership</h2>
-        <div className="leadership-content-top container">
-          <button className="leadership-arrow leadership-left-btn">
-            <div className="arrow-left"></div>
-          </button>
-          <div className="leadership-team-container" id="left-righr-btn-margin">
-            <div className="leadership-team-box">
-              <div className="border-active">
-                <div className="leadership-team-content">
-                  <img className="johndoe-lawrence-first" src={data.johndoeLawrenceFirst.publicURL}/>
+            <Slider {...settings} className="slider container">
+              <div className="slider-item">
+                <div className="border-box-color">
+                  <div className="leadership-team-content">
+                    <img className="johndoe-lawrence-first" src={data.johndoeLawrenceFirst.publicURL}/>
+                  </div>
+                  <div className="triangle-first"></div>
+                  <div className="white-area"></div>
+                  <div className="triangle-second"></div>
                 </div>
-                <div className="triangle-first"></div>
-                <div className="white-area"></div>
-                <div className="triangle-second"></div>
-              </div>
-              <div className="team-text">
-                <h6>Johndoe Lawrence</h6>
-                <p>CEO & Founder</p>
-              </div>
-            </div>
-            <div className="leadership-team-box">
-              <div className="border-box-color">
-                <div className="leadership-team-content">
-                  <img className="johndoe-lawrence-img" src={data.johndoeLawrenceSecond.publicURL}/>
+                <div className="team-text">
+                  <h6>Johndoe Lawrence</h6>
+                  <p>CEO & Founder</p>
                 </div>
-                <div className="triangle-first"></div>
-                <div className="white-area"></div>
-                <div className="triangle-second"></div>
               </div>
-              <div className="team-text">
-                <h6>Johndoe Lawrence</h6>
-                <p>CEO & Founder</p>
-              </div>
-            </div>
-            <div className="leadership-team-box">
-              <div className="border-box-color">
-                <div className="leadership-team-content">
-                  <img className="johndoe-lawrence-img" src={data.johndoeLawrenceThird.publicURL}/>
+              <div className="slider-item">
+                <div className="border-box-color">
+                  <div className="leadership-team-content">
+                    <img className="johndoe-lawrence-img" src={data.johndoeLawrenceSecond.publicURL}/>
+                  </div>
+                  <div className="triangle-first"></div>
+                  <div className="white-area"></div>
+                  <div className="triangle-second"></div>
                 </div>
-                <div className="triangle-first"></div>
-                <div className="white-area"></div>
-                <div className="triangle-second"></div>
-              </div>
-              <div className="team-text">
-                <h6>Johndoe Lawrence</h6>
-                <p>CEO & Founder</p>
-              </div>
-            </div>
-            <div className="leadership-team-box">
-              <div className="border-box-color">
-                <div className="leadership-team-content">
-                  <img className="johndoe-lawrence-img" src={data.johndoeLawrenceFourth.publicURL}/>
+                <div className="team-text">
+                  <h6>Johndoe Lawrence</h6>
+                  <p>CEO & Founder</p>
                 </div>
-                <div className="triangle-first"></div>
-                <div className="white-area"></div>
-                <div className="triangle-second"></div>
               </div>
-              <div className="team-text">
-                <h6>Johndoe Lawrence</h6>
-                <p>CEO & Founder</p>
-              </div>
-            </div>
-            <div className="leadership-team-box">
-              <div className="border-box-color">
-                <div className="leadership-team-content">
-                  <img className="johndoe-lawrence-img" src={data.johndoeLawrenceFifth.publicURL}/>
+              <div className="slider-item">
+                <div className="border-box-color">
+                  <div className="leadership-team-content">
+                    <img className="johndoe-lawrence-img" src={data.johndoeLawrenceThird.publicURL}/>
+                  </div>
+                  <div className="triangle-first"></div>
+                  <div className="white-area"></div>
+                  <div className="triangle-second"></div>
                 </div>
-                <div className="triangle-first"></div>
-                <div className="white-area"></div>
-                <div className="triangle-second"></div>
+                <div className="team-text">
+                  <h6>Johndoe Lawrence</h6>
+                  <p>CEO & Founder</p>
+                </div>
               </div>
-              <div className="team-text">
-                <h6>Johndoe Lawrence</h6>
-                <p>CEO & Founder</p>
+              <div className="slider-item">
+                <div className="border-box-color">
+                  <div className="leadership-team-content">
+                    <img className="johndoe-lawrence-img" src={data.johndoeLawrenceFourth.publicURL}/>
+                  </div>
+                  <div className="triangle-first"></div>
+                  <div className="white-area"></div>
+                  <div className="triangle-second"></div>
+                </div>
+                <div className="team-text">
+                  <h6>Johndoe Lawrence</h6>
+                  <p>CEO & Founder</p>
+                </div>
               </div>
-            </div>
-          </div>
-          <button className="leadership-arrow leadership-right-btn">
-            <div className="arrow-right"></div>
-          </button>
-        </div>
+              <div className="slider-item">
+                <div className="border-box-color">
+                  <div className="leadership-team-content">
+                    <img className="johndoe-lawrence-img" src={data.johndoeLawrenceFifth.publicURL}/>
+                  </div>
+                  <div className="triangle-first"></div>
+                  <div className="white-area"></div>
+                  <div className="triangle-second"></div>
+                </div>
+                <div className="team-text">
+                  <h6>Johndoe Lawrence</h6>
+                  <p>CEO & Founder</p>
+                </div>
+              </div>
+              <div className="slider-item">
+                <div className="border-box-color">
+                  <div className="leadership-team-content">
+                    <img className="johndoe-lawrence-first" src={data.johndoeLawrenceFirst.publicURL}/>
+                  </div>
+                  <div className="triangle-first"></div>
+                  <div className="white-area"></div>
+                  <div className="triangle-second"></div>
+                </div>
+                <div className="team-text">
+                  <h6>Johndoe Lawrence</h6>
+                  <p>CEO & Founder</p>
+                </div>
+              </div>
+              <div className="slider-item">
+                <div className="border-box-color">
+                  <div className="leadership-team-content">
+                    <img className="johndoe-lawrence-img" src={data.johndoeLawrenceSecond.publicURL}/>
+                  </div>
+                  <div className="triangle-first"></div>
+                  <div className="white-area"></div>
+                  <div className="triangle-second"></div>
+                </div>
+                <div className="team-text">
+                  <h6>Johndoe Lawrence</h6>
+                  <p>CEO & Founder</p>
+                </div>
+              </div>
+              <div className="slider-item">
+                <div className="border-box-color">
+                  <div className="leadership-team-content">
+                    <img className="johndoe-lawrence-img" src={data.johndoeLawrenceThird.publicURL}/>
+                  </div>
+                  <div className="triangle-first"></div>
+                  <div className="white-area"></div>
+                  <div className="triangle-second"></div>
+                </div>
+                <div className="team-text">
+                  <h6>Johndoe Lawrence</h6>
+                  <p>CEO & Founder</p>
+                </div>
+              </div>
+              <div className="slider-item">
+                <div className="border-box-color">
+                  <div className="leadership-team-content">
+                    <img className="johndoe-lawrence-img" src={data.johndoeLawrenceFourth.publicURL}/>
+                  </div>
+                  <div className="triangle-first"></div>
+                  <div className="white-area"></div>
+                  <div className="triangle-second"></div>
+                </div>
+                <div className="team-text">
+                  <h6>Johndoe Lawrence</h6>
+                  <p>CEO & Founder</p>
+                </div>
+              </div>
+              <div className="slider-item">
+                <div className="border-box-color">
+                  <div className="leadership-team-content">
+                    <img className="johndoe-lawrence-img" src={data.johndoeLawrenceFifth.publicURL}/>
+                  </div>
+                  <div className="triangle-first"></div>
+                  <div className="white-area"></div>
+                  <div className="triangle-second"></div>
+                </div>
+                <div className="team-text">
+                  <h6>Johndoe Lawrence</h6>
+                  <p>CEO & Founder</p>
+                </div>
+              </div>
+            </Slider>
         <div className="leadership-content-bottom container">
           <div className="circle"></div>
           <div className="up-triangle"></div>
           <div className="down-triangle"></div>
           <div className="leadership-content-bottom-left">
-            <img className="johndoe-lawrence-big-img" src={data.leadershipContentBottomImg.publicURL}/> 
+            <img className="johndoe-lawrence-big-img" src={data.leadershipContentBottomImg.publicURL}/>
           </div>
           <div className="leadership-content-bottom-right">
             <h4 className="leadership-bottom-title">Johndoe Lawrence</h4>
