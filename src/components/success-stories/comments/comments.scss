@@ -262,3 +262,32 @@
   }
 
 }
+
+@media screen and(max-width: 1599px) {
+  .comments {
+    width: unset;
+
+    .first-arrow {
+      left: 50px;
+    }
+
+    .second-arrow {
+      right: 50px;
+      left: unset
+    }
+
+    .comments-top {
+      .comments-top-two{
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+    }
+
+    .comments-bottom {
+      .comments-bottom-two {
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+    }
+  }
+}

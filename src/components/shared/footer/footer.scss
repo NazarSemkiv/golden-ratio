@@ -1,14 +1,12 @@
 .footer-container {
     position: relative;
+    z-index: 99;
+    margin-top: -85px;
 
     .footer-content {
         display: flex;
         justify-content: center;
         align-items: center;
-
-        .footer-bg-img {
-            position: absolute;
-        }
     
         .footer-bg-content {
             position: absolute;
@@ -37,5 +35,11 @@
             margin-left: 620px;
             margin-top: 5px;
         }
+    }
+}
+
+@media screen and(max-width: 1799px) {
+    .footer-container {
+        overflow: hidden;
     }
 }

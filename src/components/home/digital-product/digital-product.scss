@@ -103,3 +103,38 @@
     }
   }
 }
+
+@media screen and(max-width: 1599px) {
+  .digital-product {
+    width: 1170px;
+
+    &-left {
+      padding: 169px 0 0 0;
+    }
+
+    &-right {
+      img {
+        position: relative;
+      } 
+
+      & > img:nth-child(1) {
+        right: -50px;
+      }
+
+      & > img:nth-child(2) {
+        top: -261px;
+        right: 96px;
+      }
+
+      & > img:nth-child(3) {
+        top: -459px;
+        left: 320px;
+        right: 0;
+      }
+
+      & > div {
+        right: 465px;
+      }
+    }
+  }
+}

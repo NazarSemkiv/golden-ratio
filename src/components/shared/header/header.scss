@@ -56,3 +56,27 @@
 
   }
 }
+
+@media screen and(max-width: 1799px) {
+  .header {
+    overflow: hidden;
+  }
+}
+
+@media screen and(max-width: 1599px) {
+  .header {
+    width: 1170px;
+
+    .inner-header-content {
+      .logo-img {
+        img {
+          margin-left: 0px;
+        }
+      }
+
+      .header-links {
+        margin-right: 0;
+      }
+    }
+  }
+}
