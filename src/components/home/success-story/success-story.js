@@ -32,7 +32,6 @@ const SuccessStories = () => {
     pauseOnHover: true,
     autoplaySpeed: 5000,
     arrows: false,
-    className: "success-story",
     // fade: true,
     // responsive: [
     //   {

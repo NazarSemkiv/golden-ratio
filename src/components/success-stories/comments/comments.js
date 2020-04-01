@@ -1,6 +1,7 @@
 import React from "react";
 import "./comments.scss";
 import { graphql, useStaticQuery } from "gatsby";
+import Slider from "react-slick";
 
 const Comments = () => {
   const data = useStaticQuery(graphql`
@@ -21,69 +22,151 @@ const Comments = () => {
         publicURL
       }
     }
-  `)
+  `);
+
+  const settings = {
+    dots: false,
+    centerMode: true,
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 1000,
+    pauseOnHover: true,
+    autoplaySpeed: 2000,
+    arrows: true,
+    rows: 2,
+    // fade: true,
+    // responsive: [
+    //   {
+    //     breakpoint: 1024,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 3,
+    //       infinite: true,
+    //       dots: true,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 600,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 2,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 480,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+    // ],
+  };
+
   return (
     <div className="comments">
       <img className="comments-background1 pos-absolute" src={data.background1.publicURL}/>
       <img className="comments-background2 pos-absolute" src={data.background2.publicURL}/>
       <div className="comments-background3 pos-absolute"></div>
       <div className="comments-background4 pos-absolute"></div>
-      <div className="comments-arrow-button first-arrow pos-absolute">
-        <div></div>
-      </div>
-      <div className="comments-arrow-button second-arrow pos-absolute">
-        <div></div>
-      </div>
-      <div className="comments-top">
-        <div className="comments-top-one"></div>
-        <div className="comments-top-two">
-          <img src={data.logo1.publicURL}/>
-          <p className="comments-top-two-text">
+      <Slider {...settings} className="slider">
+        <div className="slider-item">
+          <div className="slider-item-img">
+            <img src={data.logo1.publicURL}/>
+          </div>
+          <p className="slider-item-text">
             Specialize primarily in salesforce.com development. consectetur adipiscing elit. Integer
             nec ex lacus. Quisque consequat elementum arcu, et tempus elit maximus a. Mauris
-            venenatis mollis facilisis. We build scalable complex enterprise grade applications
-            on salesforce that integrate with multiple.
+            venenatis mollis facilisis. We build scalable complex enterprise grade applications on
+            salesforce that integrate with multiple.
           </p>
-          <p className="comments-top-two-text">
+          <p className="slider-item-author">
             <span>Johndoe Lawrence</span>
             <span>CEO & Founder</span>
           </p>
         </div>
-        <div className="comments-top-three">
-          <img src={data.logo2.publicURL}/>
-          <p className="comments-top-three-text">
+
+        <div className="slider-item">
+          <div className="slider-item-img">
+            <img src={data.logo2.publicURL}/>
+          </div>
+          <p className="slider-item-text">
             Specialize primarily in salesforce.com development. consectetur adipiscing elit. Integer
             nec ex lacus. Quisque consequat elementum arcu, et tempus elit maximus a. Mauris
-            venenatis mollis facilisis.
+            venenatis mollis facilisis. We build scalable complex enterprise grade applications on
+            salesforce that integrate with multiple.
           </p>
-          <p className="comments-top-three-text">
+          <p className="slider-item-author">
             <span>Johndoe Lawrence</span>
             <span>CEO & Founder</span>
           </p>
         </div>
-      </div>
-      <div className="comments-bottom">
-        <div className="comments-bottom-one">
-          <p>
-            Specialize primarily in salesforce.com development. consectetur adipiscing elit. Integer
-            nec ex lacus. Quisque consequat elementum arcu, et tempus elit maximus a.
-          </p>
-        </div>
-        <div className="comments-bottom-two">
-          <img src={data.logo3.publicURL}/>
-          <p className="comments-bottom-two-text">
+
+        <div className="slider-item">
+          <div className="slider-item-img">
+            <img src={data.logo3.publicURL}/>
+          </div>
+          <p className="slider-item-text">
             Specialize primarily in salesforce.com development. consectetur adipiscing elit. Integer
             nec ex lacus. Quisque consequat elementum arcu, et tempus elit maximus a. Mauris
-            venenatis mollis facilisis. We build scalable complex enterprise grade applications
-            on salesforce that integrate with multiple.
+            venenatis mollis facilisis. We build scalable complex enterprise grade applications on
+            salesforce that integrate with multiple.
           </p>
-          <p className="comments-bottom-two-text">
+          <p className="slider-item-author">
             <span>Johndoe Lawrence</span>
             <span>CEO & Founder</span>
           </p>
         </div>
-        <div className="comments-bottom-three"></div>
-      </div>
+
+        <div className="slider-item">
+          <div className="slider-item-img">
+            <img src={data.logo1.publicURL}/>
+          </div>
+          <p className="slider-item-text">
+            Specialize primarily in salesforce.com development. consectetur adipiscing elit. Integer
+            nec ex lacus. Quisque consequat elementum arcu, et tempus elit maximus a. Mauris
+            venenatis mollis facilisis. We build scalable complex enterprise grade applications on
+            salesforce that integrate with multiple.
+          </p>
+          <p className="slider-item-author">
+            <span>Johndoe Lawrence</span>
+            <span>CEO & Founder</span>
+          </p>
+        </div>
+
+        <div className="slider-item">
+          <div className="slider-item-img">
+            <img src={data.logo2.publicURL}/>
+          </div>
+          <p className="slider-item-text">
+            Specialize primarily in salesforce.com development. consectetur adipiscing elit. Integer
+            nec ex lacus. Quisque consequat elementum arcu, et tempus elit maximus a. Mauris
+            venenatis mollis facilisis. We build scalable complex enterprise grade applications on
+            salesforce that integrate with multiple.
+          </p>
+          <p className="slider-item-author">
+            <span>Johndoe Lawrence</span>
+            <span>CEO & Founder</span>
+          </p>
+        </div>
+
+        <div className="slider-item">
+          <div className="slider-item-img">
+            <img src={data.logo3.publicURL}/>
+          </div>
+          <p className="slider-item-text">
+            Specialize primarily in salesforce.com development. consectetur adipiscing elit. Integer
+            nec ex lacus. Quisque consequat elementum arcu, et tempus elit maximus a. Mauris
+            venenatis mollis facilisis. We build scalable complex enterprise grade applications on
+            salesforce that integrate with multiple.
+          </p>
+          <p className="slider-item-author">
+            <span>Johndoe Lawrence</span>
+            <span>CEO & Founder</span>
+          </p>
+        </div>
+      </Slider>
     </div>
   )
 };

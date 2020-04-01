@@ -54,7 +54,6 @@ const Leadership = () => {
     pauseOnHover: true,
     autoplaySpeed: 2000,
     arrows: true,
-    className: "leadership",
     // responsive: [
     //   {
     //     breakpoint: 1024,
