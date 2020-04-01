@@ -1,143 +1,136 @@
 .air-asia {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
+  width: 1600px;
+  margin: 146px auto 0;
 
   .air-asia-bg {
-    margin-top: -250px;
-    position: relative;
+    margin-top: -396px;
+    position: absolute;
     z-index: -3;
   }
 
-  .air-asia-top {
-    position: absolute;
-    display: flex;
-    margin-top: 65px;
-    margin-bottom: 30px;
+  //SLIDER STYLES
+  .slider {
+    position: relative;
 
-    .white-opacity-wrapper {
+    //previous and next buttons
+    .slick-arrow {
+      border-radius: 0;
+      width: 30px;
+      height: 30px;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-left: 8px solid #333234;
+      border-bottom: 8px solid #333234;
+      background-color: transparent;
+    }
+
+    .slick-prev {
+      left: 44.1875%;
+      top: 520px;
+      transform: rotate(45deg);
+    }
+
+    .slick-next {
+      left: 54%;
+      top: 520px;
+      transform: rotate(225deg);
+    }
+
+    .slick-prev:before, .slick-next:before {
+      font-size: 0;
+    }
+
+    .slick-list {
+      .slick-track {
+        .slick-slide {
+          width: 786px !important;
+          margin-right: 53px;
+          opacity: .2;
+        }
+        .slick-current {
+          opacity: 1;
+        }
+      }
+    }
+    &-item {
       position: relative;
-      margin-right: 65px;
-      margin-left: 65px;
+      text-align: left;
+      width: 786px !important;
+      height: 444px;
 
-      .white-img-wrapper {
-        opacity: 0.2;
+      &-img {
+        position: absolute;
+        left: 0;
+        top: 0;
       }
 
-      .white-content-wrapper {
-        background-color: #fff;
-        width: 645px;
-        height: 316px;
+      &-content {
         position: absolute;
         top: 72px;
-        right: -75px;
-        border-radius: 8px;
-        z-index: 99;
-        opacity: 0.7;
-      }
-
-      .air-asia-top-content {
+        left: 141px;
         width: 645px;
         height: 316px;
         box-shadow: 0 1px 32px rgba(0, 0, 1, 0.18);
         background-color: #ffffff;
-        position: absolute;
-        top: 72px;
-        right: -75px;
-        border-radius: 8px;
-        padding: 13px 27px 17px 49px;
+        border-radius: 15px;
+        padding: 41px 74px 35px 59px;
+        color: #333234;
 
-        h3, p {
-          color: #333234;
-          font-family: "Proxima Nova";
+        &-img {
+          position: absolute;
+          left: 490px;
+          top: 215px;
         }
 
-        h3 {
+        &-header {
+          font-family: "Proxima Nova";
           font-size: 30px;
           font-weight: 700;
-          line-height: 72px;
           letter-spacing: -1.21px;
+          padding-bottom: 26px;
         }
 
-        p {
-          width: 482px;
+        &-text {
+          font-family: "Proxima Nova";
           font-size: 18px;
           font-weight: 400;
           line-height: 24px;
+          padding-bottom: 31px;
         }
 
-        .air-asia-top-content-bottom {
+        &-author {
           display: flex;
-          justify-content: space-between;
-          align-items: center;
+          flex-direction: column;
 
-          .ceo {
-            display: flex;
-            flex-direction: column;
-
-            span {
-              color: #333234;
-              font-family: "Proxima Nova";
-
-              &:nth-child(1) {
-                font-size: 20px;
-                font-weight: 700;
-                margin-bottom: 6px;
-              }
-
-              &:nth-child(2) {
-                opacity: 0.7;
-                font-size: 18px;
-                font-weight: 400;
-                margin-left: 5px;
-              }
-            }
+          span:nth-child(1) {
+            font-family: "Proxima Nova";
+            font-size: 20px;
+            font-weight: 700;
+            padding-bottom: 9px;
           }
 
-          #air-asia-icon {
-            margin-right: 35px;
+          span:nth-child(2) {
+            font-family: "Proxima Nova";
+            font-size: 18px;
+            font-weight: 400;
+            padding-left: 7px;
           }
         }
       }
+    }
+
+    .slick-track {
+      display: flex;
+    }
+
+    .slick-list {
+      overflow: hidden;
     }
   }
+}
 
-  .air-asia-bottom {
-    width: 157px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 73px;
-
-    .bottom-left-btn, .bottom-right-btn {
-      width: 39px;
-      height: 47px;
-      border: transparent;
-      border-radius: 50%;
-      background-color: #fff;
-
-      .arrow-left-btn, .arrow-right-btn {
-        display: block;
-        width: 25px;
-        height: 25px;
-        border-top: 6px solid #000;
-        border-left: 6px solid #000;
-      }
-    }
-
-    .bottom-left-btn {
-      .arrow-left-btn {
-        transform: rotate(-46deg);
-        margin-left: 4px;
-      }
-    }
-
-    .bottom-right-btn {
-      .arrow-right-btn {
-        transform: rotate(134deg);
-      }
-    }
+@media screen and(max-width: 1599px) {
+  .air-asia {
+    width: unset;
   }
 }
