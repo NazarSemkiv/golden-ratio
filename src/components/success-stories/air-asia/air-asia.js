@@ -25,15 +25,15 @@ const AirAsia= () => {
     dots: false,
     centerMode: true,
     infinite: true,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     speed: 1000,
     pauseOnHover: true,
     autoplaySpeed: 2000,
     arrows: true,
-    rows: 1,
-    // fade: true,
+    variableWidth: true,
+    centerPadding: '-367px',
     // responsive: [
     //   {
     //     breakpoint: 1024,
