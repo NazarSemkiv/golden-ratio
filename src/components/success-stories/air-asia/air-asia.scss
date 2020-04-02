@@ -43,9 +43,13 @@
     .slick-list {
       .slick-track {
         .slick-slide {
-          width: 786px !important;
-          margin-right: 53px;
+          width: 836px !important;
           opacity: .2;
+
+          & > div {
+            //width: 786px;
+            width: 836px;
+          }
         }
         .slick-current {
           opacity: 1;
@@ -55,7 +59,6 @@
     &-item {
       position: relative;
       text-align: left;
-      width: 786px !important;
       height: 444px;
 
       &-img {
