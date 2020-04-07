@@ -1,0 +1,97 @@
+.salesforce-consulting-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 130px;
+
+  .salesforce-consulting-content-left {
+    margin-top: 60px;
+    width: 50%;
+
+    .salesforce-consulting-content-title {
+      color: #333234;
+      font-family: "Proxima Nova";
+      font-size: 45px;
+      font-weight: 700;
+      letter-spacing: -1.82px;
+      margin-left: -4px;
+      margin-bottom: 25px;
+    }
+
+    .salesforce-consulting-content-text {
+      width: 474px;
+      color: #333234;
+      font-family: "Proxima Nova";
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 41px;
+    }
+  }
+
+  .salesforce-consulting-content-right {
+    width: 50%;
+    position: relative;
+
+    .design-architecture-main {
+      position: absolute;
+    }
+
+    .design-architerture-little-circle {
+      position: absolute;
+      width: 53px;
+      height: 54px;
+      background-color: #f4f05e;
+      border-radius: 50%;
+      right: 28px;
+      top: -57px;
+    }
+
+    .design-architerture-two-circles {
+      position: absolute;
+      right: 33px;
+      top: -25px;
+    }
+
+    .design-architerture-yellow-border {
+      position: absolute;
+      width: 176px;
+      height: 176px;
+      border: 28px solid #f4f05e;
+      border-radius: 50%;
+      left: -90px;
+      bottom: -84px;
+      z-index: -1;
+    }
+
+    .design-architerture-curvy-bg {
+      position: absolute;
+      left: 40px;
+      top: -69px;
+      z-index: -1;
+    }
+
+    .design-architerture-triangles-circle {
+      position: absolute;
+      left: -5px;
+      top: 300px;
+    }
+
+    .design-architerture-grid-img {
+      position: absolute;
+      top: 185px;
+      left: -40px;
+      z-index: -2;
+    }
+  }
+}
+
+
+@media screen and(max-width: 1599px) {
+    .salesforce-consulting-content {
+      .salesforce-consulting-content-right {
+        .design-architerture-curvy-bg {
+          overflow: hidden;
+        }
+      }
+    }
+}

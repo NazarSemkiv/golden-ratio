@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: -60px;
+  margin-bottom: 45px;
 
   .salesforce-consulting-title {
     color: #333234;
@@ -14,180 +15,100 @@
     margin-bottom: 51px;
     margin-left: 35px;
   }
-  
-  .salesforce-consulting-icons-container {
-    width: 1133px;
-    height: 157px;
-    border: 8px solid #ffffff;
-    background-color: #fdfdfd;
-    display: flex;
-    justify-content: center;
 
-    .salesforce-consulting-icons-content {
-      width: 157px;
+  .salesforce-product-tabs {
+    margin: 100px auto 50px;
+    height: 80px;
+    background: #fff;
+    display: flex;
+
+    &-circle {
+      cursor: pointer;
+      position: relative;
+      bottom: 80px;
       height: 157px;
-      box-shadow: 0 1px 15px rgba(0, 0, 1, 0.13);
-      border: 8px solid #ffffff;
-      background-color: #fdfdfd;
+      width: 157px;
+      margin: 0 10px;
       border-radius: 50%;
-      margin-left: 10px;
-      margin-right: 10px;
+      box-shadow: 0 1px 15px rgba(0, 0, 1, 0.13);
+      background-color: white;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
 
-      .icons-content-img {
-        z-index: 99;
-        margin-top: 27px;
-        margin-bottom: 10px;
-      }
-
-      .icons-content-text {
-        color: #333234;
-        font-family: "Proxima Nova";
-        font-size: 18px;
-        font-weight: 700;
-        z-index: 99;
-        text-align: center;
-      }
-
-      .salesforce-consulting-icons-content-active {
+      &-icon {
         width: 126px;
         height: 126px;
-        border: 14px solid #f4f05e;
-        background-color: #333234;
         border-radius: 50%;
-        z-index: 99;
+        border: 0 solid #f4f05e;
+        background-color: #fff;
+        z-index: 3;
+        position: relative;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
 
-        .icons-content-img-active {
-          width: 53px;
-          height: 60px;
-          margin-top: 18px;
-        }
-
-        .icons-content-active-triangle {
-          width: 0; 
-          height: 0; 
+        &-triangle {
+          display: none;
+          position: absolute;
+          width: 0;
+          height: 0;
           border-left: 20px solid transparent;
           border-right: 20px solid transparent;
           border-top: 20px solid #f4f05e;
-          margin-top: 29px;
+          left: 30%;
+          top: 105%;
         }
 
-        .icons-content-text-active {
-          margin-top: 1px;
+        &-text {
+          //width: 102px;
+          color: #333234;
+          font-family: "Proxima Nova";
+          font-size: 18px;
+          font-weight: 700;
+          text-align: center;
+          z-index: 3;
+          position: absolute;
+          top: 85%;
         }
       }
     }
-  }
 
-  .white-area {
-    width: 1344px;
-    height: 100px;
-    background-color: #fff;
-    margin-top: -72px;
-  }
-
-  .salesforce-consulting-content {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-    margin-bottom: 130px;
-
-    .salesforce-consulting-content-left {
-      margin-top: 60px;
-      width: 50%;
-
-      .salesforce-consulting-content-title {
-        color: #333234;
-        font-family: "Proxima Nova";
-        font-size: 45px;
-        font-weight: 700;
-        letter-spacing: -1.82px;
-        margin-left: -4px;
-        margin-bottom: 25px;
-      }
-
-      .salesforce-consulting-content-text {
-        width: 474px;
-        color: #333234;
-        font-family: "Proxima Nova";
-        font-size: 18px;
-        font-weight: 400;
-        margin-bottom: 41px;
-      }
+    &-circle:before {
+      position: absolute;
+      content: "";
+      width: 150%;
+      height: 55%;
+      left: -25%;
+      top: 80px;
+      background: #fff;
+      z-index: 2;
     }
 
-    .salesforce-consulting-content-right {
-      width: 50%;
-      position: relative;
-
-      .design-architecture-main {
-        position: absolute;
-      }
-
-      .design-architerture-little-circle {
-        position: absolute;
-        width: 53px;
-        height: 54px;
-        background-color: #f4f05e;
-        border-radius: 50%;
-        right: 28px;
-        top: -57px;
-      }
-
-      .design-architerture-two-circles {
-        position: absolute;
-        right: 33px;
-        top: -25px;
-      }
-
-      .design-architerture-yellow-border {
-        position: absolute;
-        width: 176px;
-        height: 176px;
-        border: 28px solid #f4f05e;
-        border-radius: 50%;
-        left: -90px;
-        bottom: -84px;
-        z-index: -1;
-      }
-
-      .design-architerture-curvy-bg {
-        position: absolute;
-        left: 40px;
-        top: -69px;
-        z-index: -1;
-      }
-
-      .design-architerture-triangles-circle {
-        position: absolute;
-        left: -5px;
-        top: 300px;
-      }
-
-      .design-architerture-grid-img {
-        position: absolute;
-        top: 185px;
-        left: -40px;
-        z-index: -2;
-      }
+    &-circle:after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: white;
+      border-radius: 50%;
     }
   }
 }
 
-@media screen and(max-width: 1599px) {
-  #salesforce-consulting-second {
-    .salesforce-consulting-content {
-      .salesforce-consulting-content-right {
-        .design-architerture-curvy-bg {
-          overflow: hidden;
-        }
-      }
-    }
-  }
+// styles for active tab
+.active-tab {
+  border: 14px solid #f4f05e !important;
+  background-color: #333234 !important;
+}
+
+.active-triangle {
+  display: block !important;
+}
+
+.justify-text {
+  top: 130% !important;
 }

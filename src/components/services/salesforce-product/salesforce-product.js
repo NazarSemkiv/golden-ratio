@@ -1,8 +1,35 @@
 import React from "react"
 import "./salesforce-product.scss";
 import { graphql, useStaticQuery } from "gatsby";
+import CustomApplication from './custom-application/custom-application';
+import CpqApplications from './cpq-applications/cpq-applications';
+import ManagedPackages from './managed-packages/managed-packages';
+import FullStackDevelopment from './full-stack-development/full-stack-development';
+import MobileAppDevelopment from './mobile-app-development/mobile-app-development';
 
 const SalesforceProduct = () => {
+
+  // when click on tabs
+  function changeTab(tabName) {
+    const tabs = ['custom', 'cpq', 'packages', 'fullstack', 'mobile'];
+    let activeTab = tabs.indexOf(tabName);
+
+    // add-remove class for active tab
+    for(let j = 0; j < document.getElementsByName('tabs').length; j++) {
+      document.getElementsByName('tabs')[j].classList.remove('active-tab');
+      document.getElementsByName('tabTriangle')[j].classList.remove('active-triangle');
+      document.getElementsByName('tabName')[j].classList.remove('justify-text');
+    }
+    document.getElementsByName('tabs')[activeTab].classList.add('active-tab');
+    document.getElementsByName('tabTriangle')[activeTab].classList.add('active-triangle');
+    document.getElementsByName('tabName')[activeTab].classList.add('justify-text');
+
+    // hide-show tab content
+    for(let i = 0; i < tabs.length; i++) {
+      document.getElementsByName('tabContent')[i].style.display = 'none';
+    }
+    document.getElementsByName('tabContent')[activeTab].style.display = 'block';
+  }
 
   const data = useStaticQuery(graphql`
     query {
@@ -32,88 +59,98 @@ const SalesforceProduct = () => {
       },
       salesforceProductDevBg: file(relativePath: { eq: "salesforce-product-dev-bg.svg" }) {
         publicURL
-      },
-      fullStackDevMain: file(relativePath: { eq: "full-stack-dev-main.png" }) {
-        publicURL
-      },
-      fullStackDevYellowCircle: file(relativePath: { eq: "full-stack-dev-yellow-circle.svg" }) {
-        publicURL
-      },
-      fullStackDevHalfCircle: file(relativePath: { eq: "full-stack-dev-half-circle.svg" }) {
-        publicURL
-      },
-      fullStackDevTwoCircles: file(relativePath: { eq: "full-stack-dev-two-circles.svg" }) {
-        publicURL
-      },
-      fullStackDevCurvyBg: file(relativePath: { eq: "full-stack-dev-curvy-bg.png" }) {
-        publicURL
-      },
-      fullStackDevTwoTriangles: file(relativePath: { eq: "full-stack-dev-two-triangles.svg" }) {
-        publicURL
-      },
-      fullStackDevYellowGrid: file(relativePath: { eq: "full-stack-dev-yellow-grid.svg" }) {
-        publicURL
       }
     }
-  `)
+  `);
 
     return (
       <div id="salesforce-product">
         <h2 className="salesforce-product-title">Salesforce product development</h2>
-        <div className="salesforce-product-icons-container">
-          <div className="salesforce-product-icons-content">
-            <img className="icons-content-img" src={data.customApplications.publicURL}/>
-            <p className="icons-content-text">Custom Applications</p>
-          </div>
-          <div className="salesforce-product-icons-content">
-            <img className="icons-content-img" src={data.cpqApplications.publicURL}/>
-            <p className="icons-content-text">Cpq applications</p>
-          </div>
-          <div className="salesforce-product-icons-content">
-            <img className="icons-content-img" src={data.managedPackages.publicURL}/>
-            <p className="icons-content-text">Managed packages</p>
-          </div>
-          <div className="salesforce-product-icons-content">
-            <div className="salesforce-product-icons-content-active">
-              <img className="icons-content-img-active" src={data.fullStackDevelopmentIcon.publicURL}/>
-              <div className="icons-content-active-triangle"></div>
-              <p className="icons-content-text-active icons-content-text">Full stack development</p>
+
+        <div className='salesforce-product-tabs'>
+          <div className='salesforce-product-tabs-circle' onClick={(event) => {changeTab('custom');}}>
+            <div name="tabs" className='salesforce-product-tabs-circle-icon active-tab'>
+              <img src={data.customApplications.publicURL}/>
+              <div name="tabTriangle" className='salesforce-product-tabs-circle-icon-triangle active-triangle'>
+                {/*triangle*/}
+              </div>
+              <p name="tabName" className='salesforce-product-tabs-circle-icon-text justify-text'>
+                Custom Applications
+              </p>
             </div>
           </div>
-          <div className="salesforce-product-icons-content">
-            <img className="icons-content-img" src={data.mobileAppDevelopment.publicURL}/>
-            <p className="icons-content-text">mobile app development</p>
+
+          <div className='salesforce-product-tabs-circle' onClick={() => {changeTab('cpq');}}>
+            <div name="tabs" className='salesforce-product-tabs-circle-icon'>
+              <img src={data.cpqApplications.publicURL}/>
+              <div name="tabTriangle" className='salesforce-product-tabs-circle-icon-triangle'>
+                {/*triangle*/}
+              </div>
+              <p name="tabName" className='salesforce-product-tabs-circle-icon-text'>
+                Cpq Applications
+              </p>
+            </div>
+          </div>
+
+          <div className='salesforce-product-tabs-circle' onClick={() => {changeTab('packages');}}>
+            <div name="tabs" className='salesforce-product-tabs-circle-icon'>
+              <img src={data.managedPackages.publicURL}/>
+              <div name="tabTriangle" className='salesforce-product-tabs-circle-icon-triangle'>
+                {/*triangle*/}
+              </div>
+              <p name="tabName" className='salesforce-product-tabs-circle-icon-text'>
+                Managed packages
+              </p>
+            </div>
+          </div>
+
+          <div className='salesforce-product-tabs-circle' onClick={() => {changeTab('fullstack');}}>
+            <div name="tabs" className='salesforce-product-tabs-circle-icon'>
+              <img src={data.fullStackDevelopmentIcon.publicURL}/>
+              <div name="tabTriangle" className='salesforce-product-tabs-circle-icon-triangle'>
+                {/*triangle*/}
+              </div>
+              <p name="tabName" className='salesforce-product-tabs-circle-icon-text'>
+                Full stack development
+              </p>
+            </div>
+          </div>
+
+          <div className='salesforce-product-tabs-circle' onClick={() => {changeTab('mobile');}}>
+            <div name="tabs" className='salesforce-product-tabs-circle-icon'>
+              <img src={data.mobileAppDevelopment.publicURL}/>
+              <div name="tabTriangle" className='salesforce-product-tabs-circle-icon-triangle'>
+                {/*triangle*/}
+              </div>
+              <p name="tabName" className='salesforce-product-tabs-circle-icon-text'>
+                mobile app development
+              </p>
+            </div>
           </div>
         </div>
-        <div className="white-area">
-        </div>
-        {/* <img src={data.salesforceProductDevIcons.publicURL}/> */}
-        {/* <img className="salesforce-product-content-img" src={data.fullStackDevelopmentDg.publicURL}/> */}
+
         <img className="salesforce-product-content-bg" src={data.salesforceProductDevBg.publicURL}/>
-        <div className="salesforce-product-content container">
-          <div className="salesforce-product-content-left">
-            <img className="content-left-img" src={data.fullStackDevMain.publicURL}/>
-            <img className="content-left-yellow-circle" src={data.fullStackDevYellowCircle.publicURL}/>
-            <img className="content-left-half-cirle" src={data.fullStackDevHalfCircle.publicURL}/>
-            <img className="content-left-two-circles" src={data.fullStackDevTwoCircles.publicURL}/>
-            <img className="content-left-curvy-bg" src={data.fullStackDevCurvyBg.publicURL}/>
-            <img className="content-left-two-triangles" src={data.fullStackDevTwoTriangles.publicURL}/>
-            <div className="content-left-yellow-circle-two"></div>
-            <img className="content-left-yellow-grid" src={data.fullStackDevYellowGrid.publicURL}/>
-          </div>
-          <div className="salesforce-product-content-right">
-            <h3 className="salesforce-product-content-title">Full stack development</h3>
-            <p className="salesforce-product-content-text">Specialize primarily in salesforce.com development. consectetur adipiscing elit. Integer nec ex lacus. Quisque consequat eleme
-              ntum arcu, et tempus elit maximus a. Mauris venenatis mollis 
-              facilisis. We build scalable complex enterprise grade applications on salesforce that integrate with multiple systems.
-            </p>
-            <button className="yellow-btn">Learn more</button>
-            {/* <button className="salesforce-product-content-btn">
-              <img className="salesforce-product-content-btn-img" src={data.yellowBtnBg.publicURL}/>
-              <p className="salesforce-product-content-btn-text">Learn more</p>
-            </button> */}
-          </div>
+
+        <div name="tabContent" className="container" style={{display: 'block'}}>
+          <CustomApplication/>
         </div>
+
+        <div name="tabContent" className="container" style={{display: 'none'}}>
+          <CpqApplications/>
+        </div>
+
+        <div name="tabContent" className="container" style={{display: 'none'}}>
+          <ManagedPackages/>
+        </div>
+
+        <div name="tabContent" className="container" style={{display: 'none'}}>
+          <FullStackDevelopment/>
+        </div>
+
+        <div name="tabContent" className="container" style={{display: 'none'}}>
+          <MobileAppDevelopment/>
+        </div>
+
       </div>
     )
 };
