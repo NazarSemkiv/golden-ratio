@@ -60,3 +60,126 @@
       }
     }
 }
+
+@media screen and(max-width: 1170px) {
+  .golden-ration-system {
+    .container {
+      width: unset;
+    }
+  }
+}
+
+@media screen and(max-width: 950px) {
+  .golden-ration-system {
+    .golden-ration-system-inner {
+      .golden-ration-system-inner-title {
+        p {
+          width: 85vw;
+          font-size: 84px;
+          line-height: 84px;
+        }
+      }
+
+      .golden-ration-system-inner-text {
+        width: 80vw;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 800px) {
+  .golden-ration-system {
+    .golden-ration-system-inner {
+      .golden-ration-system-inner-title {
+        p {
+          font-size: 79px;
+          line-height: 76px;
+        }
+      }
+
+      .golden-ration-system-inner-text {
+        width: 80vw;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 721px) {
+  .golden-ration-system {
+    margin-top: 80px;
+
+    .golden-ration-system-inner {
+      .golden-ration-system-inner-goldenBgTwo {
+        z-index: -1;
+      }
+
+      .golden-ration-system-inner-title {
+        p {
+          font-size: 72px;
+          line-height: 70px;
+        }
+      }
+
+      .golden-ration-system-inner-text {
+        width: 80vw;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 500px) {
+  .golden-ration-system {
+    .golden-ration-system-inner {
+      .golden-ration-system-inner-title {
+        p {
+          font-size: 67px;
+          line-height: 63px;
+        }
+      }
+
+      .golden-ration-system-inner-text {
+        line-height: 29px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 426px) {
+  .golden-ration-system {
+    margin-top: 63px;
+
+    .golden-ration-system-inner {
+      .golden-ration-system-inner-title {
+        p {
+          font-size: 58px;
+          line-height: 56px;
+        }
+      }
+
+      .golden-ration-system-inner-btn {
+        width: 206px;
+        height: 51px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 362px) {
+  .golden-ration-system {
+    margin-top: 44px;
+
+    .golden-ration-system-inner {
+      .golden-ration-system-inner-title {
+        p {
+          font-size: 51px;
+          line-height: 49px;
+        }
+      }
+
+      .golden-ration-system-inner-text {
+        line-height: 26px;
+        font-size: 17px;
+      }
+    }
+  }
+}

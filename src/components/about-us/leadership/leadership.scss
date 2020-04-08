@@ -305,6 +305,7 @@
   .slider-item {
     position: relative;
     text-align: center;
+    margin-left: 25px;
 
     .border-box-color {
       border: 8px solid #f2f2f2;
@@ -374,8 +375,8 @@
       border-left: solid 30px transparent;
       border-right: solid 30px transparent;
       z-index: 0;
-      right: -6px;
-      top: 152px;
+      right: 13px;
+      top: 163px;
     }
 
     .team-text {
@@ -452,6 +453,27 @@
           border: 8px solid #f4f05e;
         }
       }
+    }
+  }
+}
+
+@media screen and(max-width: 1386px) {
+  #leadership-content {
+    .container {
+      width: unset;
+    }
+
+    .slider {
+      width: 80vw;
+
+      .slick-arrow  {
+        width: 73px;
+        height: 73px;
+      }
+    }
+    
+    .leadership-content-bottom {
+      width: 87vw;
     }
   }
 }

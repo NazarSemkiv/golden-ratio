@@ -98,3 +98,239 @@
     }
   }
 }
+
+@media screen and(max-width: 1200px) {
+  #why-we-made-content {
+    .container {
+      width: unset;
+    }
+
+    .why-we-made-top {
+      .why-we-made-title p {
+        width: 90vw;
+        font-size: 89px;
+      }
+
+      .why-we-made-text {
+        width: 88vw;
+      }
+    }
+
+    .why-we-made-bottom {
+      width: 80vw;
+    }
+  }
+}
+
+@media screen and(max-width: 1000px) {
+  #why-we-made-content {
+    .why-we-made-top {
+      .why-we-made-title p {
+        font-size: 80px;
+      }
+
+      .why-we-made-text {
+        font-size: 25px;
+      }
+
+      .why-we-made-quotes {
+        font-size: 40px;
+      }
+    }
+
+    .why-we-made-bottom {
+      .why-we-made-bottom-content {
+        .why-we-made-bottom-imgs {
+          width: 72px;
+          height: 72px;
+        }
+
+        .why-we-made-bottom-bold-text {
+          font-size: 85px;
+          margin-top: 7px;
+        }
+
+        .why-we-made-bottom-text {
+          line-height: 40.15px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 894px) {
+  #why-we-made-content {
+    .why-we-made-top {
+      .why-we-made-title p {
+        font-size: 72px;
+      }
+
+      .why-we-made-text {
+        font-size: 23px;
+        line-height: 27px;
+        margin-top: 22px;
+        margin-bottom: 31px;
+      }
+
+      .why-we-made-quotes {
+        font-size: 37px;
+      }
+    }
+
+    .why-we-made-bottom {
+      width: unset;
+
+      .why-we-made-bottom-content {
+        .why-we-made-bottom-bold-text {
+          font-size: 80px;
+          margin-top: 4px;
+        }
+
+        .why-we-made-bottom-text {
+          line-height: 36.15px;
+        }
+      }
+
+      .why-we-made-bottom-content:nth-child(2) {
+        margin-left: 50px;
+        margin-right: 45px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 767px) {
+  #why-we-made-content {
+    .why-we-made-top {
+      .why-we-made-title p {
+        font-size: 64px;
+      }
+
+      .why-we-made-text {
+        font-size: 21px;
+      }
+
+      .why-we-made-quotes {
+        font-size: 27px;
+      }
+    }
+
+    .why-we-made-bottom {
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 75vw;
+      margin-top: -24px;
+
+      .why-we-made-bottom-content {
+        .why-we-made-bottom-imgs {
+          width: 62px;
+          height: 62px;
+        }
+
+        .why-we-made-bottom-bold-text {
+          font-size: 67px;
+        }
+
+        .why-we-made-bottom-text {
+          line-height: 33.15px;
+          font-size: 21px;
+        }
+      }
+
+      .why-we-made-bottom-content:nth-child(1) {
+        margin-right: 35px;
+      }
+
+      .why-we-made-bottom-content:nth-child(2) {
+        margin-left: 35px;
+        margin-right: unset;
+        margin-top: 1px;
+      }
+
+      .why-we-made-bottom-content:nth-child(3) {
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+
+@media screen and(max-width: 535px) {
+  #why-we-made-content {
+    .why-we-made-top {
+      .why-we-made-title p {
+        font-size: 44px;
+        margin-top: 9px;
+      }
+
+      .why-we-made-text {
+        font-size: 18px;
+      }
+
+      .why-we-made-quotes {
+        font-size: 22px;
+      }
+    }
+
+    .why-we-made-bottom {
+      width: 84vw;
+      margin-top: 2px;
+
+      .why-we-made-bottom-content {
+        .why-we-made-bottom-imgs {
+          width: 52px;
+          height: 52px;
+        }
+
+        .why-we-made-bottom-bold-text {
+          font-size: 52px;
+        }
+
+        .why-we-made-bottom-text {
+          line-height: 25.15px;
+          font-size: 18px;
+        }
+      }
+
+      .why-we-made-bottom-content:nth-child(3) {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 424px) {
+  #why-we-made-content {
+    .why-we-made-top {
+      margin-top: -15px;
+
+      .why-we-made-quotes {
+        font-size: 17px;
+      }
+    }
+
+    .why-we-made-bottom {
+      width: 56vw;
+      margin-top: -51px;
+
+      .why-we-made-bottom-content {
+        .why-we-made-bottom-bold-text {
+          font-size: 44px;
+        }
+      }
+
+      .why-we-made-bottom-content:nth-child(1) {
+        margin-right: 0;
+      }
+
+      .why-we-made-bottom-content:nth-child(2) {
+        margin-left: 0;
+        margin-top: 18px;
+      }
+
+      .why-we-made-bottom-content:nth-child(3) {
+        margin-top: 18px;
+      }
+    }
+  }
+}
