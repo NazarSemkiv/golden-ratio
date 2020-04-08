@@ -69,3 +69,57 @@
     }
   }
 }
+
+@media screen and(max-width: 1044px) {
+  .our-client {
+    img:nth-child(1) {
+      width: 86vw;
+      margin-top: 2vw;
+    }
+
+    .our-client-main {
+      p:nth-child(1) {
+        padding-bottom: 5px;
+        font-size: 17px;
+      }
+
+      p:nth-child(2) {
+        font-size: 63px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 767px) {
+  .our-client {
+    img:nth-child(1) {
+      margin-top: 40px;
+    }
+
+    .our-client-main {
+      
+      div {
+        margin: 159px auto 0;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 510px) {
+  .our-client {
+    .our-client-main {
+      p:nth-child(1) {
+        padding-bottom: 4px;
+        font-size: 16px;
+      }
+
+      p:nth-child(2) {
+        font-size: 60px;
+      }
+
+      div {
+        margin: 127px auto 0;
+      }
+    }
+  }
+}

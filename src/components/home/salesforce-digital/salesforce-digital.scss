@@ -72,3 +72,211 @@
     }
   }
 }
+
+@media screen and(max-width: 1170px) {
+  .salesforce-digital {
+    .salesforce-digital-bg {
+      margin-top: -229px;
+    }
+
+    .container {
+      width: unset;
+    }
+
+    .salesforce-digital-container {
+      margin-top: 40px;
+      justify-content: space-evenly;
+
+      .salesforce-digital-left {
+        width: 46%;
+
+        h3 {
+          width: 363px;
+          font-size: 31px;
+        }
+
+        p {
+          width: 398px;
+          font-size: 18px;
+        }
+      }
+
+      .salesforce-digital-right {
+        width: 46%;
+        padding: 72px 84px 145px 57px;
+
+        h3 {
+          width: 365px;
+          font-size: 31px;
+        }
+
+        p {
+          width: 397px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1050px) {
+  .salesforce-digital {
+    .salesforce-digital-container {
+      justify-content: center;
+
+      .salesforce-digital-left {
+        width: 43%;
+        margin-right: 10px;
+
+        h3 {
+          width: 36vw;
+          font-size: 29px;
+          line-height: 33px;
+        }
+
+        p {
+          width: 35vw;
+        }
+      }
+      .salesforce-digital-right {
+        width: 43%;
+        margin-left: 10px;
+
+        h3 {
+          width: 36vw;
+          font-size: 29px;
+        }
+
+        p {
+          width: 35vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 870px) {
+  .salesforce-digital {
+    .salesforce-digital-container {
+      .salesforce-digital-left {
+        width: 40%;
+        padding: 58px 94px 57px 57px;
+
+        img {
+          width: 11vw;
+        }
+
+        h3 {
+          margin-top: 23px;
+          margin-bottom: 20px;
+        }
+      }
+      .salesforce-digital-right {
+        width: 40%;
+        padding: 58px 106px 145px 57px;
+
+        img {
+          width: 11vw;
+        }
+
+        h3 {
+          margin-top: 22px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 767px) {
+  .salesforce-digital {
+    .salesforce-digital-container {
+      flex-direction: column;
+      margin-bottom: 300px;
+
+      .salesforce-digital-left {
+        width: 100%;
+        padding: 58px 55px 60px 57px;
+        margin-right: 0;
+
+        h3 {
+          width: 56vw;
+          margin-right: 0;
+        }
+
+        p {
+          width: 59vw;
+        }
+      }
+
+      .salesforce-digital-right {
+        width: 100%;
+        position: relative;
+        z-index: 999;
+        padding: 58px 68px 145px 57px;
+        margin-left: 0;
+
+        h3 {
+          width: 56vw;
+        }
+
+        p {
+          width: 59vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 530px)  {
+  .salesforce-digital {
+    .salesforce-digital-container {
+      .salesforce-digital-left {
+        img {
+          width: 14vw;
+        }
+      }
+      .salesforce-digital-right {
+        img {
+          width: 14vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 396px) {
+  .salesforce-digital {
+    .salesforce-digital-container {
+      .salesforce-digital-left {
+        padding: 40px 38px 78px 46px;
+        img {
+          width: 17vw;
+        }
+
+        h3 {
+          font-size: 26px;
+          line-height: 28px;
+        }
+
+        p {
+          font-size: 17px;
+        }
+      }
+      .salesforce-digital-right {
+        padding: 40px 38px 71px 46px;
+        img {
+          width: 17vw;
+        }
+
+        h3 {
+          font-size: 26px;
+        }
+
+        p {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
