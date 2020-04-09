@@ -1,14 +1,14 @@
-.salesforce-consulting-content {
+.salesforce-consulting-content-section {
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
   margin-bottom: 130px;
 
-  .salesforce-consulting-content-left {
+  .salesforce-consulting-content-section-left {
     margin-top: 60px;
     width: 50%;
 
-    .salesforce-consulting-content-title {
+    .salesforce-consulting-content-section-title {
       color: #333234;
       font-family: "Proxima Nova";
       font-size: 45px;
@@ -18,7 +18,7 @@
       margin-bottom: 25px;
     }
 
-    .salesforce-consulting-content-text {
+    .salesforce-consulting-content-section-text {
       width: 474px;
       color: #333234;
       font-family: "Proxima Nova";
@@ -28,7 +28,7 @@
     }
   }
 
-  .salesforce-consulting-content-right {
+  .salesforce-consulting-content-section-right {
     width: 50%;
     position: relative;
 
@@ -81,17 +81,6 @@
       top: 185px;
       left: -40px;
       z-index: -2;
-    }
-  }
-}
-
-
-@media screen and(max-width: 1599px) {
-  .salesforce-consulting-content {
-    .salesforce-consulting-content-right {
-      .design-architerture-curvy-bg {
-        overflow: hidden;
-      }
     }
   }
 }

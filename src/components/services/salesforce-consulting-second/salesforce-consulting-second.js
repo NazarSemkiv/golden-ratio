@@ -64,79 +64,81 @@ const SalesforceConsultingSecond = () => {
 
     return (
       <div id="salesforce-consulting-second">
-        <h2 className="salesforce-consulting-title">Salesforce consulting</h2>
+        <h2 className="salesforce-consulting-second-title">Salesforce consulting</h2>
 
 
-        <div className='salesforce-product-tabs'>
-          <div className='salesforce-product-tabs-circle' onClick={(event) => {changeTab('design');}}>
-            <div name="tabsTwo" className='salesforce-product-tabs-circle-icon active-tab'>
-              <img src={data.designAndArchitecture.publicURL}/>
-              <div name="tabTriangleTwo" className='salesforce-product-tabs-circle-icon-triangle active-triangle'>
-                {/*triangle*/}
+        <div className="salesforce-consulting-scroll">
+          <div className='salesforce-consulting-second-tabs'>
+            <div className='salesforce-consulting-second-tabs-circle' onClick={(event) => {changeTab('design');}}>
+              <div name="tabsTwo" className='salesforce-consulting-second-tabs-circle-icon active-tab'>
+                <img src={data.designAndArchitecture.publicURL}/>
+                <div name="tabTriangleTwo" className='salesforce-consulting-second-tabs-circle-icon-triangle active-triangle'>
+                  {/*triangle*/}
+                </div>
+                <p name="tabNameTwo" className='salesforce-consulting-second-tabs-circle-icon-text justify-text'>
+                  Design and architecture
+                </p>
               </div>
-              <p name="tabNameTwo" className='salesforce-product-tabs-circle-icon-text justify-text'>
-                Design and architecture
-              </p>
             </div>
-          </div>
 
-          <div className='salesforce-product-tabs-circle' onClick={() => {changeTab('customization');}}>
-            <div name="tabsTwo" className='salesforce-product-tabs-circle-icon'>
-              <img src={data.customization.publicURL}/>
-              <div name="tabTriangleTwo" className='salesforce-product-tabs-circle-icon-triangle'>
-                {/*triangle*/}
+            <div className='salesforce-consulting-second-tabs-circle' onClick={() => {changeTab('customization');}}>
+              <div name="tabsTwo" className='salesforce-consulting-second-tabs-circle-icon'>
+                <img src={data.customization.publicURL}/>
+                <div name="tabTriangleTwo" className='salesforce-consulting-second-tabs-circle-icon-triangle'>
+                  {/*triangle*/}
+                </div>
+                <p name="tabNameTwo" className='salesforce-consulting-second-tabs-circle-icon-text'>
+                  Customization
+                </p>
               </div>
-              <p name="tabNameTwo" className='salesforce-product-tabs-circle-icon-text'>
-                Customization
-              </p>
             </div>
-          </div>
 
-          <div className='salesforce-product-tabs-circle' onClick={() => {changeTab('integrations');}}>
-            <div name="tabsTwo" className='salesforce-product-tabs-circle-icon'>
-              <img src={data.integrations.publicURL}/>
-              <div name="tabTriangleTwo" className='salesforce-product-tabs-circle-icon-triangle'>
-                {/*triangle*/}
+            <div className='salesforce-consulting-second-tabs-circle' onClick={() => {changeTab('integrations');}}>
+              <div name="tabsTwo" className='salesforce-consulting-second-tabs-circle-icon'>
+                <img src={data.integrations.publicURL}/>
+                <div name="tabTriangleTwo" className='salesforce-consulting-second-tabs-circle-icon-triangle'>
+                  {/*triangle*/}
+                </div>
+                <p name="tabNameTwo" className='salesforce-consulting-second-tabs-circle-icon-text'>
+                  Integrations
+                </p>
               </div>
-              <p name="tabNameTwo" className='salesforce-product-tabs-circle-icon-text'>
-                Integrations
-              </p>
             </div>
-          </div>
 
-          <div className='salesforce-product-tabs-circle' onClick={() => {changeTab('community');}}>
-            <div name="tabsTwo" className='salesforce-product-tabs-circle-icon'>
-              <img src={data.communityImplementations.publicURL}/>
-              <div name="tabTriangleTwo" className='salesforce-product-tabs-circle-icon-triangle'>
-                {/*triangle*/}
+            <div className='salesforce-consulting-second-tabs-circle' onClick={() => {changeTab('community');}}>
+              <div name="tabsTwo" className='salesforce-consulting-second-tabs-circle-icon'>
+                <img src={data.communityImplementations.publicURL}/>
+                <div name="tabTriangleTwo" className='salesforce-consulting-second-tabs-circle-icon-triangle'>
+                  {/*triangle*/}
+                </div>
+                <p name="tabNameTwo" className='salesforce-consulting-second-tabs-circle-icon-text'>
+                  Community implementations
+                </p>
               </div>
-              <p name="tabNameTwo" className='salesforce-product-tabs-circle-icon-text'>
-                Community implementations
-              </p>
             </div>
-          </div>
 
-          <div className='salesforce-product-tabs-circle' onClick={() => {changeTab('security');}}>
-            <div name="tabsTwo" className='salesforce-product-tabs-circle-icon'>
-              <img src={data.securityAssessments.publicURL}/>
-              <div name="tabTriangleTwo" className='salesforce-product-tabs-circle-icon-triangle'>
-                {/*triangle*/}
+            <div className='salesforce-consulting-second-tabs-circle' onClick={() => {changeTab('security');}}>
+              <div name="tabsTwo" className='salesforce-consulting-second-tabs-circle-icon'>
+                <img src={data.securityAssessments.publicURL}/>
+                <div name="tabTriangleTwo" className='salesforce-consulting-second-tabs-circle-icon-triangle'>
+                  {/*triangle*/}
+                </div>
+                <p name="tabNameTwo" className='salesforce-consulting-second-tabs-circle-icon-text'>
+                  Security assessments
+                </p>
               </div>
-              <p name="tabNameTwo" className='salesforce-product-tabs-circle-icon-text'>
-                Security assessments
-              </p>
             </div>
-          </div>
 
-          <div className='salesforce-product-tabs-circle' onClick={() => {changeTab('cpq');}}>
-            <div name="tabsTwo" className='salesforce-product-tabs-circle-icon'>
-              <img src={data.salesforceCpqImplementations.publicURL}/>
-              <div name="tabTriangleTwo" className='salesforce-product-tabs-circle-icon-triangle'>
-                {/*triangle*/}
+            <div className='salesforce-consulting-second-tabs-circle' onClick={() => {changeTab('cpq');}}>
+              <div name="tabsTwo" className='salesforce-consulting-second-tabs-circle-icon'>
+                <img src={data.salesforceCpqImplementations.publicURL}/>
+                <div name="tabTriangleTwo" className='salesforce-consulting-second-tabs-circle-icon-triangle'>
+                  {/*triangle*/}
+                </div>
+                <p name="tabNameTwo" className='salesforce-consulting-second-tabs-circle-icon-text'>
+                  Salesforce cpq implementations
+                </p>
               </div>
-              <p name="tabNameTwo" className='salesforce-product-tabs-circle-icon-text'>
-                Salesforce cpq implementations
-              </p>
             </div>
           </div>
         </div>

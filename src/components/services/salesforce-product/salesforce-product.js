@@ -67,6 +67,7 @@ const SalesforceProduct = () => {
       <div id="salesforce-product">
         <h2 className="salesforce-product-title">Salesforce product development</h2>
 
+        <div className="salesforce-product-scroll">
         <div className='salesforce-product-tabs'>
           <div className='salesforce-product-tabs-circle' onClick={(event) => {changeTab('custom');}}>
             <div name="tabs" className='salesforce-product-tabs-circle-icon active-tab'>
@@ -127,6 +128,7 @@ const SalesforceProduct = () => {
               </p>
             </div>
           </div>
+        </div>
         </div>
 
         <img className="salesforce-product-content-bg" src={data.salesforceProductDevBg.publicURL}/>
