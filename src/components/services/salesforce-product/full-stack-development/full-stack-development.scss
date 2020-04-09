@@ -1,4 +1,5 @@
 .salesforce-product-content {
+  width: inherit;
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -64,6 +65,7 @@
   }
 
   .salesforce-product-content-right {
+    padding-left: 20px;
     width: 46.5%;
     margin-top: 55px;
 

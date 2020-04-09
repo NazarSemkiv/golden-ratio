@@ -31,7 +31,7 @@ const FullStackDevelopment = () => {
   `)
 
   return (
-    <div className="salesforce-product-content container">
+    <div className="salesforce-product-content">
       <div className="salesforce-product-content-left">
         <img className="content-left-img" src={data.fullStackDevMain.publicURL}/>
         <img className="content-left-yellow-circle" src={data.fullStackDevYellowCircle.publicURL}/>

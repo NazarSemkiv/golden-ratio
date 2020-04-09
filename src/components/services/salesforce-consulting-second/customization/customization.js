@@ -25,10 +25,10 @@ const Сustomization = () => {
   `);
 
   return (
-    <div className="salesforce-consulting-content container">
-      <div className="salesforce-consulting-content-left">
-        <h3 className="salesforce-consulting-content-title">Сustomization</h3>
-        <p className="salesforce-consulting-content-text">Specialize primarily in salesforce.com development. consectetur adipiscing elit. Integer nec ex lacus. Quisque consequat eleme
+    <div className="salesforce-consulting-content-section">
+      <div className="salesforce-consulting-content-section-left">
+        <h3 className="salesforce-consulting-content-section-title">Сustomization</h3>
+        <p className="salesforce-consulting-content-section-text">Specialize primarily in salesforce.com development. consectetur adipiscing elit. Integer nec ex lacus. Quisque consequat eleme
           ntum arcu, et tempus elit maximus a. Mauris venenatis mollis
           facilisis. We build scalable complex enterprise grade applications on salesforce that integrate with multiple systems.
         </p>
@@ -38,7 +38,7 @@ const Сustomization = () => {
               <p className="salesforce-consulting-btn-text">Learn more</p>
             </button> */}
       </div>
-      <div className="salesforce-consulting-content-right">
+      <div className="salesforce-consulting-content-section-right">
         <img className="design-architecture-main" src={data.designArchitectureMain.publicURL}/>
         <div className="design-architerture-little-circle"></div>
         <img className="design-architerture-two-circles" src={data.designArchitectureTwoCircles.publicURL}/>
