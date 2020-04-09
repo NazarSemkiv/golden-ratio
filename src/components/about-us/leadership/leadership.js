@@ -56,7 +56,16 @@ const Leadership = () => {
     arrows: true,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1248,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 1070,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
@@ -65,14 +74,14 @@ const Leadership = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 804,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 672,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

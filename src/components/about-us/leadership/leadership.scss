@@ -466,6 +466,12 @@
     .slider {
       width: 80vw;
 
+      .slick-list {
+        .slider-item {
+          margin-left: 9px;
+        }
+      }
+
       .slick-arrow  {
         width: 73px;
         height: 73px;
@@ -473,7 +479,307 @@
     }
     
     .leadership-content-bottom {
-      width: 87vw;
+      width: 80vw;
+      display: flex;
+      justify-content: space-evenly;
+      padding-left: 33px;
+      padding-right: 33px;
+
+      .leadership-content-bottom-left {
+        .johndoe-lawrence-big-img {
+          margin-bottom: -4px;
+          margin-top: 13px;
+        }
+      }
+
+      .leadership-content-bottom-right {
+        position: unset;
+        margin-left: 35px;
+
+        .leadership-bottom-title {
+          width: unset;
+          font-size: 45px;
+          margin-bottom: 7px;
+        }
+
+        .leadership-bottom-text {
+          width: 35vw;
+        }
+
+        .text-top {
+          margin-bottom: 5px;
+        }
+
+        .linked-in-img {
+          margin-top: 13px;
+          width: 5vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1248px) {
+  #leadership-content {
+    .slider {
+      width: 76vw;
+    }
+  }
+}
+
+@media screen and(max-width: 1070px) {
+  #leadership-content {
+    .slider {
+      width: 649px;
+
+      .slick-arrow  {
+        width: 55px;
+        height: 55px;
+        top: 40%;
+      }
+
+      .slick-prev {
+        left: -65px;
+      }
+
+      .slick-next {
+        right: -65px;
+      }
+    }
+
+    .leadership-content-bottom {
+      flex-direction: column-reverse;
+
+      .leadership-content-bottom-left {
+        display: flex;
+        justify-content: center;
+        margin-top: -69px;
+
+        .johndoe-lawrence-big-img {
+          width: 23vw;
+          margin-bottom: 0px;
+        }
+      }
+      .leadership-content-bottom-right {
+        margin-left: 15px;
+        margin-top: -36px;
+
+        .leadership-bottom-title {
+          width: unset;
+          font-size: 45px;
+          margin-bottom: 7px;
+        }
+
+        .leadership-bottom-text {
+          width: 67vw;
+        }
+
+        .text-top {
+          margin-bottom: 5px;
+        }
+
+        .linked-in-img {
+          margin-top: 13px;
+          width: 5vw;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 804px) {
+  #leadership-content {
+    .leadership-title {
+      font-size: 81px;
+      margin-top: 20px;
+      margin-bottom: 48px;
+    }
+
+    .slider {
+      width: 460px;
+
+      .slick-arrow {
+        width: 55px;
+        height: 55px;
+        top: 48%;
+      }
+
+      .slick-prev {
+        left: -80px;
+      }
+
+      .slick-next {
+        right: -60px;
+      }
+    }
+
+    .leadership-content-bottom {
+      .circle {
+        left: 174px;
+      }
+
+      .up-triangle {
+        left: 140px;
+      }
+
+      .down-triangle {
+        left: 140px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 672px) {
+  #leadership-content {
+    .slider {
+      width: 229px;
+    }
+
+    .leadership-content-bottom {
+      .circle {
+        display: none;
+      }
+
+      .up-triangle {
+        left: 31.3vw;
+      }
+
+      .down-triangle {
+        left: 31.3vw;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 545px) {
+  #leadership-content {
+    .leadership-title {
+      font-size: 62px;
+      margin-top: 13px;
+      margin-bottom: 36px;
+    }
+
+    .leadership-content-bottom {
+      .leadership-content-bottom-right {
+        .leadership-bottom-title {
+          font-size: 35px;
+          margin-bottom: -1px;
+        }
+        
+        .leadership-bottom-text {
+          width: unset;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 545px) {
+  #leadership-content {
+    margin-top: 162px;
+    margin-bottom: 5px;
+
+    .leadership-title {
+      font-size: 53px;
+      margin-top: 2px;
+      margin-bottom: 15px;
+    }
+
+    .slider {
+      .slick-prev {
+        left: -67px;
+      }
+  
+      .slick-next {
+        right: -45px;
+      }
+    }
+
+    .leadership-content-bottom {
+      .up-triangle {
+        left: 25.3vw;
+      }
+
+      .down-triangle {
+        left: 25.3vw;
+      }
+
+      .leadership-content-bottom-left {
+        .johndoe-lawrence-big-img {
+          width: 42vw;
+        }
+      }
+
+      .leadership-content-bottom-right {
+        margin-left: 5px;
+        margin-top: -43px;
+
+        .linked-in-img {
+          width: 11vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 545px) {
+  #leadership-content {
+    .leadership-content-bottom {
+      .leadership-content-bottom-right {
+        .leadership-bottom-title {
+          font-size: 30px;
+        }
+
+        .leadership-bottom-text {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 372px) {
+  #leadership-content {
+    margin-top: 121px;
+    margin-bottom: 0px;
+
+    .leadership-pre-title {
+      font-size: 16px;
+    }
+
+    .leadership-title {
+      font-size: 48px;
+    }
+
+    .slider {
+      width: 212px;
+
+      .slick-arrow {
+        width: 50px;
+        height: 50px;
+      }
+
+      .slick-prev {
+        left: -49px;
+      }
+  
+      .slick-next {
+        right: -44px;
+      }
+    }
+
+    .leadership-content-bottom {
+      .leadership-content-bottom-right {
+        .leadership-bottom-title {
+          font-size: 25px;
+        }
+
+        .leadership-bottom-text {
+          font-size: 16px;
+        }
+      }
     }
   }
 }
