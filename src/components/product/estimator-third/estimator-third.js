@@ -3,7 +3,7 @@ import "./estimator-third.scss";
 
 const EstimatorThird = () => {
     return (
-      <div className="estimator-third container">
+      <div className="estimator-third">
         <div className="estimator-third-content">
           <h3 className="estimator-third-content-title">Estimator</h3>
           <p className="estimator-third-content-text">Golden Ratio Systems is a digital product development and consulting 

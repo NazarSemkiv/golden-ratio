@@ -16,10 +16,10 @@ const Intro = () => {
       <div className="products-left">
         <div className="products-left-title">Products</div>
         <div className="products-left-text">
-          <p>Golden Ratio Systems is a digital product development</p>
-          <p>and consulting company. Specialize primarily in sales force.com development. We build
-            scalable complex enterprise grade ap- plications on salesforce that integrate with multiple</p>
-          <p>systems.</p>
+          <p>Golden Ratio Systems is a digital product development
+            and consulting company. Specialize primarily in sales force.com development. We build
+            scalable complex enterprise grade ap- plications on salesforce that integrate with multiple
+            systems.</p>
         </div>
       </div>
       <div className="products-right">
