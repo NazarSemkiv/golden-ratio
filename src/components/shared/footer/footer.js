@@ -15,13 +15,13 @@ const Footer = () => {
                 publicURL
             }
         }
-    `)
+    `);
   
     return (
         <footer className="footer-container">
             <div className="footer-content">
                 <img className="footer-bg-img" src={data.footerBg.publicURL}/>
-                <div className="footer-bg-content container">
+                <div className="footer-bg-content">
                     <img className="footer-logo-img" src={data.footerLogoImg.publicURL}/>
                     {/* <img className="footer-logo-img" src={data.footerLogoImg.publicURL}/> */}
                     <ul className="footer-menu-container">
@@ -37,12 +37,6 @@ const Footer = () => {
             </div>
         </footer>
     )
-  }  
-
-// const Footer = () => (
-//     <footer className={"footer"}>
-        
-//     </footer>
-// );
+  };
 
 export default Footer
