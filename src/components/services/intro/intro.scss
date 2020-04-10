@@ -101,24 +101,11 @@
       width: 634.4px;
       .services-img {
         width: 634.4px;
-        height: 375.05px;
+        //height: 375.05px;
       }
     }
   }
 }
-
-@media screen and (max-width: 820px) {
-  .services-container {
-    .services-left {
-      .services-left-text {
-        p {
-          width: 330px;
-        }
-      }
-    }
-  }
-}
-
 
 //mobile
 @media screen and (max-width: 820px) {

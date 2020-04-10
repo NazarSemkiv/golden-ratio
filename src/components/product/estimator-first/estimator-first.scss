@@ -10,18 +10,23 @@
     position: absolute;
 
     &:nth-child(1) {
-      top: 431px;
-      left: 148px;
+      //top: 431px;
+      top: 44.7559709242%;
+      //left: 148px;
+      left: 9.25%;
     }
 
     &:nth-child(2) {
-      left: 1172px;
-      top: 68px;
+      //left: 1172px;
+      left: 73.25%;
+      //top: 68px;
+      top: 7.06126687435%;
     }
 
     &:nth-child(3) {
       left: 0;
-      top: 39px;
+      //top: 39px;
+      top: 4.04984423676%;
       z-index: -1;
     }
   }
@@ -53,9 +58,122 @@
   }
 }
 
-@media screen and(max-width: 1599px) {
+//RESPONSIVE
+@media screen and (max-width: 1600px) {
   .estimator-first {
-    width: 1170px;
-    margin: 0 auto;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .estimator-first {
+    &-content-img {
+      &:nth-child(1) {
+        width: 75%;
+      }
+      &:nth-child(2) {
+        width: 26%;
+      }
+      &:nth-child(3) {
+        width: 59%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .estimator-first {
+    height: 875px;
+    &-content-img {
+      &:nth-child(2) {
+        left: 81.25%;
+        width: 19%;
+      }
+    }
+    &-content {
+      &-text {
+        font-size: 16px;
+      }
+      .yellow-btn {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .estimator-first {
+    height: 760px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .estimator-first {
+    //height: 660px;
+    &-content-img {
+      &:nth-child(1) {
+        top: 48.755971%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .estimator-first {
+    height: 963px;
+    &-content-img {
+      &:nth-child(1) {
+        width: 100%;
+        left: 0;
+      }
+      &:nth-child(2) {
+        display: none;
+      }
+      &:nth-child(3) {
+        display: none;
+      }
+    }
+    &-content {
+      padding: 0 40px;
+      width: 100%;
+      &-text {
+        width: 100%;
+        font-size: 18px;
+      }
+      .yellow-btn {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .estimator-first {
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .estimator-first {
+    &-content-img {
+      &:nth-child(1) {
+        top: 56.755971%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .estimator-first {
+    &-content-img {
+      &:nth-child(1) {
+        top: 63.755971%;
+      }
+    }
+    &-content {
+      &-title {
+        font-size: 64px;
+      }
+    }
   }
 }
