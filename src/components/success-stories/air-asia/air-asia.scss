@@ -1,6 +1,7 @@
 .air-asia {
   width: 1600px;
   margin: 146px auto 0;
+  position: relative;
 
   .air-asia-bg {
     margin-top: -396px;
@@ -134,6 +135,270 @@
 
 @media screen and(max-width: 1599px) {
   .air-asia {
-    width: unset;
+    //width: unset;
+  }
+
+  .slider {
+    .slick-list {
+      .slick-track {
+        .slider-item {
+          .slider-item-img {
+            width: 45vw;
+            left: 1vw;
+            top: 0vw;
+            position: relative;
+          }
+    
+          .slider-item-content {
+            top: 3vw;
+            left: 12vw;
+            width: 38vw;
+            //height: unset;
+            padding: 2vw 2.3vw 2vw 2.4vw;
+    
+            .slider-item-content-img {
+              left: unset;
+              right: 4vw;
+              top: unset;
+              bottom: 10px;
+            }
+
+            .slider-item-content-header {
+              padding-bottom: 15px
+            }
+
+            .slider-item-content-text {
+              padding-bottom: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1430px) {
+  .air-asia {
+    width: 1430px;
+
+    .slider {
+      .slick-list {
+        .slick-track {
+          .slick-slide {
+            width: 396px !important;
+  
+            & > div {
+              width: 396px !important;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1346px) {
+  .air-asia {
+    width: 1346px;
+
+    .slider {
+      .slick-list {
+        .slick-track {
+          .slider-item {
+            .slider-item-img {
+              width: 600px;
+            }
+
+            .slider-item-content {
+              width: 500px;
+              top: 35px;
+              left: 160px;
+            }
+          }
+
+          .slick-slide {
+            width: 706px !important;
+  
+            & > div {
+              width: 706px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1000px) {
+  .air-asia {
+    width: 1000px;
+    
+    .slider {
+      .slick-list {
+        .slick-track {
+          .slider-item {
+            .slider-item-img {
+              width: 600px;
+            }
+
+            .slider-item-content {
+              width: 500px;
+              top: 35px;
+              left: 160px;
+            }
+          }
+
+          .slick-slide {
+            //width: unset !important;
+  
+            & > div {
+              //width: unset !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 894px) {
+  .air-asia {
+    width: 894px;
+    
+    .slider {
+
+      .slick-arrow {
+        top: 441px;
+      }
+      .slick-list {
+        padding: 0px 75px;
+
+        .slick-track {
+          .slider-item {
+
+            .slider-item-img {
+              width: 550px;
+            }
+
+            .slider-item-content {
+              width: 470px;
+              top: 35px;
+              left: 140px;
+              padding: 2vw 2.3vw 2vw 2.4vw;
+              height: unset;
+
+              .slider-item-content-img {
+                bottom: 0px;
+                width: 14vw;
+              }
+  
+              .slider-item-content-header {
+                padding-bottom: 11px;
+                font-size: 28px;
+              }
+  
+              .slider-item-content-text {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 723px) {
+  .air-asia {
+    width: 723px;
+    
+    .slider {
+
+      .slick-arrow {
+        top: 531px;
+      }
+
+      .slick-prev {
+        left: 40px;
+      }
+
+      .slick-next {
+        left: 89vw;
+      }
+
+      .slick-list {
+        padding: 0px 65px;
+
+        .slick-track {
+          .slider-item {
+            margin-left: -64px;
+
+            .slider-item-img {
+              //width: 752px;
+              width: 105vw;
+            }
+
+            .slider-item-content {
+              top: 14vw;
+              left: 17vw; 
+              width: 75vw;   
+              padding: 25px;      
+
+              .slider-item-content-img {
+                bottom: 11px;
+                width: 14vw;
+              }
+  
+              .slider-item-content-header {
+                padding-bottom: 11px;
+                font-size: 28px;
+              }
+  
+              .slider-item-content-text {
+                font-size: 17px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 500px) {
+  .air-asia {
+    .slider {
+      .slick-next {
+        left: 82vw;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 403px) {
+  .air-asia {
+    .slider {
+      .slick-arrow {
+        top: 650px;
+      }
+
+      .slick-next {
+        left: 82vw;
+      }
+
+      .slick-list {
+
+        .slick-track {
+          .slider-item {
+            height: 578px;
+
+            .slider-item-content {
+              left: 19.5vw;
+            }
+          }
+        }
+      }
+    }
   }
 }
