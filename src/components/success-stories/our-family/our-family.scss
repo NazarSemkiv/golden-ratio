@@ -46,3 +46,54 @@
     width: 1170px;
   }
 }
+
+@media screen and(max-width: 1170px) {
+  .our-family {
+    width: unset;
+    
+    .our-family-header-two {
+      width: 65vw;
+      font-size: 68px;
+    }
+
+    .our-family-logos {
+      padding-bottom: 10vw;
+      width: 98vw;
+    }
+  }
+}
+
+@media screen and(max-width: 681px) {
+  .our-family {
+    .our-family-header-one {
+      padding-bottom: 12px;
+      font-size: 17px;
+    }
+
+    .our-family-header-two {
+      width: 81vw;
+      font-size: 51px;
+    }
+
+    .our-family-logos {
+      padding-bottom: 10vw;
+      width: 98vw;
+    }
+  }
+}
+
+@media screen and(max-width: 399px) {
+  .our-family {
+    .our-family-header-one {
+      font-size: 16px;
+    }
+
+    .our-family-header-two {
+      font-size: 44px;
+    }
+
+    .our-family-logos {
+      width: 124vw;
+    }
+  }
+}
