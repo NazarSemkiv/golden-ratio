@@ -1,6 +1,6 @@
 //import React from "react";
 import React, { Component } from 'react';
-import {Link} from "gatsby";
+import {Link, StaticQuery} from "gatsby";
 import "./header.scss"
 //import { graphql, useStaticQuery } from "gatsby";
 
@@ -20,12 +20,25 @@ class Header extends Component {
   }
 
   render() {
-  
     return (
       <header className="header">
         <div className="inner-header-content">
           <div className="logo-img">
-            {/* <img src={data.logoGoldenRatio.publicURL}/> */}
+          <StaticQuery
+            query={graphql`
+              query {
+                logoGoldenRatio: file(relativePath: { eq: "logo-golden-ratio.svg" }) {
+                  publicURL
+                },
+                goldenRationSystemBackground: file(relativePath: { eq: "golden-ration-system-background.svg" }) {
+                  publicURL
+                }
+              }
+            `}
+            render={data => (
+              <img src={data.logoGoldenRatio.publicURL}/>
+            )}
+          />
           </div>
           <div className="header-links">
             <button className= { this.state.condition ? "hamburger hamburger--collapse is-active" : "hamburger hamburger--collapse" } type="button" onClick={this.openHamburger}>
