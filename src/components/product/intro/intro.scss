@@ -42,7 +42,7 @@
       width: 50%;
       &-title {
         font-size: 75px;
-        margin: 0 0 45px -5px;
+        margin: 0 0 11px -5px;
       }
       &-text {
         p {
@@ -63,7 +63,7 @@
 @media screen and(max-width: 950px) {
   .products-container {
     .products-left {
-      padding: 0 0 60px 60px;
+      padding: 25px 0 60px 60px;
     }
   }
 }
