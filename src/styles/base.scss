@@ -11,10 +11,10 @@ a, p, span {
 }
 
 //////FONTS
-//@font-face {
-//  font-family: 'Proxima Nova';
-//  src: url("src/fonts/proxima-nova/ProximaNova-Regular.ttf");
-//}
+@font-face {
+  font-family: Proxima Nova;
+  src: url('/src/fonts/proxima-nova/ProximaNova-Regular.ttf');
+}
 ///////
 
 .container {
