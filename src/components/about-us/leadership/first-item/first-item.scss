@@ -1,0 +1,269 @@
+.leadership-content-bottom {
+  padding-left: 58px;
+  position: relative;
+  border: 8px solid #f4f05e;
+  border-radius: 15px;
+  margin-top: 40px;
+  padding-top: 53px;
+
+  .circle {
+    top: -34px;
+    //left: 174px;
+    left: 87px;
+    background-color: #f4f05e;
+    width: 12px;
+    height: 9px;
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .up-triangle {
+    width: 60px;
+    height: 30px;
+    border-bottom: solid 30px #f4f05e;
+    border-left: solid 40px transparent;
+    border-right: solid 40px transparent;
+    top: -35px;
+    left: 53px;
+    position: absolute;
+  }
+
+  .down-triangle {
+    width: 60px;
+    height: 30px;
+    border-bottom: solid 30px #fff;
+    border-left: solid 40px transparent;
+    border-right: solid 40px transparent;
+    top: -25px;
+    //left: 140px;
+    left: 53px;
+    position: absolute;
+  }
+
+  .leadership-content-bottom-left {
+    .johndoe-lawrence-big-img {
+      margin-bottom: -3px;
+    }
+  }
+
+  .leadership-content-bottom-right {
+    position: absolute;
+    right: 75px;
+    top: 99px;
+
+    .leadership-bottom-title {
+      width: 570px;
+      color: #333234;
+      font-family: "Proxima Nova";
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 72px;
+      letter-spacing: -2.91px;
+      margin-bottom: 35px;
+    }
+
+    .leadership-bottom-text {
+      width: 572px;
+      color: #333234;
+      font-family: "Proxima Nova";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+
+    .text-top {
+      margin-bottom: 20px;
+    }
+
+    .linked-in-img {
+      margin-top: 29px;
+    }
+  }
+}
+
+
+
+
+@media screen and (max-width: 1386px) {
+    .leadership-content-bottom {
+      width: 80vw;
+      display: flex;
+      justify-content: space-evenly;
+      padding-left: 33px;
+      padding-right: 33px;
+
+      .leadership-content-bottom-left {
+        .johndoe-lawrence-big-img {
+          margin-bottom: -4px;
+          margin-top: 13px;
+        }
+      }
+
+      .leadership-content-bottom-right {
+        position: unset;
+        margin-left: 35px;
+
+        .leadership-bottom-title {
+          width: unset;
+          font-size: 45px;
+          margin-bottom: 7px;
+        }
+
+        .leadership-bottom-text {
+          width: 35vw;
+        }
+
+        .text-top {
+          margin-bottom: 5px;
+        }
+
+        .linked-in-img {
+          margin-top: 13px;
+          width: 5vw;
+        }
+      }
+    }
+}
+
+@media screen and(max-width: 1070px) {
+    .leadership-content-bottom {
+      flex-direction: column-reverse;
+
+      .leadership-content-bottom-left {
+        display: flex;
+        justify-content: center;
+        margin-top: -69px;
+
+        .johndoe-lawrence-big-img {
+          width: 23vw;
+          margin-bottom: 0px;
+        }
+      }
+      .leadership-content-bottom-right {
+        margin-left: 15px;
+        margin-top: -36px;
+
+        .leadership-bottom-title {
+          width: unset;
+          font-size: 45px;
+          margin-bottom: 7px;
+        }
+
+        .leadership-bottom-text {
+          width: 67vw;
+        }
+
+        .text-top {
+          margin-bottom: 5px;
+        }
+
+        .linked-in-img {
+          margin-top: 13px;
+          width: 5vw;
+          margin-bottom: 20px;
+        }
+      }
+    }
+}
+
+@media screen and(max-width: 804px) {
+    .leadership-content-bottom {
+      .circle {
+        left: 174px;
+      }
+
+      .up-triangle {
+        left: 140px;
+      }
+
+      .down-triangle {
+        left: 140px;
+      }
+    }
+}
+
+@media screen and(max-width: 672px) {
+    .leadership-content-bottom {
+      .circle {
+        display: none;
+      }
+
+      .up-triangle {
+        left: 31.3vw;
+      }
+
+      .down-triangle {
+        left: 31.3vw;
+      }
+    }
+}
+
+@media screen and(max-width: 545px) {
+    .leadership-content-bottom {
+      .leadership-content-bottom-right {
+        .leadership-bottom-title {
+          font-size: 35px;
+          margin-bottom: -1px;
+        }
+
+        .leadership-bottom-text {
+          width: unset;
+          font-size: 17px;
+        }
+      }
+    }
+}
+
+@media screen and(max-width: 545px) {
+    .leadership-content-bottom {
+      .up-triangle {
+        left: 25.3vw;
+      }
+
+      .down-triangle {
+        left: 25.3vw;
+      }
+
+      .leadership-content-bottom-left {
+        .johndoe-lawrence-big-img {
+          width: 42vw;
+        }
+      }
+
+      .leadership-content-bottom-right {
+        margin-left: 5px;
+        margin-top: -43px;
+
+        .linked-in-img {
+          width: 11vw;
+        }
+      }
+    }
+}
+
+@media screen and(max-width: 545px) {
+    .leadership-content-bottom {
+      .leadership-content-bottom-right {
+        .leadership-bottom-title {
+          font-size: 30px;
+        }
+
+        .leadership-bottom-text {
+          font-size: 16px;
+        }
+      }
+    }
+}
+
+@media screen and(max-width: 372px) {
+    .leadership-content-bottom {
+      .leadership-content-bottom-right {
+        .leadership-bottom-title {
+          font-size: 25px;
+        }
+        .leadership-bottom-text {
+          font-size: 16px;
+        }
+      }
+    }
+}

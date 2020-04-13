@@ -18,12 +18,12 @@ const SalesforceConsultingFirst = () => {
         publicURL
       }
     }
-  `)
+  `);
 
   return (
     <div className="salesforce-consulting">
       <img src={data.salesforceConsulting.publicURL}/>
-      <div className="salesforce-consulting-content container">
+      <div className="salesforce-consulting-content">
         <div className="content-left content">
           <img src={data.digitalProductDevelopmentImg.publicURL}/>
           <h3>Salesforce and Digital Product Development</h3>

@@ -89,8 +89,8 @@
 //RESPONSIVE
 @media screen and (max-width: 1380px) {
   .salesforce-consulting-content-section {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     justify-content: flex-start;
     margin-left: 0;
     margin-right: 0;
@@ -176,7 +176,8 @@
       margin-left: 0;
       margin-right: 0;
       margin-top: 20px !important;
-      width: 60% !important;
+      width: 100% !important;
+      text-align: center;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -186,6 +187,14 @@
       .salesforce-consulting-content-section-text {
         width: 100% !important;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .salesforce-consulting-content-section {
+    .salesforce-consulting-content-section-right {
+      width: 100% !important;
     }
   }
 }
