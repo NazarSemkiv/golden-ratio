@@ -104,6 +104,20 @@
   }
 }
 
+@media screen and(max-width: 767px) {
+  .golden-ration-system {
+    height: 557px;
+    
+    .golden-ration-system-inner {
+      .golden-ration-system-inner-title, .golden-ration-system-inner-text {
+        width: unset;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
 @media screen and(max-width: 721px) {
   .golden-ration-system {
     margin-top: 80px;
@@ -118,10 +132,6 @@
           font-size: 72px;
           line-height: 70px;
         }
-      }
-
-      .golden-ration-system-inner-text {
-        width: 80vw;
       }
     }
   }
