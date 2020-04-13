@@ -1,4 +1,4 @@
-.contacts-container {
+.contacts-container, .contacts-container-success {
     position: relative;
     display: flex;
     justify-content: center;
@@ -242,7 +242,7 @@
 }
 
 @media screen and(max-width: 1799px) {
-    .contacts-container {
+    .contacts-container, .contacts-container-success {
         overflow: hidden;
     }
 }
@@ -295,11 +295,15 @@
 }
 
 @media screen and (max-width: 820px) {
-    .contacts-container {
+    .contacts-container, .contacts-container-success {
+        margin-top: 100px;
         .contacts-bg-one {
             display: none;
         }
         .contacts-bg-two {
+            display: none;
+        }
+        .contacts-bg-two-hide {
             display: none;
         }
         .contacts-left-right-container {
@@ -344,11 +348,17 @@
         }
     }
 }
+@media screen and (max-width: 820px) {
+    .contacts-container-success {
+        margin-top: 0 !important;
+    }
+    }
 
 
 @media screen and (max-width: 630px) {
-    .contacts-container {
+    .contacts-container, .contacts-container-success {
         .contacts-left-right-container {
+            padding: 30px 15px !important;
             .contacts-left {
                 .contacts-title {
                     font-size: 46px;
@@ -366,6 +376,25 @@
             }
             .contacts-right {
                 width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .contacts-container, .contacts-container-success {
+        .contacts-left-right-container {
+            .contacts-right {
+                .contact-form-container {
+                    .contact-form-top {
+                        .contact-form-title {
+                            font-size: 22px !important;
+                        }
+                    }
+                    .contact-form-user-data > * {
+                        font-size: 22px !important;
+                    }
+                }
             }
         }
     }
