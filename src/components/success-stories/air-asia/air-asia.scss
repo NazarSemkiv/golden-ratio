@@ -86,7 +86,8 @@
         }
 
         &-header {
-          font-family: "Proxima Nova";
+          //font-family: "Proxima Nova";
+          font-family: Proxima Nova;
           font-size: 30px;
           font-weight: 700;
           letter-spacing: -1.21px;
@@ -94,7 +95,8 @@
         }
 
         &-text {
-          font-family: "Proxima Nova";
+          //font-family: "Proxima Nova";
+          font-family: Proxima Nova;
           font-size: 18px;
           font-weight: 400;
           line-height: 24px;
@@ -106,14 +108,16 @@
           flex-direction: column;
 
           span:nth-child(1) {
-            font-family: "Proxima Nova";
+            //font-family: "Proxima Nova";
+            font-family: Proxima Nova;
             font-size: 20px;
             font-weight: 700;
             padding-bottom: 9px;
           }
 
           span:nth-child(2) {
-            font-family: "Proxima Nova";
+            //font-family: "Proxima Nova";
+            font-family: Proxima Nova;
             font-size: 18px;
             font-weight: 400;
             padding-left: 7px;
