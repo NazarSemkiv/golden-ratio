@@ -48,7 +48,6 @@
           opacity: .2;
 
           & > div {
-            //width: 786px;
             width: 836px;
           }
         }
@@ -134,10 +133,6 @@
 }
 
 @media screen and(max-width: 1599px) {
-  .air-asia {
-    //width: unset;
-  }
-
   .slider {
     .slick-list {
       .slick-track {
@@ -153,7 +148,6 @@
             top: 3vw;
             left: 12vw;
             width: 38vw;
-            //height: unset;
             padding: 2vw 2.3vw 2vw 2.4vw;
     
             .slider-item-content-img {
@@ -185,10 +179,10 @@
       .slick-list {
         .slick-track {
           .slick-slide {
-            width: 396px !important;
+            width: 776px !important;
   
             & > div {
-              width: 396px !important;
+              width: 776px !important;
             }
           }
 
@@ -203,6 +197,14 @@
     width: 1346px;
 
     .slider {
+      .slick-prev {
+        left: 44vw;
+      }
+
+      .slick-next {
+        left: 52vw;
+      }
+
       .slick-list {
         .slick-track {
           .slider-item {
@@ -246,14 +248,6 @@
               width: 500px;
               top: 35px;
               left: 160px;
-            }
-          }
-
-          .slick-slide {
-            //width: unset !important;
-  
-            & > div {
-              //width: unset !important;
             }
           }
         }
@@ -335,14 +329,13 @@
             margin-left: -64px;
 
             .slider-item-img {
-              //width: 752px;
               width: 105vw;
             }
 
             .slider-item-content {
               top: 14vw;
-              left: 17vw; 
-              width: 75vw;   
+              left: 14vw;
+              width: 82vw; 
               padding: 25px;      
 
               .slider-item-content-img {
@@ -369,8 +362,20 @@
 @media screen and(max-width: 500px) {
   .air-asia {
     .slider {
+      .slick-arrow {
+        top: 532px;
+      }
+
       .slick-next {
         left: 82vw;
+      }
+
+      .slick-list {
+        .slick-track {
+          .slider-item {
+            height: 517px;
+          }
+        }
       }
     }
   }
@@ -380,7 +385,7 @@
   .air-asia {
     .slider {
       .slick-arrow {
-        top: 650px;
+        top: 589px;
       }
 
       .slick-next {
@@ -391,10 +396,10 @@
 
         .slick-track {
           .slider-item {
-            height: 578px;
+            height: 537px;
 
             .slider-item-content {
-              left: 19.5vw;
+              left: 15vw;
             }
           }
         }

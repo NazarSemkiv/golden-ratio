@@ -62,10 +62,15 @@
   .our-client {
     width: unset;
     margin: 0 auto;
+    //height: unset;
 
     img:nth-child(1) {
       left: 50%; 
       transform: translate(-50%,0); 
+    }
+
+    .our-client-main {
+      margin: 132px auto 214px;
     }
   }
 }
@@ -120,6 +125,14 @@
       div {
         margin: 127px auto 0;
       }
+    }
+  }
+}
+
+@media screen and(max-width: 398px) {
+  .our-client {
+    .our-client-main {
+      margin: 73px auto 214px;
     }
   }
 }

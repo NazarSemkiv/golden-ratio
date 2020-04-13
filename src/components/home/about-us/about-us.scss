@@ -98,6 +98,7 @@
         width: 53vw;
         top: 28vw;
         left: -18vw;
+        z-index: -1;
       }
     }
 
@@ -194,14 +195,14 @@
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      margin-left: 115px;
+      margin-left: 142px;
 
       h2, p {
         text-align: right;
       }
 
       p {
-        width: 50vw;
+        width: 70vw;
       }
     }
   }
@@ -209,11 +210,10 @@
 
 @media screen and(max-width: 699px) {
   .about-us {
-    margin-top: 391px;
+    margin-top: 374px;
 
     .about-us-right {
       margin-top: 52px;
-      margin-left: 124px;
 
       h2 {
         font-size: 37px;
@@ -228,10 +228,10 @@
 
 @media screen and(max-width: 574px) {
   .about-us {
-    margin-top: 434px;
+    margin-top: 319px;
 
     .about-us-right {
-      margin-left: 25px;
+      margin-right: 53px;
 
       h2 {
         font-size: 36px;
@@ -240,7 +240,7 @@
 
       p {
         font-size: 18px;
-        width: 62vw;
+        width: 77vw;
       }
     }
   }
@@ -248,17 +248,32 @@
 
 @media screen and(max-width: 530px) {
   .about-us {
-    margin-top: 500px;
+    margin-top: 310px;
+
+    .about-us-right {
+      margin-right: 84px;
+      p {
+        width: 82vw;
+      }
+    }
   }
 }
 
 @media screen and(max-width: 474px) {
   .about-us {
     .about-us-right {
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-top: 55px;
+
       h2 {
         font-size: 32px;
         line-height: 30px;
-        width: 40vw;
+        width: unset;
+      }
+
+      p {
+        width: unset;
       }
     }
   }
@@ -266,31 +281,27 @@
 
 @media screen and(max-width: 398px) {
   .about-us {
-    margin-top: 520px;
+    margin-top: 374px;
   }
 }
 
 @media screen and(max-width: 396px) {
   .about-us {
-    margin-top: 470px;
+    margin-top: 305px;
   }
 }
 
 @media screen and(max-width: 380px) {
   .about-us {
-    margin-top: 520px;
+    margin-top: 304px;
 
     .about-us-right {
-      margin-left: 0;
-
       h2 {
         font-size: 30px;
         line-height: 27px;
-        width: 47vw;
       }
 
       p {
-        width: 74vw;
         margin-bottom: 30px;
       }
 
@@ -300,5 +311,11 @@
         justify-content: center;
       }
     }
+  }
+}
+
+@media screen and(max-width: 371px) {
+  .about-us {
+    margin-top: 351px;
   }
 }

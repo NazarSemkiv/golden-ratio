@@ -202,6 +202,12 @@
 @media screen and(max-width: 767px) {
   #why-we-made-content {
     .why-we-made-top {
+      .why-we-made-title p, .why-we-made-text {
+        width: unset;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      
       .why-we-made-title p {
         font-size: 64px;
       }

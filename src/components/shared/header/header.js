@@ -29,9 +29,6 @@ class Header extends Component {
               query {
                 logoGoldenRatio: file(relativePath: { eq: "logo-golden-ratio.svg" }) {
                   publicURL
-                },
-                goldenRationSystemBackground: file(relativePath: { eq: "golden-ration-system-background.svg" }) {
-                  publicURL
                 }
               }
             `}

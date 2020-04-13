@@ -46,7 +46,8 @@
 
   .slider {
     .slider-item {
-      margin-top: 25px;
+      margin-top: 32px;
+
       .success-story-comment {
         background-color: #fff;
         padding: 67px 88px 35px;
@@ -217,11 +218,16 @@ div.slick-slider.slider.container.slick-initialized {
   .success-story {
     width: 1170px;
 
+    .success-story-left-img2 {
+      top: 81px;
+    }
+
     .success-story-logos {
       img {
         z-index: -4;
         position: relative;
-        margin-top: 8px;
+        margin-top: 15px;
+        margin-left: 24px;
       }
     }
   }
@@ -263,6 +269,7 @@ div.slick-slider.slider.container.slick-initialized {
 
         .slider-item {
           width: 72vw !important;
+          margin-left: -3px;
 
           .success-story-comment {
             width: 72vw;
@@ -337,6 +344,8 @@ div.slick-slider.slider.container.slick-initialized {
 
 @media screen and(max-width: 660px) {
   .success-story {
+    margin-top: -33px;
+
     .success-story-left-img2 {
       top: 80px;
     }
@@ -376,7 +385,6 @@ div.slick-slider.slider.container.slick-initialized {
 
 @media screen and(max-width: 556px) {
   .success-story {
-
     .success-story-left-img2 {
       top: 67px;
     }
@@ -393,8 +401,11 @@ div.slick-slider.slider.container.slick-initialized {
     .slider {
       .slick-list {
         .slider-item {
+          margin-left: -43px;
+
           .success-story-comment {
-            padding: 32px 33px 31px 33px;
+            padding: 23px 21px 25px 21px;
+            width: 87vw;
 
             .success-story-comment-text {
               font-size: 18px;
@@ -422,18 +433,48 @@ div.slick-slider.slider.container.slick-initialized {
   }
 }
 
-@media screen and(max-width: 412px) {
+@media screen and(max-width: 451px) {
   .success-story {
+    margin-top: -45px;
+    
+    .slider {
+      .slick-list {
+        .slider-item {
+          margin-left: -37px;
+        }
+      }
+    }
+
     ul.slick-dots {
       left: 41.5vw;
     }
   }
 }
 
-@media screen and(max-width: 368px) {
+@media screen and(max-width: 375px) {
   .success-story {
+    .slider {
+      .slick-list {
+        .slider-item {
+          margin-left: -33px;
+        }
+      }
+    }
+
     ul.slick-dots {
       left: 39.7vw;
+    }
+  }
+}
+
+@media screen and(max-width: 355px) {
+  .success-story {
+    .slider {
+      .slick-list {
+        .slider-item {
+          margin-left: -28px;
+        }
+      }
     }
   }
 }
