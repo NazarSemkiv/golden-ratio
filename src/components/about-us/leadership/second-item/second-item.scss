@@ -82,9 +82,7 @@
 }
 
 
-
-
-@media screen and (max-width: 1386px) {
+@media screen and(max-width: 1386px) {
   .leadership-content-bottom {
     width: 80vw;
     display: flex;
@@ -136,7 +134,7 @@
 
       .johndoe-lawrence-big-img {
         width: 23vw;
-        margin-bottom: 0px;
+        margin-bottom: 0;
       }
     }
     .leadership-content-bottom-right {
@@ -216,12 +214,18 @@
 
 @media screen and(max-width: 545px) {
   .leadership-content-bottom {
+    padding-left: 21px;
+    padding-right: 17px;
+    width: unset;
+    margin-left: 15px;
+    margin-right: 15px;
+
     .up-triangle {
-      left: 25.3vw;
+      left: 35.3vw;
     }
 
     .down-triangle {
-      left: 25.3vw;
+      left: 35.3vw;
     }
 
     .leadership-content-bottom-left {
@@ -237,11 +241,21 @@
       .linked-in-img {
         width: 11vw;
       }
+
+      .leadership-bottom-title {
+        font-size: 39px;
+        line-height: 55px;
+      }
+
+      .leadership-bottom-text {
+        font-size: 16px;
+        width: unset;
+      }
     }
   }
 }
 
-@media screen and(max-width: 545px) {
+@media screen and(max-width: 445px) {
   .leadership-content-bottom {
     .leadership-content-bottom-right {
       .leadership-bottom-title {
@@ -258,9 +272,6 @@
 @media screen and(max-width: 372px) {
   .leadership-content-bottom {
     .leadership-content-bottom-right {
-      .leadership-bottom-title {
-        font-size: 25px;
-      }
       .leadership-bottom-text {
         font-size: 16px;
       }
