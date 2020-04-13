@@ -65,6 +65,8 @@
 
 @media screen and(max-width: 681px) {
   .our-family {
+    margin-top: -65px;
+
     .our-family-header-one {
       padding-bottom: 12px;
       font-size: 17px;
@@ -79,6 +81,12 @@
       padding-bottom: 10vw;
       width: 98vw;
     }
+  }
+}
+
+@media screen and(max-width: 606px) {
+  .our-family {
+    margin-top: -151px;
   }
 }
 

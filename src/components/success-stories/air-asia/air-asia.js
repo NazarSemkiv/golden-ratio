@@ -42,9 +42,7 @@ const AirAsia= () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: false,
-          centerPadding: '-430px',
-          //centerMode: true
+          dots: false
         },
       },
       {
@@ -54,8 +52,7 @@ const AirAsia= () => {
           slidesToScroll: 2,
           infinite: true,
           dots: false,
-          centerPadding: '-10px',
-          //centerMode: true
+          centerPadding: '-10px'
         },
       },
       {

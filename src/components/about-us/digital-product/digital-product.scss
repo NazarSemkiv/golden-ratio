@@ -233,6 +233,7 @@
       flex-direction: column-reverse;
       margin-left: 0;
       margin-right: 0;
+      margin-bottom: -18px;
 
       .digital-product-wrapper-right {
         width: unset;
@@ -280,7 +281,10 @@
         }
 
         .digital-product-text {
-          width: 82vw;
+          //width: 82vw;
+          width: unset;
+          margin-left: 15px;
+          margin-right: 15px;
         }
       }
     }
@@ -322,7 +326,7 @@
         }
 
         .digital-product-text {
-          width: 77vw;
+          //width: 77vw;
         }
       }
 

@@ -1,6 +1,6 @@
 .blog {
   position: relative;
-  margin-bottom: -35px;
+  //margin-bottom: -35px;
   display: flex;
   justify-content: center;
 
@@ -139,7 +139,12 @@
 
 @media screen and(max-width: 881px) {
   .blog {
+    .blog-bg {
+      margin-top: -71px;
+    }
+
     .blog-wrapper {
+      padding-top: 160px;
 
       h5 {
         font-size: 17px;
@@ -195,14 +200,14 @@
       
       .blog-wrapper-bottom {
         .blog-wrapper-bottom-content {
-          width: 62%;
+          width: 86%;
 
           &:nth-child(1) {
             margin-bottom: 30px;
           }
 
           & > img {
-            width: 62vw;
+            width: 86vw;
           }
 
           .bottom-block {
