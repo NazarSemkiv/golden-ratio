@@ -190,6 +190,25 @@
     align-items: center;
     width: unset;
 
+    .about-us-left {
+      .about-us-main-img {
+        width: 66vw;
+      }
+
+      .about-us-yellow-grid {
+        width: 35.5vw;
+      }
+
+      .about-us-circle {
+        width: 22vw;
+        height: 20vw;
+      }
+
+      .about-us-curvy-bg { 
+        width: 62vw;
+      }
+    }
+
     .about-us-right {
       margin-left: 0;
       margin-top: 70px;
@@ -250,6 +269,26 @@
 @media screen and(max-width: 530px) {
   .about-us {
     margin-top: 310px;
+
+    .about-us-left {
+      .about-us-main-img {
+        width: 78vw;
+      }
+
+      .about-us-yellow-grid {
+        width: 41.5vw;
+      }
+
+      .about-us-circle {
+        width: 24vw;
+        height: 22vw;
+        top: -5vw;
+      }
+
+      .about-us-curvy-bg { 
+        width: 80vw;
+      }
+    }
 
     .about-us-right {
       margin-right: 84px;
