@@ -51,7 +51,7 @@
 @media screen and (max-width: 820px) {
   .estimator-third {
     &-content {
-      padding: 0 40px;
+      padding: 0 15px;
       width: 100%;
       &-text {
         width: 100%;
@@ -59,6 +59,16 @@
       }
       .yellow-btn {
         font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .estimator-third {
+    &-content {
+      &-title {
+        margin-bottom: 10px;
       }
     }
   }

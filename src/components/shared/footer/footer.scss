@@ -117,3 +117,15 @@
         }
     }
 }
+
+@media screen and (max-width: 350px) {
+    .footer-container {
+        .footer-content {
+            .footer-bg-content {
+                .footer-logo-img {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
