@@ -241,6 +241,10 @@
     }
 }
 
+.contacts-container-success {
+    margin-top: -45px !important;
+}
+
 @media screen and(max-width: 1799px) {
     .contacts-container, .contacts-container-success {
         overflow: hidden;
@@ -348,11 +352,11 @@
         }
     }
 }
-@media screen and (max-width: 820px) {
-    .contacts-container-success {
-        margin-top: 0 !important;
-    }
-    }
+//@media screen and (max-width: 820px) {
+//    .contacts-container-success {
+//        margin-top: 0 !important;
+//    }
+//    }
 
 
 @media screen and (max-width: 630px) {
