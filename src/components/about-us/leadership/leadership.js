@@ -107,8 +107,8 @@ const Leadership = () => {
 
     return (
       <div id="leadership-content">
-        <h5 className="leadership-pre-title container">the team</h5>
-        <h2 className="leadership-title container">Our leadership</h2>
+        <h5 className="leadership-pre-title">the team</h5>
+        <h2 className="leadership-title">Our leadership</h2>
             <Slider {...settings} className="slider container">
               <div className="slider-item" name="firstSlide">
                 <div className="border-box-color">
