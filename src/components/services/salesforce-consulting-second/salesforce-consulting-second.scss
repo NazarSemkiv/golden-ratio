@@ -76,6 +76,11 @@
         justify-content: center;
         align-items: center;
 
+        img:nth-child(1) {
+          //width: 58px;
+          height: 61px;
+        }
+
         &-triangle {
           display: none;
           position: absolute;
