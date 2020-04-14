@@ -23,7 +23,7 @@
         margin-top: 30px;
         width: 489px;
         color: #ffffff;
-        //font-family: "Proxima Nova";
+        font-family: "Proxima Nova";
         font-family: Proxima Nova;
         font-size: 33px;
         font-weight: 700;
@@ -35,7 +35,7 @@
         margin-top: 28px;
         width: 489px;
         color: #c2c2c2;
-        //font-family: "Proxima Nova";
+        font-family: "Proxima Nova";
         font-family: Proxima Nova;
         font-size: 18px;
         font-weight: 400;
@@ -68,6 +68,13 @@
 }
 
 //RESPONSIVE
+@media screen and (min-width: 1601px) {
+  .salesforce-consulting {
+    background-color: #2a2a2b;
+    background: linear-gradient(90deg, rgba(45, 44, 45, 1) 30%,rgba(255, 255, 255, 1) 35%,rgba(255, 255, 255, 1) 50%, rgba(51, 50, 52, 1) 75%);
+  }
+}
+
 @media screen and (max-width: 1600px) {
   .salesforce-consulting-content {
     width: 100vw !important;

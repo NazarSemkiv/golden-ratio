@@ -251,10 +251,30 @@
     }
 }
 
-@media screen and (min-width: 1590px)  {
+@media screen and (min-width: 1601px) {
     .contacts-container {
+        .contacts-bg-one {
+            position: absolute;
+
+            .contacts-yellow-bg-grid {
+                transform: rotate(-54deg);
+                top: -53px;
+                left: -629px;
+            }
+
+            .contacts-brown-img {
+                left: -591px;
+            }
+
+            .contacts-circles {
+                margin-left: 199px;
+            }
+        }
+
         .contacts-bg-two {
-            width: 1600px;
+            //background-color: #333234;
+            min-width: 100%;
+            height: 100%;
         }
     }
 }
