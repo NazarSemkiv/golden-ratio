@@ -45,13 +45,14 @@
       }
     }
 
-    .content-left {
-      //width: 800px;
+    .content-left, .content-right {
+      img:nth-child(1) {
+        width: 129px;
+        height: 129px;
+      }
     }
     
     .content-right {
-      //width: 800px;
-
       h3 {
         width: 488px;
         margin-top: 30px;

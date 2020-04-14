@@ -1,6 +1,6 @@
 .about-us {
   display: flex;
-  margin-top: 77px;
+  margin-top: 119px;
 
   .about-us-left {
     position: relative;
@@ -40,7 +40,7 @@
 
     h5, h2, p {
       color: #333234;
-      //font-family: "Proxima Nova";
+      font-family: "Proxima Nova";
       font-family: Proxima Nova;
     }
 
@@ -153,6 +153,12 @@
   }
 }
 
+@media screen and(max-width: 898px) {
+  .about-us {
+    margin-top: 155px;
+  }
+}
+
 @media screen and(max-width: 880px) {
   .about-us {
     .about-us-right {
@@ -185,7 +191,7 @@
 
 @media screen and(max-width: 767px) {
   .about-us {
-    margin-top: 425px;
+    margin-top: 497px;
     flex-direction: column;
     align-items: center;
     width: unset;
@@ -230,7 +236,7 @@
 
 @media screen and(max-width: 699px) {
   .about-us {
-    margin-top: 400px;
+    margin-top: 493px;
 
     .about-us-left {
       .about-us-circle {
@@ -254,7 +260,7 @@
 
 @media screen and(max-width: 574px) {
   .about-us {
-    margin-top: 319px;
+    margin-top: 413px;
 
     .about-us-right {
       margin-right: 53px;
@@ -274,7 +280,7 @@
 
 @media screen and(max-width: 530px) {
   .about-us {
-    margin-top: 310px;
+    margin-top: 411px;
 
     .about-us-left {
       .about-us-main-img {
@@ -284,12 +290,6 @@
       .about-us-yellow-grid {
         width: 41.5vw;
       }
-
-      // .about-us-circle {
-      //   width: 24vw;
-      //   height: 22vw;
-      //   top: -5vw;
-      // }
 
       .about-us-curvy-bg { 
         width: 80vw;
@@ -305,8 +305,10 @@
   }
 }
 
-@media screen and(max-width: 474px) {
+@media screen and(max-width: 490px) {
   .about-us {
+    margin-top: 421px;
+
     .about-us-right {
       margin-left: 15px;
       margin-right: 15px;
@@ -325,22 +327,20 @@
   }
 }
 
-@media screen and(max-width: 402px) {
+@media screen and(max-width: 416px) {
   .about-us {
-    margin-top: 374px;
+    margin-top: 476px;
   }
 }
 
-@media screen and(max-width: 396px) {
+@media screen and(max-width: 401px) {
   .about-us {
-    margin-top: 305px;
+    margin-top: 510px;
   }
 }
 
 @media screen and(max-width: 380px) {
   .about-us {
-    margin-top: 304px;
-
     .about-us-right {
       h2 {
         font-size: 30px;
@@ -357,11 +357,5 @@
         justify-content: center;
       }
     }
-  }
-}
-
-@media screen and(max-width: 371px) {
-  .about-us {
-    margin-top: 379px;
   }
 }

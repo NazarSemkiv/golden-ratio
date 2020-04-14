@@ -36,19 +36,19 @@ const SalesforceProduct = () => {
       salesforceProductDevIcons: file(relativePath: { eq: "salesforce-product-dev-icons.png" }) {
         publicURL
       },
-      customApplications: file(relativePath: { eq: "custom-applications.svg" }) {
+      customApplications: file(relativePath: { eq: "custom-applications-2.svg" }) {
         publicURL
       },
-      cpqApplications: file(relativePath: { eq: "cpq-applications.svg" }) {
+      cpqApplications: file(relativePath: { eq: "cpq-applications-2.svg" }) {
         publicURL
       },
       managedPackages: file(relativePath: { eq: "managed-packages.svg" }) {
         publicURL
       },
-      fullStackDevelopmentIcon: file(relativePath: { eq: "full-stack-development.svg" }) {
+      fullStackDevelopmentIcon: file(relativePath: { eq: "full-stack-development-2.svg" }) {
         publicURL
       },
-      mobileAppDevelopment: file(relativePath: { eq: "mobile-app-development.svg" }) {
+      mobileAppDevelopment: file(relativePath: { eq: "mobile-app-development-2.svg" }) {
         publicURL
       },
       fullStackDevelopmentDg: file(relativePath: { eq: "full-stack-development-bg.png" }) {

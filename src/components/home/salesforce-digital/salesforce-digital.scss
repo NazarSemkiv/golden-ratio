@@ -19,6 +19,11 @@
       border-radius: 25px;
       padding: 70px 94px 57px 57px;
 
+      img {
+        width: 129px;
+        height: 129px;
+      }
+
       h3, p {
         color: #333234;
         //font-family: "Proxima Nova";
@@ -48,6 +53,11 @@
       background-color: #fff;
       border-radius: 25px;
       padding: 72px 106px 145px 57px;
+
+      img {
+        width: 129px;
+        height: 129px;
+      }
 
       h3, p {
         color: #333234;
@@ -129,11 +139,14 @@
       .salesforce-digital-left {
         width: 43%;
         margin-right: 10px;
+        padding: 58px 94px 57px 57px;
 
         h3 {
           width: 36vw;
           font-size: 29px;
           line-height: 33px;
+          margin-top: 21px;
+          margin-bottom: 22px;
         }
 
         p {
@@ -143,10 +156,13 @@
       .salesforce-digital-right {
         width: 43%;
         margin-left: 10px;
+        padding: 58px 94px 57px 57px;
 
         h3 {
           width: 36vw;
           font-size: 29px;
+          margin-top: 21px;
+          margin-bottom: 22px;
         }
 
         p {
@@ -165,7 +181,7 @@
         padding: 58px 94px 57px 57px;
 
         img {
-          width: 11vw;
+          width: 15vw;
         }
 
         h3 {
@@ -178,7 +194,7 @@
         padding: 58px 106px 145px 57px;
 
         img {
-          width: 11vw;
+          width: 15vw;
         }
 
         h3 {
@@ -201,6 +217,10 @@
         padding: 58px 55px 60px 57px;
         margin-right: 0;
 
+        img {
+          width: 17vw;
+        }
+
         h3 {
           width: 56vw;
           margin-right: 0;
@@ -217,6 +237,10 @@
         z-index: 999;
         padding: 58px 68px 145px 57px;
         margin-left: 0;
+
+        img {
+          width: 17vw;
+        }
 
         h3 {
           width: 56vw;
@@ -242,7 +266,7 @@
 
       .salesforce-digital-left {
         img {
-          width: 14vw;
+          width: 22vw;
         }
         
         h3, p {
@@ -251,11 +275,23 @@
       }
       .salesforce-digital-right {
         img {
-          width: 14vw;
+          width: 22vw;
         }
 
         h3, p {
           width: unset;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 445px) {
+  .salesforce-digital {
+    .salesforce-digital-container {
+      .salesforce-digital-left, .salesforce-digital-right {
+        img {
+          width: 29vw;
         }
       }
     }
@@ -268,7 +304,7 @@
       .salesforce-digital-left {
         //padding: 40px 38px 78px 46px;
         img {
-          width: 17vw;
+          width: 31vw;
         }
 
         h3 {
@@ -283,7 +319,7 @@
       .salesforce-digital-right {
         //padding: 40px 38px 71px 46px;
         img {
-          width: 17vw;
+          width: 31vw;
         }
 
         h3 {

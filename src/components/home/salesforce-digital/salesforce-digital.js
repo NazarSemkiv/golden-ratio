@@ -8,10 +8,10 @@ const SalesforceDigital = () => {
       salesforceDigitalBg: file(relativePath: { eq: "salesforce-digital-bg.svg" }) {
         publicURL
       },
-      productDevelopment: file(relativePath: { eq: "product-development.svg" }) {
+      productDevelopment: file(relativePath: { eq: "product-development-2.svg" }) {
         publicURL
       },
-      salesforceConsultingImg: file(relativePath: { eq: "salesforce-consulting-img.svg" }) {
+      salesforceConsultingImg: file(relativePath: { eq: "salesforce-consulting-img-2.svg" }) {
         publicURL
       }
     }

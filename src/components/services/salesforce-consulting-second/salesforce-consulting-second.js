@@ -41,19 +41,19 @@ const SalesforceConsultingSecond = () => {
       designAndArchitecture: file(relativePath: { eq: "design-and-architecture.svg" }) {
         publicURL
       },
-      customization: file(relativePath: { eq: "customization.svg" }) {
+      customization: file(relativePath: { eq: "customization-2.svg" }) {
         publicURL
       },
-      integrations: file(relativePath: { eq: "integrations.svg" }) {
+      integrations: file(relativePath: { eq: "integrations-2.svg" }) {
         publicURL
       },
-      communityImplementations: file(relativePath: { eq: "community-implementations.svg" }) {
+      communityImplementations: file(relativePath: { eq: "community-implementations-2.svg" }) {
         publicURL
       },
-      securityAssessments: file(relativePath: { eq: "security-assessments.svg" }) {
+      securityAssessments: file(relativePath: { eq: "security-assessments-2.svg" }) {
         publicURL
       },
-      salesforceCpqImplementations: file(relativePath: { eq: "salesforce-cpq-implementations.svg" }) {
+      salesforceCpqImplementations: file(relativePath: { eq: "salesforce-cpq-implementations-2.svg" }) {
         publicURL
       },
       designAndArchitectureImg: file(relativePath: { eq: "design-and-architecture-img.png" }) {

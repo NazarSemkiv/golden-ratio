@@ -8,10 +8,10 @@ const SalesforceConsultingFirst = () => {
       salesforceConsulting: file(relativePath: { eq: "salesforce-consulting.svg" }) {
         publicURL
       },
-      digitalProductDevelopmentImg: file(relativePath: { eq: "digital-product-development-img.svg" }) {
+      digitalProductDevelopmentImg: file(relativePath: { eq: "product-development-2.svg" }) {
         publicURL
       },
-      salesforceConsultingIcon: file(relativePath: { eq: "salesforce-consulting-icon.svg" }) {
+      salesforceConsultingIcon: file(relativePath: { eq: "salesforce-consulting-img-2.svg" }) {
         publicURL
       },
       salesforceConsultingNext: file(relativePath: { eq: "salesforce-consulting-next.svg" }) {
