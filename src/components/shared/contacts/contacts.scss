@@ -251,6 +251,14 @@
     }
 }
 
+@media screen and (min-width: 1590px)  {
+    .contacts-container {
+        .contacts-bg-two {
+            width: 1600px;
+        }
+    }
+}
+
 @media screen and (max-width: 1170px) {
     .contacts-left-right-container {
         width: 100vw;

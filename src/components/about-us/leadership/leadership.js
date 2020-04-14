@@ -10,16 +10,6 @@ import FifthItem from './fifth-item/fifth-item';
 
 const Leadership = () => {
 
-  // let nextSlideArrow = document.getElementsByClassName('slick-prev');
-  // for (let i = 0; i < 2; i++) {
-  //   document.getElementsByClassName('slick-prev').addEventListener('click', changeSliderContent, false);
-  //   document.getElementsByClassName('slick-next').addEventListener('click', changeSliderContent, false);
-  // }
-  //
-  // function changeSliderContent() {
-  //   alert('hi');
-  // }
-
   const data = useStaticQuery(graphql`
     query {
       arrowPrev: file(relativePath: { eq: "arrow-prev.svg" }) {
@@ -59,12 +49,12 @@ const Leadership = () => {
   `);
 
   const settings = {
+    // className: 'slider-one',
+    // asNavFor: 'slider-two',
     dots: false,
-    // centerMode: true,
     infinite: true,
     slidesToShow: 5,
     slidesToScroll: 1,
-    //autoplay: true,
     speed: 1000,
     pauseOnHover: true,
     autoplaySpeed: 2000,
@@ -105,12 +95,24 @@ const Leadership = () => {
     ],
   };
 
+  const settingsTwo = {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      speed: 1000,
+      fade: true,
+      cssEase: 'linear',
+      arrows: false,
+      dots: false,
+      // asNavFor: '.slider',
+    };
+
     return (
       <div id="leadership-content">
         <h5 className="leadership-pre-title">the team</h5>
         <h2 className="leadership-title">Our leadership</h2>
-            <Slider {...settings} className="slider container">
-              <div className="slider-item" name="firstSlide">
+        <Slider {...settings} className="slider container">
+        {/*<div className="slider container">*/}
+              <div className="slider-item">
                 <div className="border-box-color">
                   <div className="leadership-team-content">
                     <img className="johndoe-lawrence-first" src={data.johndoeLawrenceFirst.publicURL}/>
@@ -124,7 +126,7 @@ const Leadership = () => {
                   <p>CEO & Founder</p>
                 </div>
               </div>
-              <div className="slider-item" name="secondSlide">
+              <div className="slider-item">
                 <div className="border-box-color">
                   <div className="leadership-team-content">
                     <img className="johndoe-lawrence-img" src={data.johndoeLawrenceSecond.publicURL}/>
@@ -138,7 +140,7 @@ const Leadership = () => {
                   <p>CEO & Founder</p>
                 </div>
               </div>
-              <div className="slider-item" name="thirdSlide">
+              <div className="slider-item">
                 <div className="border-box-color">
                   <div className="leadership-team-content">
                     <img className="johndoe-lawrence-img" src={data.johndoeLawrenceThird.publicURL}/>
@@ -152,7 +154,7 @@ const Leadership = () => {
                   <p>CEO & Founder</p>
                 </div>
               </div>
-              <div className="slider-item" name="fourthSlide">
+              <div className="slider-item">
                 <div className="border-box-color">
                   <div className="leadership-team-content">
                     <img className="johndoe-lawrence-img" src={data.johndoeLawrenceFourth.publicURL}/>
@@ -166,7 +168,7 @@ const Leadership = () => {
                   <p>CEO & Founder</p>
                 </div>
               </div>
-              <div className="slider-item" name="fifthSlide">
+              <div className="slider-item">
                 <div className="border-box-color">
                   <div className="leadership-team-content">
                     <img className="johndoe-lawrence-img" src={data.johndoeLawrenceFifth.publicURL}/>
@@ -180,7 +182,7 @@ const Leadership = () => {
                   <p>CEO & Founder</p>
                 </div>
               </div>
-              <div className="slider-item" name="firstSlide">
+              <div className="slider-item">
                 <div className="border-box-color">
                   <div className="leadership-team-content">
                     <img className="johndoe-lawrence-first" src={data.johndoeLawrenceFirst.publicURL}/>
@@ -194,7 +196,7 @@ const Leadership = () => {
                   <p>CEO & Founder</p>
                 </div>
               </div>
-              <div className="slider-item" name="secondSlide">
+              <div className="slider-item">
                 <div className="border-box-color">
                   <div className="leadership-team-content">
                     <img className="johndoe-lawrence-img" src={data.johndoeLawrenceSecond.publicURL}/>
@@ -208,7 +210,7 @@ const Leadership = () => {
                   <p>CEO & Founder</p>
                 </div>
               </div>
-              <div className="slider-item" name="thirdSlide">
+              <div className="slider-item">
                 <div className="border-box-color">
                   <div className="leadership-team-content">
                     <img className="johndoe-lawrence-img" src={data.johndoeLawrenceThird.publicURL}/>
@@ -222,7 +224,7 @@ const Leadership = () => {
                   <p>CEO & Founder</p>
                 </div>
               </div>
-              <div className="slider-item" name="fourthSlide">
+              <div className="slider-item">
                 <div className="border-box-color">
                   <div className="leadership-team-content">
                     <img className="johndoe-lawrence-img" src={data.johndoeLawrenceFourth.publicURL}/>
@@ -236,7 +238,7 @@ const Leadership = () => {
                   <p>CEO & Founder</p>
                 </div>
               </div>
-              <div className="slider-item" name="fifthSlide">
+              <div className="slider-item">
                 <div className="border-box-color">
                   <div className="leadership-team-content">
                     <img className="johndoe-lawrence-img" src={data.johndoeLawrenceFifth.publicURL}/>
@@ -250,40 +252,17 @@ const Leadership = () => {
                   <p>CEO & Founder</p>
                 </div>
               </div>
-            </Slider>
-        {/*<div className="leadership-content-bottom container">*/}
-        {/*  <div className="circle"></div>*/}
-        {/*  <div className="up-triangle"></div>*/}
-        {/*  <div className="down-triangle"></div>*/}
-        {/*  <div className="leadership-content-bottom-left">*/}
-        {/*    <img className="johndoe-lawrence-big-img" src={data.leadershipContentBottomImg.publicURL}/>*/}
-        {/*  </div>*/}
-        {/*  <div className="leadership-content-bottom-right">*/}
-        {/*    <h4 className="leadership-bottom-title">Johndoe Lawrence</h4>*/}
-        {/*    <p className="leadership-bottom-text text-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu tellus massa. Nullam nec vulputate ex. Sed at consequat tortor. Donec vitae commodo augue, non imperdiet ex. Vivamus mollis at purus ac congue. Proin nec nibh quis tortor venenatis euismod et sed tortor. Mauris lobortis mattis commodo.</p>*/}
-        {/*    <p className="leadership-bottom-text">Etiam sem lectus, pellentesque eget consectetur vitae, sodales tempus augue. In non tincidunt augue. Phasellus mattis nunc dui, a dapibus mi pulvinar nec. Fusce luctus mauris a elementum posuere. Aenean eu consequat nibh, ac ulla- mcorper quam. In sodales tincidunt bibendum. Proin fringilla cursus nunc. Ut neque est, pellentesque a ligula eget, sagittis molestie erat. Vestibulum sed tellus sem. Fusce malesuada ullamcorper fringilla. Donec eget faucibus massa, vel laoreet quam. Nulla nec condimentum orci, ut efficitur ante. Quisque lobor- tis hendrerit tellus, et placerat erat volutpat sit amet. Integer ultricies tempor elit vitae congue. Ut porta et lectus et dictum.</p>*/}
-        {/*    <img className="linked-in-img" src={data.linkedIn.publicURL}/>*/}
-        {/*  </div>*/}
+         </Slider>
+            {/*</div>*/}
+        <Slider {...settingsTwo} className="slider-two container">
+        {/*<div className="slider-two container">*/}
+            <FirstItem/>
+            <SecondItem/>
+            <ThirdItem/>
+            <FourthItem/>
+            <FifthItem/>
         {/*</div>*/}
-        <div name="sliderContent" style={{display: 'none'}}>
-          <FirstItem/>
-        </div>
-
-        <div name="sliderContent" style={{display: 'block'}}>
-          <SecondItem/>
-        </div>
-
-        <div name="sliderContent" style={{display: 'none'}}>
-          <ThirdItem/>
-        </div>
-
-        <div name="sliderContent" style={{display: 'none'}}>
-          <FourthItem/>
-        </div>
-
-        <div name="sliderContent" style={{display: 'none'}}>
-          <FifthItem/>
-        </div>
+        </Slider>
       </div>
     )
 };

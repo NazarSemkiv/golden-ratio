@@ -50,6 +50,16 @@
     }
 }
 
+@media screen and (min-width: 1599px)  {
+    .footer-container {
+        .footer-content {
+            .footer-bg-img {
+                width: 1600px;
+            }
+        }
+    }
+}
+
 
 @media screen and (max-width: 1170px) {
     .footer-container {
