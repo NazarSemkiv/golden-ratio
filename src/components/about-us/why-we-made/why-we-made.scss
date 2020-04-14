@@ -226,6 +226,10 @@
       }
     }
 
+    .why-we-made-yellow-bg {
+      margin-top: 755px;
+    }
+
     .why-we-made-bottom {
       flex-wrap: wrap;
       justify-content: center;
@@ -240,11 +244,13 @@
 
         .why-we-made-bottom-bold-text {
           font-size: 67px;
+          margin-top: 11px;
         }
 
         .why-we-made-bottom-text {
-          line-height: 33.15px;
+          //line-height: 33.15px;
           font-size: 21px;
+          margin-top: 5px;
         }
       }
 
@@ -318,6 +324,10 @@
       .why-we-made-quotes {
         font-size: 17px;
       }
+    }
+    
+    .why-we-made-yellow-bg {
+      margin-top: 778px;
     }
 
     .why-we-made-bottom {

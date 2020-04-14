@@ -331,6 +331,7 @@
         .slick-track {
           .slider-item {
             margin-left: -64px;
+            width: 735px !important;
 
             .slider-item-img {
               width: 105vw;
@@ -338,9 +339,9 @@
 
             .slider-item-content {
               top: 14vw;
-              left: 14vw;
+              left: 13vw;
               width: 82vw; 
-              padding: 25px;      
+              padding: 25px;
 
               .slider-item-content-img {
                 bottom: 11px;
@@ -355,6 +356,22 @@
               .slider-item-content-text {
                 font-size: 17px;
               }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 601px) {
+  .air-asia {
+    .slider {
+      .slick-list {
+        .slick-track {
+          .slider-item {
+            .slider-item-content {
+              left: 14vw;
             }
           }
         }
@@ -385,6 +402,26 @@
   }
 }
 
+@media screen and(max-width: 473px) {
+  .air-asia {
+    .slider {
+      .slick-list {
+        .slick-track {
+          .slider-item {
+            .slider-item-content {
+              left: 14.5vw;
+            }
+
+            .slider-item-img {
+              width: 107vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and(max-width: 403px) {
   .air-asia {
     .slider {
@@ -404,6 +441,46 @@
 
             .slider-item-content {
               left: 15vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 395px) {
+  .air-asia {
+    .slider {
+      .slick-list {
+        .slick-track {
+          .slider-item {
+            .slider-item-content {
+              left: 15.5vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 363px) {
+  .air-asia {
+    .slider {
+      .slick-prev {
+        left: 27px;
+      }
+
+      .slick-next {
+        left: 84.5vw;
+      }
+
+      .slick-list {
+        .slick-track {
+          .slider-item {
+            .slider-item-content {
+              left: 16vw;
             }
           }
         }
