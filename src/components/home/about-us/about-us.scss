@@ -230,7 +230,13 @@
 
 @media screen and(max-width: 699px) {
   .about-us {
-    margin-top: 374px;
+    margin-top: 400px;
+
+    .about-us-left {
+      .about-us-circle {
+        display: none;
+      }
+    }
 
     .about-us-right {
       margin-top: 52px;
@@ -279,11 +285,11 @@
         width: 41.5vw;
       }
 
-      .about-us-circle {
-        width: 24vw;
-        height: 22vw;
-        top: -5vw;
-      }
+      // .about-us-circle {
+      //   width: 24vw;
+      //   height: 22vw;
+      //   top: -5vw;
+      // }
 
       .about-us-curvy-bg { 
         width: 80vw;
@@ -319,7 +325,7 @@
   }
 }
 
-@media screen and(max-width: 398px) {
+@media screen and(max-width: 402px) {
   .about-us {
     margin-top: 374px;
   }
@@ -356,6 +362,6 @@
 
 @media screen and(max-width: 371px) {
   .about-us {
-    margin-top: 351px;
+    margin-top: 379px;
   }
 }
