@@ -32,104 +32,104 @@
 .slider, .slider-two {
   position: relative;
 
-  .slider-item {
-    position: relative;
-    text-align: center;
-    margin-left: 25px;
-
-    .border-box-color {
-      border: 8px solid #f2f2f2;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 203px;
-      height: 202px;
-      z-index: -2;
-    }
-
-    .leadership-team-content {
-      position: relative;
-      width: 157px;
-      height: 157px;
-      box-shadow: 0 1px 35px rgba(0, 0, 1, 0.13);
-      border: 8px solid #ffffff;
-      background-color: #fdfdfd;
-      border-radius: 50%;
-      z-index: 99;
-
-      .johndoe-lawrence-first {
-        position: absolute;
-        left: 18px;
-        top: 1px;
-        width: 105px;
-        height: 140px;
-      }
-
-      .johndoe-lawrence-img {
-        position: absolute;
-        left: 1px;
-        top: 1px;
-        width: 140px;
-        height: 140px;
-      }
-    }
-
-    .triangle-first {
-      width: 60px;
-      height: 60px;
-      border-bottom: solid 30px #fff;
-      border-right: solid 30px #fff;
-      border-left: solid 30px transparent;
-      border-top: solid 30px transparent;
-      position: absolute;
-      z-index: 0;
-      margin-left: 80px;
-      top: -12px;
-    }
-
-    .white-area {
-      width: 40px;
-      height: 147px;
-      background-color: #fff;
-      position: absolute;
-      margin-left: 90px;
-      z-index: 0;
-    }
-
-    .triangle-second {
-      position: absolute;
-      width: 60px;
-      height: 30px;
-      border-top: solid 30px #fff;
-      border-left: solid 30px transparent;
-      border-right: solid 30px transparent;
-      z-index: 0;
-      right: 13px;
-      top: 163px;
-    }
-
-    .team-text {
-      margin-top: 10px;
-
-      h6, p {
-        width: 203px;
-        color: #333234;
-        //font-family: "Proxima Nova";
-        font-family: Proxima Nova;
-        font-size: 18px;
-        text-align: center;
-      }
-
-      h6 {
-        font-weight: 700;
-      }
-
-      p {
-        font-weight: 400;
-      }
-    }
-  }
+  //.slider-item {
+  //  position: relative;
+  //  text-align: center;
+  //  margin-left: 25px;
+  //
+  //  .border-box-color {
+  //    border: 8px solid #f2f2f2;
+  //    border-radius: 50%;
+  //    display: flex;
+  //    justify-content: center;
+  //    align-items: center;
+  //    width: 203px;
+  //    height: 202px;
+  //    z-index: -2;
+  //  }
+  //
+  //  .leadership-team-content {
+  //    position: relative;
+  //    width: 157px;
+  //    height: 157px;
+  //    box-shadow: 0 1px 35px rgba(0, 0, 1, 0.13);
+  //    border: 8px solid #ffffff;
+  //    background-color: #fdfdfd;
+  //    border-radius: 50%;
+  //    z-index: 99;
+  //
+  //    .johndoe-lawrence-first {
+  //      position: absolute;
+  //      left: 18px;
+  //      top: 1px;
+  //      width: 105px;
+  //      height: 140px;
+  //    }
+  //
+  //    .johndoe-lawrence-img {
+  //      position: absolute;
+  //      left: 1px;
+  //      top: 1px;
+  //      width: 140px;
+  //      height: 140px;
+  //    }
+  //  }
+  //
+  //  .triangle-first {
+  //    width: 60px;
+  //    height: 60px;
+  //    border-bottom: solid 30px #fff;
+  //    border-right: solid 30px #fff;
+  //    border-left: solid 30px transparent;
+  //    border-top: solid 30px transparent;
+  //    position: absolute;
+  //    z-index: 0;
+  //    margin-left: 80px;
+  //    top: -12px;
+  //  }
+  //
+  //  .white-area {
+  //    width: 40px;
+  //    height: 147px;
+  //    background-color: #fff;
+  //    position: absolute;
+  //    margin-left: 90px;
+  //    z-index: 0;
+  //  }
+  //
+  //  .triangle-second {
+  //    position: absolute;
+  //    width: 60px;
+  //    height: 30px;
+  //    border-top: solid 30px #fff;
+  //    border-left: solid 30px transparent;
+  //    border-right: solid 30px transparent;
+  //    z-index: 0;
+  //    right: 13px;
+  //    top: 163px;
+  //  }
+  //
+  //  .team-text {
+  //    margin-top: 10px;
+  //
+  //    h6, p {
+  //      width: 203px;
+  //      color: #333234;
+  //      //font-family: "Proxima Nova";
+  //      font-family: Proxima Nova;
+  //      font-size: 18px;
+  //      text-align: center;
+  //    }
+  //
+  //    h6 {
+  //      font-weight: 700;
+  //    }
+  //
+  //    p {
+  //      font-weight: 400;
+  //    }
+  //  }
+  //}
 
   .slick-track {
     display: flex;
