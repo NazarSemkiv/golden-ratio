@@ -19,7 +19,7 @@
     .why-we-made-pre-title {
       margin-top: 246px;
       color: #ffffff;
-      //font-family: "Proxima Nova";
+      font-family: "Proxima Nova";
       font-family: Proxima Nova;
       font-size: 18px;
       font-weight: 700;
@@ -30,7 +30,7 @@
     .why-we-made-title p {
       width: 1087px;
       color: #f4f05e;
-      //font-family: "Proxima Nova";
+      font-family: "Proxima Nova";
       font-family: Proxima Nova;
       font-size: 89px;
       font-weight: 700;
@@ -41,7 +41,7 @@
     .why-we-made-text {
       width: 1087px;
       color: #ffffff;
-      //font-family: "Proxima Nova";
+      font-family: "Proxima Nova";
       font-family: Proxima Nova;
       font-size: 30px;
       font-weight: 400;
@@ -84,7 +84,7 @@
 
       .why-we-made-bottom-bold-text {
         color: #333234;
-        //font-family: "Proxima Nova";
+        font-family: "Proxima Nova";
         font-family: Proxima Nova;
         font-size: 97px;
         font-weight: 700;
@@ -94,12 +94,31 @@
 
       .why-we-made-bottom-text {
         color: #333234;
-        //font-family: "Proxima Nova";
+        font-family: "Proxima Nova";
         font-family: Proxima Nova;
         font-size: 24px;
         font-weight: 700;
         line-height: 58.15px;
       }
+    }
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  #why-we-made-content {
+    .why-we-made-main-img-wrapper {
+      width: 100%;
+
+      .why-we-made-main-img {
+        margin-top: 56px;
+        width: 100%;
+        height: 999px;
+      }
+    }
+
+    .why-we-made-yellow-bg {
+      width: 100%;
+      height: 800px;
     }
   }
 }
