@@ -16,7 +16,7 @@
     
     h5, h2 {
       color: #333234;
-      //font-family: "Proxima Nova";
+      font-family: "Proxima Nova";
       font-family: Proxima Nova;
       font-weight: 700;
       text-align: center;
@@ -64,7 +64,7 @@
             h6 {
               opacity: 0.8;
               color: #333234;
-              //font-family: "Proxima Nova";
+              font-family: "Proxima Nova";
               font-family: Proxima Nova;
               font-size: 18px;
               font-weight: 400;
@@ -75,7 +75,7 @@
 
           h4 {
             color: #333234;
-            //font-family: "Proxima Nova";
+            font-family: "Proxima Nova";
             font-family: Proxima Nova;
             font-size: 22px;
             font-weight: 700;
@@ -84,6 +84,14 @@
           }
         }
       }
+    }
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  .blog {
+    .blog-bg {
+      width: 100%;
     }
   }
 }

@@ -26,7 +26,7 @@
 
       h3, p {
         color: #333234;
-        //font-family: "Proxima Nova";
+        font-family: "Proxima Nova";
         font-family: Proxima Nova;
       }
 
@@ -61,7 +61,7 @@
 
       h3, p {
         color: #333234;
-        //font-family: "Proxima Nova";
+        font-family: "Proxima Nova";
         font-family: Proxima Nova;
       }
 
@@ -81,6 +81,66 @@
         letter-spacing: 0.9px;
         margin-bottom: 31px;
       }
+    }
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  .salesforce-digital {
+    .salesforce-digital-bg {
+      width: 100%;
+      margin-top: -325px;
+      margin-bottom: 55px;
+    }
+  }
+}
+
+@media screen and (min-width: 1834px) {
+  .salesforce-digital {
+    .salesforce-digital-bg {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .salesforce-digital {
+    .salesforce-digital-bg {
+      margin-bottom: -25px;
+      margin-top: -367px;
+    }
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  .salesforce-digital {
+    .salesforce-digital-bg {
+      margin-bottom: -6vw;
+      margin-top: -17vw;
+    }
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .salesforce-digital {
+    .salesforce-digital-bg {
+      margin-bottom: -232px;
+    }
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  .salesforce-digital {
+    .salesforce-digital-bg {
+      margin-bottom: -12vw;
+    }
+  }
+}
+
+@media screen and (min-width: 4000px) {
+  .salesforce-digital {
+    .salesforce-digital-bg {
+      margin-bottom: -16vw;
     }
   }
 }
