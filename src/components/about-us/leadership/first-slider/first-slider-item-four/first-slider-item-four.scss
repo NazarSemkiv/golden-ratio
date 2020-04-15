@@ -18,7 +18,7 @@
     position: relative;
     width: 157px;
     height: 157px;
-    box-shadow: 0 1px 35px rgba(0, 0, 1, 0.13);
+    box-shadow: 0 1px 30px rgba(0, 0, 1, 0.13);
     border: 8px solid #ffffff;
     background-color: #fdfdfd;
     border-radius: 50%;
@@ -85,6 +85,7 @@
       font-family: Proxima Nova;
       font-size: 18px;
       text-align: center;
+      margin-bottom: 6px;
     }
 
     h6 {
