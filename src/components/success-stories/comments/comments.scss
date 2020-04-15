@@ -88,33 +88,42 @@
 
     .slick-list {
       .slick-track {
+        justify-content: space-between;
         .slick-slide {
           position: relative;
-          width: 854px !important;
-          margin: 2px 50px 0 0;
+          margin-right: 0.44444444444% !important;
+
+          & > div {
+            width: 100%;
+            display: flex;
+            margin-bottom: 38px !important;
+
+            .slider-item {
+              margin-left: 0;
+            }
+          }
 
           & > div:nth-child(1) {
             position: inherit;
-            right: 465px !important;
+            right: -20.75% !important;
           }
           & > div:nth-child(2) {
             position: inherit;
-            left: 65px !important;
+            left: 73.8125% !important;
           }
         }
       }
     }
 
     &-item {
-      height: 367px;
-      width: 854px !important;
+      //height: 367px;
+      //width: 854px !important;
       text-align: left;
       padding: 27px 98px 76px 66px;
       box-shadow: 0 1px 32px rgba(0, 0, 1, 0.1);
       border: 2px solid #ede811;
       border-radius: 15px;
       background-color: #fff;
-      margin-bottom: 38px;
 
       &-img {
         width: 165px;
@@ -189,14 +198,26 @@
             .slider-item {
               width: 622px !important;
               padding: 19px 53px 45px 60px;
-              margin-left: 0px;
-              margin-right: 0px;
+              margin-left: 0;
+              margin-right: 0;
 
               .slider-item-img {
                 width: 26vw;
               }
             }
           }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .slick-slide {
+    div {
+      .slider-item {
+        &-text {
+          font-size: 18px;
         }
       }
     }
@@ -305,9 +326,15 @@
           .slick-slide {
             transform: scale(1);
             transition: .3s ease-in-out all;
+            margin-right: 0 !important;
+
+            & > div:nth-child(1) {
+              right: 0 !important;
+              display: flex;
+              justify-content: center;
+            }
 
             .slick-slide.slick-center {
-              //transform: scale(1.08);
               margin: 0 auto;
             }
 

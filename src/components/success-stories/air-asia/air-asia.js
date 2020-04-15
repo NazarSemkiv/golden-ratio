@@ -27,14 +27,13 @@ const AirAsia= () => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    //autoplay: true,
+    autoplay: true,
     speed: 1000,
     pauseOnHover: true,
     autoplaySpeed: 2000,
     arrows: true,
     variableWidth: true,
     centerPadding: '-367px',
-    centerMode: true,
     responsive: [
       {
         breakpoint: 1430,
