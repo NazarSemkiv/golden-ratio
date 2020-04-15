@@ -24,6 +24,7 @@
     overflow: auto;
     width: 66.375%;
     z-index: 5;
+    overflow-y: hidden;
 
     /* width */
     &::-webkit-scrollbar {
