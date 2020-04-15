@@ -33,7 +33,7 @@ class Header extends Component {
               }
             `}
             render={data => (
-              <img src={data.logoGoldenRatio.publicURL}/>
+              <Link to="/"><img src={data.logoGoldenRatio.publicURL}/></Link>
             )}
           />
           </div>
