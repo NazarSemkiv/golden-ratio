@@ -186,6 +186,14 @@
                             font-weight: 400;
                             letter-spacing: 0.27px;
                         }
+
+                        &[type="text"] {
+                            color: #ffffff;
+                            font-size: 27px;
+                            font-weight: 400;
+                            letter-spacing: 0.27px;
+                            opacity: 0.7;
+                        }
                     }
         
                     #message {
@@ -251,6 +259,13 @@
 @media screen and (min-width: 1595px) {
     .contacts-container {
         .contacts-bg-two {
+            min-width: 100%;
+            height: 100%;
+        }
+    }
+    
+    .contacts-container-success {
+        .contacts-bg-two-hide {
             min-width: 100%;
             height: 100%;
         }
