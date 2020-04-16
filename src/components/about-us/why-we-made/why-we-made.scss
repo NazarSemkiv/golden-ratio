@@ -19,8 +19,6 @@
     .why-we-made-pre-title {
       margin-top: 246px;
       color: #ffffff;
-      font-family: "Proxima Nova";
-      font-family: Proxima Nova;
       font-size: 18px;
       font-weight: 700;
       text-transform: uppercase;
@@ -30,8 +28,7 @@
     .why-we-made-title p {
       width: 1087px;
       color: #f4f05e;
-      font-family: "Proxima Nova";
-      font-family: Proxima Nova;
+      font-family: 'ProximaNovaBold' !important;
       font-size: 89px;
       font-weight: 700;
       letter-spacing: -3.59px;
@@ -42,8 +39,7 @@
     .why-we-made-text {
       width: 1087px;
       color: #ffffff;
-      font-family: "Proxima Nova";
-      font-family: Proxima Nova;
+      //font-family: "Proxima Nova";
       font-size: 30px;
       font-weight: 400;
       margin-top: 1px;
@@ -54,7 +50,7 @@
 
     .why-we-made-quotes {
       color: #f4f05e;
-      font-family: "Times";
+      font-family: "Times" !important;
       font-style: italic;
       font-size: 44px;
       font-weight: 700;
@@ -86,8 +82,7 @@
 
       .why-we-made-bottom-bold-text {
         color: #333234;
-        font-family: "Proxima Nova";
-        font-family: Proxima Nova;
+        font-family: 'ProximaNovaBold' !important;
         font-size: 97px;
         font-weight: 700;
         letter-spacing: -1.8px;
@@ -96,8 +91,7 @@
 
       .why-we-made-bottom-text {
         color: #333234;
-        font-family: "Proxima Nova";
-        font-family: Proxima Nova;
+        font-family: 'ProximaNovaBold' !important;
         font-size: 24px;
         font-weight: 700;
         line-height: 58.15px;
@@ -374,5 +368,12 @@
         margin-top: 18px;
       }
     }
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .why-we-made-quotes {
+    margin-bottom: 0 !important;
   }
 }

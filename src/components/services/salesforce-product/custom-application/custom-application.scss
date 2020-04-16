@@ -72,7 +72,6 @@
     .salesforce-product-content-title {
       color: #333234;
       //font-family: "Proxima Nova";
-      font-family: Proxima Nova;
       font-size: 45px;
       font-weight: 700;
       letter-spacing: -1.82px;
@@ -83,7 +82,6 @@
       width: 480px;
       color: #333234;
       //font-family: "Proxima Nova";
-      font-family: Proxima Nova;
       font-size: 18px;
       font-weight: 400;
       margin-bottom: 41px;
@@ -98,11 +96,9 @@
     padding-left: 15px;
     padding-right: 15px;
     .salesforce-product-content-left {
-      //margin-left: 20px;
       display: flex;
       justify-content: flex-end;
       .content-left-img {
-        //width: 375px;
         width: 100%;
       }
     }
@@ -130,15 +126,8 @@
 
 @media screen and (max-width: 1050px) {
   .salesforce-product-content {
-    //width: 100vw !important;
     .salesforce-product-content-right {
       margin-top: 0 !important;
-      .salesforce-product-content-title {
-        //width: 335px;
-      }
-      .salesforce-product-content-text {
-        //width: 335px !important;
-      }
     }
   }
 }

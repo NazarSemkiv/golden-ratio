@@ -8,8 +8,7 @@
   .salesforce-consulting-second-title {
     text-align: center;
     color: #333234;
-    //font-family: "Proxima Nova";
-    font-family: Proxima Nova;
+    font-family: 'ProximaNovaBold' !important;
     font-size: 89px;
     font-weight: 700;
     line-height: 72px;
@@ -79,7 +78,6 @@
         align-items: center;
 
         img:nth-child(1) {
-          //width: 58px;
           height: 61px;
         }
 
@@ -96,10 +94,8 @@
         }
 
         &-text {
-          //width: 102px;
           color: #333234;
-          //font-family: "Proxima Nova";
-          font-family: Proxima Nova;
+          font-family: 'ProximaNovaExBold' !important;
           font-size: 18px;
           font-weight: 700;
           text-align: center;

@@ -11,27 +11,20 @@
       line-height: 90px;
       letter-spacing: -3.6px;
       margin: 124px 0 45px -5px;
-      //font-family: "Proxima Nova";
-      font-family: Proxima Nova;
+      font-family: 'ProximaNovaBold' !important;
     }
     &-text {
       p {
         width: 498px;
         //font-family: "Proxima Nova";
-        font-family: Proxima Nova;
         font-size: 18px;
         font-weight: 400;
       }
     }
   }
   .products-right {
-    //position: relative;
     margin-top: -30px;
     margin-left: 125px;
-    img {
-      //position: absolute;
-      //width: 100%;
-    }
   }
 }
 
