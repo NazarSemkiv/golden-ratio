@@ -10,22 +10,17 @@
     position: absolute;
 
     &:nth-child(1) {
-      //top: 431px;
       top: 44.7559709242%;
-      //left: 148px;
       left: 9.25%;
     }
 
     &:nth-child(2) {
-      //left: 1172px;
       left: 73.25%;
-      //top: 68px;
       top: 7.06126687435%;
     }
 
     &:nth-child(3) {
       left: 0;
-      //top: 39px;
       top: 4.04984423676%;
       z-index: -1;
     }
@@ -44,14 +39,12 @@
       line-height: 72px;
       letter-spacing: -2.91px;
       margin-bottom: 37px;
-      //font-family: "Proxima Nova";
-      font-family: Proxima Nova;
+      font-family: 'ProximaNovaBold' !important;
     }
 
     &-text {
       width: 563px;
       //font-family: "Proxima Nova";
-      font-family: Proxima Nova;
       font-size: 18px;
       font-weight: 400;
       text-align: center;

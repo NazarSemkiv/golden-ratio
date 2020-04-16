@@ -1,6 +1,5 @@
 .blog {
   position: relative;
-  //margin-bottom: -35px;
   display: flex;
   justify-content: center;
 
@@ -16,8 +15,7 @@
     
     h5, h2 {
       color: #333234;
-      font-family: "Proxima Nova";
-      font-family: Proxima Nova;
+      //font-family: "Proxima Nova";
       font-weight: 700;
       text-align: center;
     }
@@ -28,12 +26,14 @@
       text-transform: uppercase;
       letter-spacing: 3.6px;
       margin-bottom: 21px;
+      font-family: 'ProximaNovaExBold' !important;
     }
 
     h2 {
       font-size: 72px; 
       letter-spacing: -2.91px;
       margin-bottom: 33px;
+      font-family: 'ProximaNovaBold' !important;
     }
 
     .blog-wrapper-bottom {
@@ -55,7 +55,7 @@
         }
 
         .bottom-block {
-          padding: 42px 46px 47px 39px;
+          padding: 42px 39px 47px 39px;
 
           .calendar-content {
             display: flex;
@@ -64,8 +64,7 @@
             h6 {
               opacity: 0.8;
               color: #333234;
-              font-family: "Proxima Nova";
-              font-family: Proxima Nova;
+              //font-family: "Proxima Nova";
               font-size: 18px;
               font-weight: 400;
               letter-spacing: 0.18px;
@@ -75,8 +74,8 @@
 
           h4 {
             color: #333234;
-            font-family: "Proxima Nova";
-            font-family: Proxima Nova;
+            //font-family: "Proxima Nova";
+            font-family: 'ProximaNovaExBold' !important;
             font-size: 22px;
             font-weight: 700;
             letter-spacing: 0.22px;
@@ -84,6 +83,7 @@
           }
 
           .transparent-btn {
+            font-family: 'ProximaNovaBold' !important;
             text-align: left;
             padding-left: 0;
             padding-right: 0;

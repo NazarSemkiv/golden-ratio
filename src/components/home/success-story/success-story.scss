@@ -22,8 +22,7 @@
 
   &-header-one {
     color: #333234;
-    //font-family: "Proxima Nova";
-    font-family: Proxima Nova;
+    font-family: 'ProximaNovaExBold' !important;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -34,15 +33,13 @@
   &-header-two {
     margin-bottom: 20px;
     color: #333234;
-    //font-family: "Proxima Nova";
-    font-family: Proxima Nova;
+    font-family: 'ProximaNovaBold' !important;
     font-size: 72px;
     font-weight: 700;
     letter-spacing: -2.91px;
   }
 
   &-logos {
-    //margin-bottom: 10px;
     margin-left: -80px;
   }
 
@@ -82,9 +79,8 @@
         }
 
         .success-story-comment-text {
-          color: #333234;
+          //color: #333234;
           //font-family: "Proxima Nova";
-          font-family: Proxima Nova;
           font-size: 24px;
           font-weight: 400;
           line-height: 30px;
@@ -103,14 +99,13 @@
 
           span {
             display: inline-block;
-            //font-family: "Proxima Nova";
-            font-family: Proxima Nova;
             font-size: 18px;
             font-weight: 400;
             line-height: 30px;
 
           }
           &-name {
+            font-family: 'ProximaNovaBold' !important;
             color: #333234;
             margin-right: 5px;
           }
@@ -121,10 +116,9 @@
 
         .success-story-comment-button {
           margin: 0 auto;
-          width: 119px;
+          width: 121px;
           color: #333234;
-          //font-family: "Proxima Nova";
-          font-family: Proxima Nova;
+          font-family: 'ProximaNovaBold' !important;
           font-size: 18px;
           font-weight: 400;
           letter-spacing: 0.9px;
@@ -134,37 +128,7 @@
       }
     }
   }
-
-
-  //&-comment::before, &-comment::after {
-  //  transform: rotate(180deg);
-  //  content: '';
-  //  border: solid transparent;
-  //  position: absolute;
-  //  left: 9%;
-  //  margin-left: -12px;
-  //  bottom: 350px;
-  //  width: 0;
-  //}
-  //
-  //&-comment::before {
-  //  border-top-color: #efe944;
-  //  border-width: 12px;
-  //}
-  //
-  //&-comment::after {
-  //  border-top-color: #fff;
-  //  border-width: 9px;
-  //  margin-left: -9px;
-  //  top: -17px;
-  //}
-
 }
-
-
-
-
-
 
 //SLIDER STYLES
 div.slick-slider.slider.container.slick-initialized {
@@ -181,7 +145,6 @@ div.slick-slider.slider.container.slick-initialized {
 
   .slick-track {
     display: flex;
-    //width: 1170px !important;
   }
 
   .slick-list {
@@ -367,7 +330,6 @@ div.slick-slider.slider.container.slick-initialized {
 
 @media screen and(max-width: 660px) {
   .success-story {
-    //margin-top: -33px;
 
     .success-story-left-img2 {
       top: 80px;
@@ -476,7 +438,6 @@ div.slick-slider.slider.container.slick-initialized {
 
 @media screen and(max-width: 451px) {
   .success-story {
-    //margin-top: -45px;
     
     .slider {
       .slick-list {

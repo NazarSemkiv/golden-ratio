@@ -116,8 +116,6 @@
     }
 
     &-item {
-      //height: 367px;
-      //width: 854px !important;
       text-align: left;
       padding: 27px 98px 76px 66px;
       box-shadow: 0 1px 32px rgba(0, 0, 1, 0.1);
@@ -136,7 +134,6 @@
         padding: 10px 0 30px;
         color: #333234;
         //font-family: "Proxima Nova";
-        font-family: Proxima Nova;
         font-size: 18px;
         font-weight: 400;
         line-height: 24px;
@@ -150,8 +147,7 @@
         span:nth-child(1) {
           font-size: 20px;
           font-weight: 700;
-          //font-family: "Proxima Nova";
-          font-family: Proxima Nova;
+          font-family: 'ProximaNovaExBold' !important;
           padding-left: 2px;
           padding-bottom: 10px;
         }
@@ -160,7 +156,6 @@
           font-size: 18px;
           font-weight: 400;
           //font-family: "Proxima Nova";
-          font-family: Proxima Nova;
           padding-left: 8px;
         }
       }

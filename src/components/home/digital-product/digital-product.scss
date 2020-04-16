@@ -13,8 +13,7 @@
 
       p {
         color: #333234;
-        font-family: "Proxima Nova";
-        font-family: Proxima Nova;
+        //font-family: "Proxima Nova";
       }
 
       p:nth-child(1) {
@@ -24,6 +23,7 @@
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 3.6px;
+        font-family: 'ProximaNovaExBold' !important;
       }
 
       p:nth-child(2) {
@@ -32,6 +32,7 @@
         font-weight: 700;
         line-height: 72px;
         letter-spacing: -2.91px;
+        font-family: 'ProximaNovaBold' !important;
       }
 
       p:nth-child(3) {
@@ -84,12 +85,12 @@
 
         p {
           color: #333234;
-          font-family: "Proxima Nova - Semibold";
-          font-family: Proxima Nova;
+          //font-family: "Proxima Nova - Semibold";
           font-size: 9px;
           font-weight: 400;
           text-transform: uppercase;
           letter-spacing: 0.9px;
+          font-family: 'ProximaNovaSemibold' !important;
         }
       }
 
