@@ -8,8 +8,7 @@
   .salesforce-product-title {
     width: 750px;
     color: #333234;
-    //font-family: "Proxima Nova";
-    font-family: Proxima Nova;
+    font-family: 'ProximaNovaBold' !important;
     font-size: 89px;
     font-weight: 700;
     line-height: 72px;
@@ -78,7 +77,6 @@
         align-items: center;
 
         img:nth-child(1) {
-          //width: 54px;
           height: 63px;
         }
 
@@ -96,8 +94,7 @@
 
         &-text {
           color: #333234;
-          //font-family: "Proxima Nova";
-          font-family: Proxima Nova;
+          font-family: 'ProximaNovaExBold' !important;
           font-size: 18px;
           font-weight: 700;
           text-align: center;

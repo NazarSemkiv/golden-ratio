@@ -14,11 +14,6 @@
     top: -70px;
   }
 
-  // .partners-logos {
-  //   position: absolute;
-  //   top: 250px;
-  // }
-
   .partners-clouds-bg {
     position: absolute;
     top: 180px;
@@ -34,8 +29,7 @@
 
     h5, h2 {
       color: #333234;
-      font-family: "Proxima Nova";
-      font-family: Proxima Nova;
+      //font-family: "Proxima Nova";
       text-align: center;
     }
 
@@ -47,6 +41,7 @@
       text-transform: uppercase;
       letter-spacing: 3.6px;
       margin-bottom: 21px;
+      font-family: 'ProximaNovaExBold' !important;
     }
 
     h2 {
@@ -54,6 +49,7 @@
       font-size: 72px;
       font-weight: 700;
       letter-spacing: -2.91px;
+      font-family: 'ProximaNovaBold' !important;
     }
   }
 }

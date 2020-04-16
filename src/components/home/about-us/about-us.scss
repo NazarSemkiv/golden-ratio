@@ -40,8 +40,7 @@
 
     h5, h2, p {
       color: #333234;
-      font-family: "Proxima Nova";
-      font-family: Proxima Nova;
+      //font-family: "Proxima Nova";
     }
 
     h5 {
@@ -51,6 +50,7 @@
       text-transform: uppercase;
       letter-spacing: 3.6px;
       margin-bottom: 25px;
+      font-family: 'ProximaNovaExBold' !important;
     }
 
     h2 {
@@ -60,6 +60,7 @@
       line-height: 72px;
       letter-spacing: -2.91px;
       margin-bottom: 19px;
+      font-family: 'ProximaNovaBold' !important;
     }
 
     p {

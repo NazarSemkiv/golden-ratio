@@ -30,8 +30,6 @@ const Intro = () => {
           <div className="right-block-content-bottom">
             <p>Etiam bibendum tempus massa id placerat. 
               Vivamus libero purus, <span>bibendum a massa sed</span>,
-            </p>
-            <p>
               finibus fermentum arcu. Nullam gravida, orci vitae gravida dapibus, augue ante tempor 
               eros, in pretium dolor dui quis lorem.
             </p>

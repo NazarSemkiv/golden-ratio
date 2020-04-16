@@ -1,6 +1,5 @@
 .current-status-content {
   width: 1600px;
-  //margin: -125px auto 0;
   margin: 0 auto;
   display: flex;
 
@@ -28,11 +27,8 @@
   .current-status-content {
     &-section-img {
       padding: 0 15px;
-      //margin: 263px 15% 150px;
       width: 100%;
       margin: 140px auto 0;
-      //margin: 0 auto;
-      //margin: 263px 0 150px;
     }
   }
 }

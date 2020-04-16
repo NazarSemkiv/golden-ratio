@@ -26,8 +26,7 @@
 
       h3, p {
         color: #333234;
-        font-family: "Proxima Nova";
-        font-family: Proxima Nova;
+        //font-family: "Proxima Nova";
       }
 
       h3 {
@@ -37,6 +36,7 @@
         letter-spacing: 1.65px;
         margin-top: 30px;
         margin-bottom: 28px;
+        font-family: 'ProximaNovaBold' !important;
       }
 
       p {
@@ -61,8 +61,7 @@
 
       h3, p {
         color: #333234;
-        font-family: "Proxima Nova";
-        font-family: Proxima Nova;
+        //font-family: "Proxima Nova";
       }
 
       h3 {
@@ -72,6 +71,7 @@
         letter-spacing: 1.65px;
         margin-top: 25px;
         margin-bottom: 34px;
+        font-family: 'ProximaNovaBold' !important;
       }
 
       p {
@@ -270,7 +270,6 @@
   .salesforce-digital {
     .salesforce-digital-container {
       flex-direction: column;
-      //margin-bottom: 300px;
 
       .salesforce-digital-left {
         width: 100%;
@@ -377,7 +376,6 @@
         }
       }
       .salesforce-digital-right {
-        //padding: 40px 38px 71px 46px;
         img {
           width: 31vw;
         }

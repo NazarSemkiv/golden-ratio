@@ -19,16 +19,15 @@
   }
 
   &-main {
-    //margin: 132px 92px 145px 124px;
     margin: 132px auto 145px;
     p {
       color: #333234;
-      font-family: "Proxima Nova";
-      font-family: Proxima Nova;
+      //font-family: "Proxima Nova";
       text-align: center;
     }
 
     p:nth-child(1) {
+      font-family: 'ProximaNovaExBold' !important;
       padding-bottom: 15px;
       font-size: 18px;
       font-weight: 700;
@@ -39,6 +38,7 @@
       font-size: 72px;
       font-weight: 700;
       letter-spacing: -2.91px;
+      font-family: 'ProximaNovaBold' !important;
     }
     div {
       width: fit-content;
@@ -49,8 +49,7 @@
 
       span {
         color: #333234;
-        font-family: "Proxima Nova - Semibold";
-        font-family: Proxima Nova;
+        font-family: 'ProximaNovaBold' !important;
         font-size: 20px;
         font-weight: 400;
         letter-spacing: 1px;
@@ -103,7 +102,6 @@
   .our-client {
     width: unset;
     margin: 0 auto;
-    //height: unset;
 
     img:nth-child(1) {
       left: 50%; 

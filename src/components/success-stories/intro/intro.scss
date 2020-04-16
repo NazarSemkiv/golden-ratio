@@ -6,10 +6,9 @@
   .intro-software-left {
     h2 {
       margin-top: 115px;
-      width: 540px;
+      width: 550px;
       color: #333234;
-      //font-family: "Proxima Nova";
-      font-family: Proxima Nova;
+      font-family: 'ProximaNovaBold' !important;
       font-size: 89px;
       font-weight: 700;
       line-height: 90px;
@@ -61,11 +60,9 @@
           font-weight: 400;
           line-height: 30px;
           //font-family: "Proxima Nova";
-          font-family: Proxima Nova;
 
           span {
-            //font-family: "Proxima Nova";
-            font-family: Proxima Nova;
+            font-family: 'ProximaNovaBold' !important;
           }
 
           &:nth-child(1) {
@@ -90,10 +87,10 @@
             span {
               color: #333234;
               //font-family: "Proxima Nova";
-              font-family: Proxima Nova;
               font-size: 18px;
 
               &:nth-child(1) {
+                font-family: 'ProximaNovaExBold' !important;
                 font-weight: 700;
                 margin-bottom: 6px;
               }
@@ -274,7 +271,6 @@
   .intro-software {
     .intro-software-left {
       h2 {
-        //width: 86vw;
         font-size: 62px;
         line-height: 64px;
       }
@@ -291,7 +287,6 @@
           padding: 35px 43px 33px 43px;
 
           .bottom-left-right {
-            //flex-direction: column;
 
             .bottom-left {
               text-align: center;
@@ -312,7 +307,6 @@
   .intro-software {
     .intro-software-left {
       h2 {
-        //width: 82vw;
         font-size: 55px;
         line-height: 51px;
       }
@@ -323,11 +317,6 @@
       margin-top: 65px;
 
       .right-block-content {
-        //width: 75.3vw;
-
-        .intro-software-main-img {
-          //width: 75.3vw;
-        }
 
         .intro-grid-circle-img {
           top: -13vw;
@@ -356,7 +345,6 @@
   .intro-software {
     .intro-software-left {
       h2 {
-        //width: 85vw;
         font-size: 47px;
         line-height: 46px;
       }
@@ -369,11 +357,6 @@
 
     .intro-software-right {
       .right-block-content {
-        //width: 81.3vw;
-
-        .intro-software-main-img {
-          //width: 81.3vw;
-        }
 
         .intro-grid-circle-img {
           top: -15vw;
