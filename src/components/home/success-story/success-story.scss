@@ -40,10 +40,10 @@
   }
 
   &-logos {
-    margin-left: -80px;
+    //margin-left: -80px;
   }
 
-  .slider {
+  .slider, .success-story-logos {
     .slider-item {
       margin-top: 32px;
 
@@ -55,6 +55,8 @@
         position: relative;
         width: 830px;
         text-align: center;
+        display: flex;
+        flex-direction: column;
 
         .up-triangle {
           width: 50px;
@@ -81,6 +83,7 @@
         .success-story-comment-text {
           //color: #333234;
           //font-family: "Proxima Nova";
+          word-break: break-all;
           font-size: 24px;
           font-weight: 400;
           line-height: 30px;
@@ -128,10 +131,19 @@
       }
     }
   }
+  .success-story-logos {
+    width: 830px;
+    .slick-list {
+      width: auto;
+    }
+  }
 }
 
 //SLIDER STYLES
-div.slick-slider.slider.container.slick-initialized {
+div.slick-slider.slider {
+  height: 430.5px;
+}
+div.slick-slider {
   position: relative;
 
   .slider-item {
@@ -145,10 +157,20 @@ div.slick-slider.slider.container.slick-initialized {
 
   .slick-track {
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    .slick-slide {
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
   }
 
   .slick-list {
     overflow: hidden;
+    //height: auto !important;
   }
 
   ul.slick-dots {
@@ -195,13 +217,16 @@ div.slick-slider.slider.container.slick-initialized {
         z-index: -4;
         position: relative;
         margin-top: 15px;
-        margin-left: 24px;
+        //margin-left: 24px;
       }
     }
   }
 }
 
 @media screen and(max-width: 1152px) {
+  .success-story .success-story-logos {
+    width: 72vw !important;
+  }
   .success-story {
     width: unset;
 
@@ -221,19 +246,19 @@ div.slick-slider.slider.container.slick-initialized {
       margin-bottom: 5vw;
     }
 
-    .success-story-logos {
-      margin-left: -8vw;
+    //.success-story-logos {
+    //  margin-left: -8vw;
+    //
+    //  img {
+    //    width: 81vw;
+    //    margin-left: 2vw;
+    //    margin-top: 4vw;
+    //  }
+    //}
 
-      img {
-        width: 81vw;
-        margin-left: 2vw;
-        margin-top: 4vw;
-      }
-    }
-
-    .slider {
-      .slick-list { 
-        padding: 0 15vw 0 15vw !important;
+    .slider, .success-story-logos {
+      .slick-list {
+        //padding: 0 15vw 0 15vw !important;
 
         .slider-item {
           width: 72vw !important;
@@ -256,6 +281,12 @@ div.slick-slider.slider.container.slick-initialized {
   }
 }
 
+@media screen and (max-width: 1170px) {
+  div.slick-slider {
+    width: 100vw;
+  }
+}
+
 @media screen and(max-width: 924px) {
   .success-story {
     .success-story-left-img2 {
@@ -273,7 +304,24 @@ div.slick-slider.slider.container.slick-initialized {
   }
 }
 
+@media screen and (max-width: 900px) {
+  div.slick-slider.slider {
+    height: auto !important;
+  }
+}
+
 @media screen and(max-width: 790px) {
+  .success-story {
+    .slider {
+      .slick-list {
+        .slider-item {
+          .success-story-comment {
+            padding: 40px 30px 20px
+          }
+        }
+      }
+    }
+  }
   .success-story {
     .success-story-left-img2 {
       top: 93px;
@@ -292,7 +340,7 @@ div.slick-slider.slider.container.slick-initialized {
       margin-top: 1vw;
     }
 
-    .slider {
+    .slider, .success-story-logos {
       .slick-list {
         .slider-item {
           .success-story-comment {
@@ -348,7 +396,7 @@ div.slick-slider.slider.container.slick-initialized {
       margin-top: 1vw;
     }
 
-    .slider {
+    .slider, .success-story-logos {
       .slick-list {
         .slider-item {
           .success-story-comment {
@@ -368,6 +416,12 @@ div.slick-slider.slider.container.slick-initialized {
   }
 }
 
+@media screen and (max-width: 600px) {
+  div.slick-slider.slick-list {
+    height: auto !important;
+  }
+}
+
 @media screen and(max-width: 556px) {
   .success-story {
     .success-story-left-img2 {
@@ -383,14 +437,15 @@ div.slick-slider.slider.container.slick-initialized {
       font-size: 38px;
     }
 
-    .slider {
+    .slider, success-story-logos {
       .slick-list {
         .slider-item {
-          margin-left: -43px;
+          //margin-left: -43px;
+          margin-left: 0 !important;
 
           .success-story-comment {
             padding: 23px 21px 25px 21px;
-            width: 87vw;
+            //width: 87vw;
 
             .success-story-comment-text {
               font-size: 18px;
@@ -430,6 +485,23 @@ div.slick-slider.slider.container.slick-initialized {
   }
 }
 
+@media screen and (max-width: 460px) {
+  .success-story {
+    .slider {
+      .slider-item {
+        .success-story-comment {
+          .up-triangle {
+            left: 40.826087% !important;
+          }
+          .down-triangle {
+            left: 40.826087% !important;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and(max-width: 434px) {
   .success-story {
     margin-top: -201px;
@@ -439,7 +511,7 @@ div.slick-slider.slider.container.slick-initialized {
 @media screen and(max-width: 451px) {
   .success-story {
     
-    .slider {
+    .slider, .success-story-logos {
       .slick-list {
         .slider-item {
           margin-left: -37px;
@@ -455,10 +527,24 @@ div.slick-slider.slider.container.slick-initialized {
 
 @media screen and(max-width: 375px) {
   .success-story {
-    .slider {
+    .slider, .success-story-logos {
       .slick-list {
+        padding: 0 !important;
         .slider-item {
-          margin-left: -33px;
+          margin-left: 0 !important;
+          width: 100vw !important;
+          display: flex !important;
+          .success-story-comment {
+            &-text {
+              font-size: 16px !important;
+            }
+            &-author span {
+              font-size: 16px !important;
+            }
+            &-button {
+              margin-top: 20px !important;
+            }
+          }
         }
       }
     }
@@ -471,7 +557,7 @@ div.slick-slider.slider.container.slick-initialized {
 
 @media screen and(max-width: 355px) {
   .success-story {
-    .slider {
+    .slider, .success-story-logos {
       .slick-list {
         .slider-item {
           margin-left: -28px;
