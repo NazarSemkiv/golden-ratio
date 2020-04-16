@@ -1,7 +1,7 @@
 .estimator-first {
   width: 1600px;
   height: 963px;
-  margin: 0 auto;
+  margin: 160px auto;
   position: relative;
   display: flex;
   justify-content: center;
@@ -57,6 +57,7 @@
 @media screen and (max-width: 1600px) {
   .estimator-first {
     width: 100vw;
+    margin: 132px auto;
   }
 }
 
@@ -98,7 +99,7 @@
 
 @media screen and (max-width: 990px) {
   .estimator-first {
-    height: 760px;
+    margin: 70px auto;
   }
 }
 
@@ -118,7 +119,7 @@
     height: auto;
     &-content-img {
       &:nth-child(1) {
-        margin-top: 140px;
+        margin-top: 90px;
         padding: 0 15px;
         position: static;
         width: 100%;
