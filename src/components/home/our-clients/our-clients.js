@@ -15,7 +15,7 @@ const OurClients = () => {
   `)
   return (
     <div className="our-client">
-      <img src={data.logo.publicURL}/>
+      {/* <img src={data.logo.publicURL}/> */}
       <img src={data.background.publicURL}/>
       <div className="our-client-main">
         <p>our</p>

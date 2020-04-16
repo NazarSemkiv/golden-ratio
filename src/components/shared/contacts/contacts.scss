@@ -269,9 +269,9 @@
         padding-right: 60px !important;
     }
     .contacts-left {
-        .contacts-pre-title {
+        // .contacts-pre-title {
 
-        }
+        // }
         .contacts-title {
             font-size: 42px !important;
         }
@@ -321,7 +321,8 @@
 
 @media screen and (max-width: 820px) {
     .contacts-container, .contacts-container-success {
-        margin-top: 100px;
+        margin-top: 50px;
+
         .contacts-bg-one {
             display: none;
         }
@@ -338,7 +339,7 @@
             justify-content: center;
             padding: 60px 15px !important;
             background-color: rgb(45, 45, 45);
-            margin-top: 44px;
+            //margin-top: 44px;
 
             .contacts-left {
                 width: 100%;

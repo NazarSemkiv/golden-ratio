@@ -183,13 +183,18 @@
     .why-we-made-top {
       .why-we-made-title p {
         font-size: 72px;
+        line-height: 89px;
+      }
+
+      p:nth-child(2) {
+        margin-bottom: 15px;
       }
 
       .why-we-made-text {
         font-size: 23px;
         line-height: 27px;
-        margin-top: 22px;
-        margin-bottom: 31px;
+        // margin-top: 22px;
+        // margin-bottom: 31px;
       }
 
       .why-we-made-quotes {
@@ -230,6 +235,7 @@
       
       .why-we-made-title p {
         font-size: 64px;
+        line-height: 82px;
       }
 
       .why-we-made-text {
@@ -286,13 +292,28 @@
   }
 }
 
+@media screen and(max-width: 592px) {
+  #why-we-made-content {
+    .why-we-made-top {
+      .why-we-made-pre-title {
+        margin-top: 272px;
+      }
+      
+      .why-we-made-title p {
+        font-size: 53px;
+        line-height: 66px;
+      }
+    }
+  }
+}
 
 @media screen and(max-width: 535px) {
   #why-we-made-content {
     .why-we-made-top {
       .why-we-made-title p {
-        font-size: 44px;
+        font-size: 46px;
         margin-top: 9px;
+        line-height: 49px;
       }
 
       .why-we-made-text {
@@ -300,7 +321,7 @@
       }
 
       .why-we-made-quotes {
-        font-size: 22px;
+        font-size: 20px;
       }
     }
 
@@ -336,13 +357,22 @@
     .why-we-made-top {
       margin-top: -15px;
 
+      .why-we-made-pre-title {
+        font-size: 16px;
+      }
+
+      .why-we-made-title p {
+        font-size: 42px;
+        line-height: 45px;
+      }
+
       .why-we-made-quotes {
-        font-size: 17px;
+        font-size: 20px;
       }
     }
     
     .why-we-made-yellow-bg {
-      margin-top: 778px;
+      margin-top: 835px;
     }
 
     .why-we-made-bottom {
@@ -356,16 +386,23 @@
       }
 
       .why-we-made-bottom-content:nth-child(1) {
+        margin-top: 25px;
         margin-right: 0;
       }
 
       .why-we-made-bottom-content:nth-child(2) {
         margin-left: 0;
-        margin-top: 18px;
+        margin-top: 33px;
+        //margin-top: 18px;
       }
 
       .why-we-made-bottom-content:nth-child(3) {
-        margin-top: 18px;
+        //margin-top: 18px;
+        margin-top: 33px;
+
+        .why-we-made-bottom-bold-text {
+          margin-top: 6px;
+        }
       }
     }
   }
@@ -373,7 +410,17 @@
 
 
 @media screen and (max-width: 375px) {
-  .why-we-made-quotes {
-    margin-bottom: 0 !important;
+  #why-we-made-content {
+    .why-we-made-top {
+      .why-we-made-title p {
+        font-size: 36px;
+        line-height: 38px;
+      }
+  
+      .why-we-made-quotes {
+        // margin-bottom: 0 !important;
+        font-size: 17px;
+      }
+    }
   }
 }

@@ -18,7 +18,7 @@ const Intro = () => {
         <div className="products-left-text">
           <p>Golden Ratio Systems is a digital product development
             and consulting company. Specialize primarily in sales force.com development. We build
-            scalable complex enterprise grade ap- plications on salesforce that integrate with multiple
+            scalable complex enterprise grade applications on salesforce that integrate with multiple
             systems.</p>
         </div>
       </div>

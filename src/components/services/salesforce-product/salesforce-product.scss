@@ -21,7 +21,7 @@
     display: flex;
     justify-content: flex-start;
     overflow: auto;
-    width: 66.375%;
+    width: 87.375%;
     z-index: 5;
     overflow-y: hidden;
 
@@ -32,7 +32,7 @@
 
     /* Track */
     &::-webkit-scrollbar-track {
-      background: #F3F3F3;
+      background: rgba($color: #F4F6F7, $alpha: 0.8);
     }
 
     /* Handle */

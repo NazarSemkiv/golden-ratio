@@ -1,6 +1,6 @@
 .estimator-third {
   width: 1600px;
-  margin: 0 auto;
+  margin: 124px auto 30px;
   &-content {
     display: flex;
     flex-direction: column;
@@ -49,6 +49,7 @@
 
 @media screen and (max-width: 820px) {
   .estimator-third {
+    margin: 188px auto 30px;
     &-content {
       padding: 0 15px;
       width: 100%;
