@@ -1,6 +1,6 @@
 .comments {
   width: 1600px;
-  margin: 222px auto 150px;
+  margin: 222px auto 119px;
   position: relative;
 
   .pos-absolute {
@@ -219,6 +219,13 @@
   }
 }
 
+@media screen and(max-width: 1062px) {
+  .comments {
+    margin: 222px auto 61px;
+
+  }
+}
+
 @media screen and(max-width: 1000px) {
   .comments {
     .slider {
@@ -296,8 +303,15 @@
   }
 }
 
+@media screen and(max-width: 738px) {
+  .comments {
+    margin: 222px auto 144px;
+  }
+}
+
 @media screen and(max-width: 606px) {
   .comments {
+    margin: 222px auto 236px;
     .slider {
       margin: 0 auto;
 

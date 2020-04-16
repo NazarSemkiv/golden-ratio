@@ -26,12 +26,24 @@ const Footer = () => {
                 <Link to="/"><img className="footer-logo-img" src={data.footerLogoImg.publicURL}/></Link>
                     {/* <img className="footer-logo-img" src={data.footerLogoImg.publicURL}/> */}
                     <ul className="footer-menu-container">
-                        <li>Home</li>
-                        <li>Services</li>
-                        <li>Products</li>
-                        <li>Success Stories</li>
-                        <li>Blog</li>
-                        <li>Contact</li>
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/services/">Services</Link>
+                        </li>
+                        <li>
+                            <Link to="/product/">Products</Link>
+                        </li>
+                        <li>
+                            <Link to="/success-stories/">Success Stories</Link>
+                        </li>
+                        <li>
+                            <Link to="/#blog">Blog</Link>
+                        </li>
+                        <li>
+                            <Link to="/#contact">Contact</Link>
+                        </li>
                     </ul>
                 </div>
                 <img className="footer-right-img" src={data.footerRightImg.publicURL}/>

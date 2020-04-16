@@ -18,7 +18,7 @@ const OurFamily = () => {
       <img className="our-family-background" src={data.background.publicURL}/>
       <p className="our-family-header-one">our family</p>
       <p className="our-family-header-two">Join the Golden Ratio family.</p>
-      <img className="our-family-logos" src={data.logos.publicURL}/>
+      {/* <img className="our-family-logos" src={data.logos.publicURL}/> */}
     </div>
   )
 };

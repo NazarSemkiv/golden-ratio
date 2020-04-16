@@ -4,7 +4,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  //justify-content: center;
   align-items: center;
   position: relative;
 
@@ -20,6 +20,7 @@
     text-transform: uppercase;
     letter-spacing: 3.6px;
     padding-bottom: 15px;
+    margin-top: 80px;
   }
 
   p.our-family-header-two {
@@ -42,6 +43,17 @@
 
 }
 
+@media screen and(min-width: 1601px) {
+  .our-family {
+    width: 100%;
+
+    .our-family-background {
+      height: 531px;
+      width: 100%;
+    }
+  }
+}
+
 @media screen and(max-width: 1599px) {
   .our-family {
     width: 1170px;
@@ -54,7 +66,7 @@
     
     .our-family-header-two {
       width: 65vw !important;
-      font-size: 68px;
+      font-size: 68px !important;
     }
 
     .our-family-logos {
@@ -76,12 +88,12 @@
 
     .our-family-header-one {
       padding-bottom: 12px;
-      font-size: 17px;
+      font-size: 17px !important;
     }
 
     .our-family-header-two {
       width: 81vw !important;
-      font-size: 51px;
+      font-size: 51px !important;
     }
 
     .our-family-logos {
@@ -100,11 +112,11 @@
 @media screen and(max-width: 399px) {
   .our-family {
     .our-family-header-one {
-      font-size: 16px;
+      font-size: 16px !important;
     }
 
     .our-family-header-two {
-      font-size: 44px;
+      font-size: 44px !important;
     }
 
     .our-family-logos {
