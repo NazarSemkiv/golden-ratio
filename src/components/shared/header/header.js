@@ -24,20 +24,20 @@ class Header extends Component {
       <header className="header">
         <div className="inner-header-content">
           <div className="logo-img">
-          <StaticQuery
-            query={graphql`
-              query {
-                logoGoldenRatio: file(relativePath: { eq: "logo-golden-ratio.svg" }) {
-                  publicURL
+            <StaticQuery
+              query={graphql`
+                query {
+                  logoGoldenRatio: file(relativePath: { eq: "golden-logo.svg" }) {
+                    publicURL
+                  }
                 }
-              }
-            `}
-            render={data => (
-              <div>
-                <Link to="/"><img src={data.logoGoldenRatio.publicURL}/></Link>
-              </div>
-            )}
-          />
+              `}
+              render={data => (
+                <div>
+                  <Link to="/"><img src={data.logoGoldenRatio.publicURL}/></Link>
+                </div>
+              )}
+            />
           </div>
           <div className="header-links">
             <button className= { this.state.condition ? "hamburger hamburger--collapse is-active" : "hamburger hamburger--collapse" } type="button" onClick={this.openHamburger}>

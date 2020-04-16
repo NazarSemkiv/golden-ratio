@@ -1,0 +1,409 @@
+<svg class="grs-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 341.8" style="enable-background:new 0 0 1200 341.8;" xml:space="preserve">
+				<g>
+					<g class="logo-text">
+						<g class="logo-text--main">
+							<path style="fill:#333234;" d="M470.3,95.8H489V160c0,12.7-2.5,22-7.6,28c-6.8,8.1-17.1,12.1-30.9,12.1c-7.3,0-13.5-0.9-18.5-2.8
+								c-5-1.8-9.2-4.5-12.7-8.1c-3.4-3.6-6-7.9-7.6-13h20.7c1.8,2.1,4.2,3.7,7.1,4.8c2.9,1.1,6.3,1.6,10.3,1.6c5.1,0,9.1-0.8,12.2-2.3
+								c3.1-1.6,5.2-3.6,6.5-6.1c1.3-2.5,1.9-6.7,1.9-12.8c-3.3,3.3-6.8,5.7-10.4,7.1s-7.7,2.2-12.3,2.2c-10.1,0-18.5-3.6-25.5-10.9
+								c-6.9-7.3-10.4-16.4-10.4-27.5c0-11.9,3.7-21.4,11-28.6c6.7-6.5,14.6-9.8,23.8-9.8c4.3,0,8.4,0.8,12.2,2.4
+								c3.8,1.6,7.7,4.2,11.5,7.8V95.8z M450.8,111.5c-5.9,0-10.8,2-14.7,6c-3.9,4-5.8,9-5.8,15c0,6.2,2,11.4,5.9,15.4
+								c3.9,4,8.9,6,14.9,6c5.8,0,10.6-2,14.4-5.9c3.8-3.9,5.7-9,5.7-15.4c0-6.2-1.9-11.3-5.7-15.2C461.7,113.4,456.8,111.5,450.8,111.5
+								z"></path>
+							<path style="fill:#333234;" d="M539.7,93.9c7.1,0,13.7,1.8,19.9,5.3c6.2,3.5,11.1,8.3,14.6,14.4c3.5,6.1,5.2,12.6,5.2,19.6
+								c0,7.1-1.8,13.7-5.3,19.8c-3.5,6.2-8.3,11-14.4,14.4c-6.1,3.5-12.7,5.2-20,5.2c-10.7,0-19.9-3.8-27.5-11.5
+								c-7.6-7.6-11.4-16.9-11.4-27.9c0-11.7,4.3-21.5,12.9-29.3C521.2,97.3,529.9,93.9,539.7,93.9z M540,111.6c-5.8,0-10.7,2-14.6,6.1
+								c-3.9,4.1-5.8,9.3-5.8,15.6c0,6.5,1.9,11.8,5.8,15.8c3.8,4,8.7,6.1,14.6,6.1s10.8-2,14.7-6.1c3.9-4.1,5.9-9.3,5.9-15.8
+								c0-6.4-1.9-11.6-5.8-15.7C550.9,113.6,546,111.6,540,111.6z"></path>
+							<path style="fill:#333234;" d="M589.2,66.9H608v103.8h-18.8V66.9z"></path>
+							<path style="fill:#333234;" d="M676.8,66.9h18.8v103.8h-18.8v-7.9c-3.7,3.5-7.3,6-11,7.5c-3.7,1.5-7.7,2.3-12,2.3
+								c-9.7,0-18-3.8-25.1-11.3c-7.1-7.5-10.6-16.8-10.6-28c0-11.6,3.4-21,10.2-28.4c6.8-7.4,15.1-11.1,24.9-11.1
+								c4.5,0,8.7,0.9,12.7,2.5c3.9,1.7,7.6,4.2,10.9,7.6V66.9z M657.1,111.3c-5.8,0-10.6,2.1-14.5,6.2c-3.8,4.1-5.8,9.4-5.8,15.8
+								c0,6.5,2,11.8,5.9,16c3.9,4.2,8.7,6.3,14.4,6.3c5.9,0,10.8-2.1,14.7-6.2c3.9-4.1,5.8-9.5,5.8-16.1c0-6.5-1.9-11.8-5.8-15.8
+								C667.9,113.3,663,111.3,657.1,111.3z"></path>
+							<path style="fill:#333234;" d="M786.2,138.7h-60.4c0.9,5.3,3.2,9.6,7,12.7c3.8,3.1,8.6,4.7,14.5,4.7c7,0,13.1-2.5,18.1-7.4
+								l15.8,7.4c-3.9,5.6-8.7,9.7-14.2,12.4c-5.5,2.7-12.1,4-19.6,4c-11.8,0-21.3-3.7-28.7-11.1c-7.4-7.4-11.1-16.7-11.1-27.9
+								c0-11.4,3.7-20.9,11.1-28.5c7.4-7.6,16.6-11.3,27.7-11.3c11.8,0,21.4,3.8,28.8,11.3c7.4,7.6,11.1,17.5,11.1,29.9L786.2,138.7z
+								 M767.4,123.9c-1.2-4.2-3.7-7.6-7.3-10.2c-3.7-2.6-7.9-3.9-12.7-3.9c-5.2,0-9.8,1.5-13.8,4.4c-2.5,1.8-4.8,5.1-6.9,9.7H767.4z"></path>
+							<path style="fill:#333234;" d="M797.8,95.8h18.8v7.7c4.3-3.6,8.1-6.1,11.6-7.5c3.5-1.4,7-2.1,10.6-2.1c7.4,0,13.7,2.6,18.9,7.8
+								c4.4,4.4,6.5,10.9,6.5,19.6v49.5h-18.6V138c0-8.9-0.4-14.9-1.2-17.8c-0.8-2.9-2.2-5.2-4.2-6.7c-2-1.5-4.5-2.3-7.4-2.3
+								c-3.8,0-7.1,1.3-9.8,3.8c-2.7,2.5-4.6,6.1-5.7,10.6c-0.6,2.3-0.8,7.4-0.8,15.2v30.1h-18.8V95.8z"></path>
+							<path style="fill:#333234;" d="M910.5,95.8h16.1v9.4c1.7-3.7,4.1-6.5,7-8.5c2.9-1.9,6.1-2.9,9.5-2.9c2.4,0,5,0.6,7.6,1.9
+								l-5.9,16.2c-2.2-1.1-4-1.7-5.4-1.7c-2.9,0-5.3,1.8-7.3,5.4c-2,3.6-3,10.6-3,21.1l0.1,3.7v30.3h-18.7V95.8z"></path>
+							<path style="fill:#333234;" d="M1011.8,95.8h18.8v74.9h-18.8v-7.9c-3.7,3.5-7.4,6-11,7.5c-3.7,1.5-7.7,2.3-12,2.3
+								c-9.7,0-18-3.8-25.1-11.3c-7.1-7.5-10.6-16.8-10.6-28c0-11.6,3.4-21,10.2-28.4c6.8-7.4,15.1-11.1,24.9-11.1
+								c4.5,0,8.7,0.9,12.7,2.5c3.9,1.7,7.6,4.2,10.9,7.6V95.8z M992,111.3c-5.8,0-10.6,2.1-14.5,6.2c-3.8,4.1-5.8,9.4-5.8,15.8
+								c0,6.5,2,11.8,5.9,16c3.9,4.2,8.7,6.3,14.4,6.3c5.9,0,10.8-2.1,14.7-6.2c3.9-4.1,5.8-9.5,5.8-16.1c0-6.5-1.9-11.8-5.8-15.8
+								C1002.9,113.3,997.9,111.3,992,111.3z"></path>
+							<path style="fill:#333234;" d="M1050.8,68.2h18.8v27.6h11.2V112h-11.2v58.7h-18.8V112h-9.6V95.8h9.6V68.2z"></path>
+							<path style="fill:#333234;" d="M1102.1,65c3.3,0,6.1,1.2,8.5,3.6c2.4,2.4,3.5,5.3,3.5,8.7c0,3.4-1.2,6.2-3.5,8.6
+								c-2.3,2.4-5.1,3.5-8.4,3.5c-3.3,0-6.2-1.2-8.5-3.6c-2.4-2.4-3.5-5.3-3.5-8.8c0-3.3,1.2-6.1,3.5-8.5
+								C1096,66.2,1098.8,65,1102.1,65z M1092.7,95.8h18.8v74.9h-18.8V95.8z"></path>
+							<path style="fill:#333234;" d="M1160.3,93.9c7.1,0,13.7,1.8,19.9,5.3c6.2,3.5,11.1,8.3,14.6,14.4c3.5,6.1,5.2,12.6,5.2,19.6
+								c0,7.1-1.8,13.7-5.3,19.8c-3.5,6.2-8.3,11-14.4,14.4c-6.1,3.5-12.7,5.2-20,5.2c-10.7,0-19.9-3.8-27.5-11.5
+								c-7.6-7.6-11.4-16.9-11.4-27.9c0-11.7,4.3-21.5,12.9-29.3C1141.8,97.3,1150.5,93.9,1160.3,93.9z M1160.6,111.6
+								c-5.8,0-10.7,2-14.6,6.1s-5.8,9.3-5.8,15.6c0,6.5,1.9,11.8,5.8,15.8c3.8,4,8.7,6.1,14.6,6.1c5.9,0,10.8-2,14.7-6.1
+								c3.9-4.1,5.9-9.3,5.9-15.8c0-6.4-1.9-11.6-5.8-15.7C1171.5,113.6,1166.6,111.6,1160.6,111.6z"></path>
+						</g>
+						<g class="logo-text--secondary">
+							<path style="fill:#333234;" d="M428.4,275.4c-3.4,0-6.5-0.7-9.2-2c-2.7-1.3-5-3.1-6.7-5.2l1.8-1.6c3.7,4.5,8.4,6.7,14.1,6.7
+								c2.5,0,4.7-0.3,6.5-1c1.8-0.7,3.2-1.5,4.1-2.6s1.6-2.2,2-3.3c0.4-1.1,0.6-2.3,0.6-3.4c0-2.3-0.7-4.3-2-5.8
+								c-1.4-1.6-3.1-2.7-5.1-3.4c-2-0.7-4.3-1.4-6.6-2.1c-2.4-0.7-4.6-1.5-6.6-2.2c-2-0.7-3.8-1.9-5.1-3.5c-1.4-1.6-2-3.7-2-6.1
+								c0-3.5,1.4-6.4,4.2-8.5c2.8-2.1,6.1-3.1,10.1-3.1c6.4,0,11.3,2.1,14.7,6.4l-1.7,1.6c-3-4-7.4-5.9-13-5.9c-3.4,0-6.2,0.9-8.5,2.7
+								c-2.3,1.8-3.4,4.1-3.4,6.9c0,1.7,0.5,3.2,1.5,4.4c1,1.2,2.3,2.2,4,2.9c1.6,0.7,3.4,1.3,5.4,1.9c2,0.6,3.9,1.2,5.9,1.8
+								c2,0.7,3.7,1.4,5.4,2.4c1.6,0.9,2.9,2.2,4,3.9c1,1.7,1.5,3.6,1.5,5.9c0,1.4-0.2,2.8-0.7,4.1c-0.5,1.3-1.3,2.7-2.4,4
+								c-1.1,1.3-2.7,2.3-4.8,3.1C433.9,275,431.3,275.4,428.4,275.4z"></path>
+							<path style="fill:#333234;" d="M500.7,274.6h-2.2v-19.7l-18.3-25.8h2.8l16.6,23.6l16.6-23.6h2.8l-18.3,25.8V274.6z"></path>
+							<path style="fill:#333234;" d="M570.6,275.4c-3.4,0-6.5-0.7-9.2-2c-2.7-1.3-5-3.1-6.7-5.2l1.8-1.6c3.7,4.5,8.4,6.7,14.1,6.7
+								c2.5,0,4.7-0.3,6.5-1c1.8-0.7,3.2-1.5,4.1-2.6s1.6-2.2,2-3.3c0.4-1.1,0.6-2.3,0.6-3.4c0-2.3-0.7-4.3-2-5.8
+								c-1.4-1.6-3.1-2.7-5.1-3.4c-2-0.7-4.3-1.4-6.6-2.1c-2.4-0.7-4.6-1.5-6.6-2.2c-2-0.7-3.8-1.9-5.1-3.5c-1.4-1.6-2-3.7-2-6.1
+								c0-3.5,1.4-6.4,4.2-8.5c2.8-2.1,6.1-3.1,10.1-3.1c6.4,0,11.3,2.1,14.7,6.4l-1.7,1.6c-3-4-7.4-5.9-13-5.9c-3.4,0-6.2,0.9-8.5,2.7
+								c-2.3,1.8-3.4,4.1-3.4,6.9c0,1.7,0.5,3.2,1.5,4.4c1,1.2,2.3,2.2,4,2.9c1.6,0.7,3.4,1.3,5.4,1.9c2,0.6,3.9,1.2,5.9,1.8
+								c2,0.7,3.7,1.4,5.4,2.4c1.6,0.9,2.9,2.2,4,3.9c1,1.7,1.5,3.6,1.5,5.9c0,1.4-0.2,2.8-0.7,4.1c-0.5,1.3-1.3,2.7-2.4,4
+								c-1.1,1.3-2.7,2.3-4.8,3.1C576,275,573.5,275.4,570.6,275.4z"></path>
+							<path style="fill:#333234;" d="M641.1,274.6h-2.2v-43.4h-15.3v-2h32.9v2h-15.4V274.6z"></path>
+							<path style="fill:#333234;" d="M723.6,274.6h-27.8v-45.5h27.8v2h-25.6v19h25.2v2h-25.2v20.3h25.6V274.6z"></path>
+							<path style="fill:#333234;" d="M805,274.6h-2.2v-42.9l-17.7,42.9h-0.7l-17.7-42.9v42.9h-2.2v-45.5h3.5l16.8,40.7l16.8-40.7h3.5
+								V274.6z"></path>
+							<path style="fill:#333234;" d="M861.2,275.4c-3.4,0-6.5-0.7-9.2-2c-2.7-1.3-5-3.1-6.7-5.2l1.8-1.6c3.7,4.5,8.4,6.7,14.1,6.7
+								c2.5,0,4.7-0.3,6.5-1c1.8-0.7,3.2-1.5,4.1-2.6c0.9-1.1,1.6-2.2,2-3.3c0.4-1.1,0.6-2.3,0.6-3.4c0-2.3-0.7-4.3-2-5.8
+								c-1.4-1.6-3.1-2.7-5.1-3.4c-2-0.7-4.3-1.4-6.6-2.1c-2.4-0.7-4.6-1.5-6.6-2.2c-2-0.7-3.8-1.9-5.1-3.5c-1.4-1.6-2-3.7-2-6.1
+								c0-3.5,1.4-6.4,4.2-8.5c2.8-2.1,6.1-3.1,10.1-3.1c6.4,0,11.3,2.1,14.7,6.4l-1.7,1.6c-3-4-7.4-5.9-13-5.9c-3.4,0-6.2,0.9-8.5,2.7
+								c-2.3,1.8-3.4,4.1-3.4,6.9c0,1.7,0.5,3.2,1.5,4.4c1,1.2,2.3,2.2,4,2.9c1.6,0.7,3.4,1.3,5.4,1.9c2,0.6,3.9,1.2,5.9,1.8
+								c2,0.7,3.7,1.4,5.4,2.4c1.6,0.9,2.9,2.2,4,3.9c1,1.7,1.5,3.6,1.5,5.9c0,1.4-0.2,2.8-0.7,4.1c-0.5,1.3-1.3,2.7-2.4,4
+								c-1.1,1.3-2.7,2.3-4.8,3.1C866.6,275,864.1,275.4,861.2,275.4z"></path>
+						</g>
+					</g>
+					<g class="logo-graphics">
+						<g class="logo-graphics-circle--big">
+							<path style="fill:#EFE073;" d="M170.9,341.8C76.7,341.8,0,265.1,0,170.9S76.7,0,170.9,0c46.3,0,89.6,18.2,122,51.3l-9.4,9.2
+								C253.6,30,213.6,13.1,170.9,13.1c-87,0-157.7,70.8-157.7,157.7s70.8,157.7,157.7,157.7c43.7,0,85.8-18.4,115.6-50.4l9.6,8.9
+								C263.9,321.9,218.2,341.8,170.9,341.8z"></path>
+						</g>
+						<g class="logo-graphics-circle--medium">
+							<path style="fill:#333234;" d="M171,292.3c-7.7,0-15.4-0.7-23-2.2C116,284,88.4,265.9,70.1,239s-25-59.2-18.9-91.1
+								c5.7-30,22.4-56.6,46.9-74.8c24.4-18.1,54.4-26.4,84.5-23.4l-1.3,13.1c-56.2-5.6-106.6,32-117.2,87.6
+								c-5.4,28.5,0.5,57.3,16.8,81.3c16.3,24,40.9,40.1,69.4,45.6c28.5,5.4,57.3-0.5,81.3-16.8c24-16.3,40.1-40.9,45.6-69.4
+								c1.1-6,1.8-12.1,1.9-18.1l13.1,0.3c-0.1,6.8-0.9,13.6-2.1,20.3c-6.1,31.9-24.2,59.5-51.1,77.8C218.6,285.1,195.1,292.3,171,292.3
+								z"></path>
+						</g>
+						<g class="logo-graphics-circle--small">
+							<path style="fill:#333234;" d="M170.9,243.2c-19.3,0-37.5-7.5-51.1-21.2c-13.7-13.6-21.2-31.8-21.2-51.1l13.1-0.1v0.1
+								c0,15.8,6.2,30.7,17.3,41.8c11.2,11.2,26,17.3,41.8,17.3c0,0,0,0,0,0c15.8,0,30.7-6.2,41.8-17.3c11.2-11.2,17.3-26,17.3-41.8
+								l13.1-0.3l0,0.3c0,19.3-7.5,37.5-21.2,51.1C208.4,235.7,190.2,243.2,170.9,243.2C170.9,243.2,170.9,243.2,170.9,243.2z"></path>
+						</g>
+					</g>
+				</g>
+							<style>
+								/* Graphics Animations START */
+								.logo-graphics-circle--big {
+									-webkit-animation-name: logo-fade-rotate;
+									animation-name: logo-fade-rotate;
+									-webkit-animation-duration: 333ms;
+									animation-duration: 333ms;
+									-webkit-animation-delay: 666ms;
+									animation-delay: 666ms;
+									-webkit-animation-iteration-count: 1;
+									animation-iteration-count: 1;
+									-webkit-animation-timing-function: ease;
+									animation-timing-function: ease;
+									-webkit-animation-fill-mode: forwards;
+									animation-fill-mode: forwards;
+									-webkit-transform-origin: 171px;
+									transform-origin: 171px;
+									opacity: 0;
+								}
+
+								.logo-graphics-circle--medium {
+									-webkit-animation-name: logo-fade-rotate;
+									animation-name: logo-fade-rotate;
+									-webkit-animation-duration: 333ms;
+									animation-duration: 333ms;
+									-webkit-animation-delay: 333ms;
+									animation-delay: 333ms;
+									-webkit-animation-iteration-count: 1;
+									animation-iteration-count: 1;
+									-webkit-animation-timing-function: ease;
+									animation-timing-function: ease;
+									-webkit-transform-origin: 171px;
+									transform-origin: 171px;
+									-webkit-animation-fill-mode: forwards;
+									animation-fill-mode: forwards;
+									opacity: 0;
+								}
+
+								.logo-graphics-circle--small {
+									-webkit-animation-name: logo-fade-rotate;
+									animation-name: logo-fade-rotate;
+									-webkit-animation-duration: 333ms;
+									animation-duration: 333ms;
+									-webkit-animation-delay: 0ms;
+									animation-delay: 0ms;
+									-webkit-animation-iteration-count: 1;
+									animation-iteration-count: 1;
+									-webkit-animation-timing-function: ease;
+									animation-timing-function: ease;
+									-webkit-animation-fill-mode: forwards;
+									animation-fill-mode: forwards;
+									-webkit-transform-origin: 171px;
+									transform-origin: 171px;
+									opacity: 0;
+								}
+
+								@-webkit-keyframes logo-rotate {
+									0% {
+										-webkit-transform: rotate(0deg);
+										transform: rotate(0deg);
+									}
+									100% {
+										-webkit-transform: rotate(360deg);
+										transform: rotate(360deg);
+									}
+								}
+
+								@keyframes logo-rotate {
+									0% {
+										-webkit-transform: rotate(0deg);
+										transform: rotate(0deg);
+									}
+									100% {
+										-webkit-transform: rotate(360deg);
+										transform: rotate(360deg);
+									}
+								}
+								@-webkit-keyframes logo-rotate-reverse {
+									0% {
+										-webkit-transform: rotate(0deg);
+										transform: rotate(0deg);
+									}
+									100% {
+										-webkit-transform: rotate(-360deg);
+										transform: rotate(-360deg);
+									}
+								}
+								@keyframes logo-rotate-reverse {
+									0% {
+										-webkit-transform: rotate(0deg);
+										transform: rotate(0deg);
+									}
+									100% {
+										-webkit-transform: rotate(-360deg);
+										transform: rotate(-360deg);
+									}
+								}
+								@-webkit-keyframes logo-fade-rotate {
+									0% {
+										-webkit-transform: rotate(-360deg);
+										transform: rotate(-360deg);
+										opacity: 0;
+									}
+									100% {
+										-webkit-transform: rotate(0deg);
+										transform: rotate(0deg);
+										opacity: 1;
+									}
+								}
+								@keyframes logo-fade-rotate {
+									0% {
+										-webkit-transform: rotate(-360deg);
+										transform: rotate(-360deg);
+										opacity: 0;
+									}
+									100% {
+										-webkit-transform: rotate(0deg);
+										transform: rotate(0deg);
+										opacity: 1;
+									}
+								}
+								@-webkit-keyframes logo-fade-rotate-reverse {
+									0% {
+										-webkit-transform: rotate(360deg);
+										transform: rotate(360deg);
+										opacity: 0;
+									}
+									100% {
+										-webkit-transform: rotate(0deg);
+										transform: rotate(0deg);
+										opacity: 1;
+									}
+								}
+								@keyframes logo-fade-rotate-reverse {
+									0% {
+										-webkit-transform: rotate(360deg);
+										transform: rotate(360deg);
+										opacity: 0;
+									}
+									100% {
+										-webkit-transform: rotate(0deg);
+										transform: rotate(0deg);
+										opacity: 1;
+									}
+								}
+								/* Graphics Animations END */
+								/* Text Animations START */
+								.logo-text--main path {
+									-webkit-animation-name: logo-letter-appear;
+									animation-name: logo-letter-appear;
+									-webkit-animation-duration: 100ms;
+									animation-duration: 100ms;
+									-webkit-animation-iteration-count: 1;
+									animation-iteration-count: 1;
+									-webkit-animation-timing-function: ease;
+									animation-timing-function: ease;
+									-webkit-animation-fill-mode: forwards;
+									animation-fill-mode: forwards;
+									opacity: 0;
+									-webkit-transform: translateX(-50px);
+									transform: translateX(-50px);
+								}
+
+								.logo-text--main path:nth-child(1) {
+									-webkit-animation-delay: 1000ms;
+									animation-delay: 1000ms;
+								}
+
+								.logo-text--main path:nth-child(2) {
+									-webkit-animation-delay: 1050ms;
+									animation-delay: 1050ms;
+								}
+
+								.logo-text--main path:nth-child(3) {
+									-webkit-animation-delay: 1100ms;
+									animation-delay: 1100ms;
+								}
+
+								.logo-text--main path:nth-child(4) {
+									-webkit-animation-delay: 1150ms;
+									animation-delay: 1150ms;
+								}
+
+								.logo-text--main path:nth-child(5) {
+									-webkit-animation-delay: 1200ms;
+									animation-delay: 1200ms;
+								}
+
+								.logo-text--main path:nth-child(6) {
+									-webkit-animation-delay: 1250ms;
+									animation-delay: 1250ms;
+								}
+
+								.logo-text--main path:nth-child(7) {
+									-webkit-animation-delay: 1300ms;
+									animation-delay: 1300ms;
+								}
+
+								.logo-text--main path:nth-child(8) {
+									-webkit-animation-delay: 1350ms;
+									animation-delay: 1350ms;
+								}
+
+								.logo-text--main path:nth-child(9) {
+									-webkit-animation-delay: 1400ms;
+									animation-delay: 1400ms;
+								}
+
+								.logo-text--main path:nth-child(10) {
+									-webkit-animation-delay: 1450xms;
+									animation-delay: 1450ms;
+								}
+
+								.logo-text--main path:nth-child(11) {
+									-webkit-animation-delay: 1500ms;
+									animation-delay: 1500ms;
+								}
+
+								.logo-text--secondary {
+
+									animation-name: logo-text-secondary-appear;
+
+									animation-duration: 750ms;
+
+									animation-delay: 1500ms;
+
+									animation-iteration-count: 1;
+
+									animation-timing-function: ease-in;
+
+									animation-fill-mode: forwards;
+									opacity: 0;
+
+									transform: translateY(25px);
+								}
+
+								@-webkit-keyframes logo-letter-appear {
+									0% {
+										-webkit-transform: translateX(-50px);
+										transform: translateX(-50px);
+										opacity: 0;
+									}
+									100% {
+										-webkit-transform: translateX(0px);
+										transform: translateX(0px);
+										opacity: 1;
+									}
+								}
+
+								@keyframes logo-letter-appear {
+									0% {
+										-webkit-transform: translateX(-50px);
+										transform: translateX(-50px);
+										opacity: 0;
+									}
+									100% {
+										-webkit-transform: translateX(0px);
+										transform: translateX(0px);
+										opacity: 1;
+									}
+								}
+								@-webkit-keyframes logo-text-secondary-appear {
+									0% {
+										-webkit-transform: translateY(25px);
+										transform: translateY(25px);
+										opacity: 0;
+									}
+									100% {
+										-webkit-transform: translateX(0px);
+										transform: translateX(0px);
+										opacity: 1;
+									}
+								}
+								@keyframes logo-text-secondary-appear {
+									0% {
+										-webkit-transform: translateY(25px);
+										transform: translateY(25px);
+										opacity: 0;
+									}
+									100% {
+										-webkit-transform: translateX(0px);
+										transform: translateX(0px);
+										opacity: 1;
+									}
+								}
+								/* Text Animations END */
+								/* Hover Animations START */
+								.logo-graphics {
+									-webkit-animation-duration: 1000ms;
+									animation-duration: 1000ms;
+									-webkit-animation-delay: 0ms;
+									animation-delay: 0ms;
+									-webkit-animation-iteration-count: infinite;
+									animation-iteration-count: infinite;
+									-webkit-animation-timing-function: linear;
+									animation-timing-function: linear;
+									-webkit-transform-origin: 171px;
+									transform-origin: 171px;
+
+									/*transition: all 1000ms ease;*/
+								}
+
+								.grs-logo--link.grs-logo--hoverable {
+									pointer-events: all;
+								}
+								.grs-logo--link.grs-logo--hoverable .grs-logo:hover .logo-graphics {
+									/*-webkit-animation-name: logo-rotate;*/
+									/*animation-name: logo-rotate;*/
+									/*transform: rotate(360deg);*/
+								}
+
+								/* Hover Animations END */
+							</style>
+				</svg>
