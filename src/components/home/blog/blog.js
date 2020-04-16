@@ -29,7 +29,7 @@ const Blog = () => {
     <div className="blog">
       <img className="blog-bg" src={data.blogBg.publicURL}/>
       <div className="blog-wrapper">
-        <h5>Our</h5>
+        <h5 id="blog">Our</h5>
         <h2>Blog</h2>
         <div className="blog-wrapper-bottom">
           <div className="blog-wrapper-bottom-content">

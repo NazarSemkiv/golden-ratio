@@ -46,7 +46,7 @@ const Contacts = (switcher) => {
           <img className="contacts-circles" src={data.contactsCircles.publicURL}/>
         </div>
       }
-      <img className={switcher.page === 'stories' ? 'contacts-bg-two-hide success-background' : 'contacts-bg-two'} src={data.contactsBgTwo.publicURL}/>
+      <img className={switcher.page === 'stories' ? 'contacts-bg-two-hide success-background' : 'contacts-bg-two'} src={data.contactsBgTwo.publicURL} id="contact"/>
       <div className={switcher.page === 'stories' ? 'contacts-left-right-container container contacts-left-right-container-hide' : 'contacts-left-right-container container'}>
         <div className="contacts-left">
           <h5 className="contacts-pre-title">get in touch</h5>

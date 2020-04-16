@@ -33,7 +33,9 @@ class Header extends Component {
               }
             `}
             render={data => (
-              <Link to="/"><img src={data.logoGoldenRatio.publicURL}/></Link>
+              <div>
+                <Link to="/"><img src={data.logoGoldenRatio.publicURL}/></Link>
+              </div>
             )}
           />
           </div>
@@ -44,6 +46,8 @@ class Header extends Component {
               </span>
             </button>
             <ul className="links-list" ref="myDiv">
+              <li className="yellow-circle">
+              </li>
               <li className="links-list-li">
                 <Link to="/">Home</Link>
               </li>
@@ -59,8 +63,14 @@ class Header extends Component {
               <li className="links-list-li">
                 <Link to="/success-stories/">Success Stories</Link>
               </li>
-              <li className="links-list-li">Blog</li>
-              <li className="links-list-li">Contact</li>
+              <li className="links-list-li">
+                <Link to="/#blog">Blog</Link>
+              </li>
+              <li className="links-list-li">
+                <Link to="/#contact">Contact</Link>
+              </li>
+              <li className="brown-circle-one">
+              </li>
             </ul>
           </div>
         </div>
