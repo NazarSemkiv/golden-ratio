@@ -140,9 +140,12 @@
 }
 
 //SLIDER STYLES
-div.slick-slider.slider {
-  height: 430.5px;
-}
+.success-story {
+  div.slick-slider.slider {
+    height: 430.5px;
+  }
+
+
 div.slick-slider {
   position: relative;
 
@@ -202,6 +205,7 @@ div.slick-slider {
       margin-right: 0;
     }
   }
+}
 }
 
 @media screen and(max-width: 1599px) {

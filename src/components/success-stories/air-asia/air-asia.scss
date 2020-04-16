@@ -132,6 +132,16 @@
   }
 }
 
+@media screen and (min-width: 1600px) {
+  .air-asia{
+    .slider {
+      .slick-list {
+        overflow: visible;
+      }
+    }
+  }
+}
+
 @media screen and(max-width: 1599px) {
   .slider {
     .slick-list {
