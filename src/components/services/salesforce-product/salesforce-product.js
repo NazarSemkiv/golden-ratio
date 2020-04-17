@@ -67,7 +67,7 @@ const SalesforceProduct = () => {
       <div id="salesforce-product">
         <h2 className="salesforce-product-title"
             data-sal="fade"
-            data-sal-delay="300"
+
             data-sal-easing="ease"
             data-sal-duration="1000"
         >Salesforce product development</h2>

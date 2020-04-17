@@ -31,7 +31,7 @@ const Partners = () => {
       <img className="partners-clouds-bg" src={data.partnersCloudsBg.publicURL}/>
       <div className="partners-content"
            data-sal="fade"
-           data-sal-delay="300"
+
            data-sal-easing="ease-in-back"
            data-sal-duration="1000"
       >

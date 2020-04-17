@@ -20,7 +20,7 @@ const Intro = () => {
     <div className="intro-software container">
       <div className="intro-software-left"
            data-sal="slide-right"
-           data-sal-delay="300"
+
            data-sal-easing="ease-in-cubic"
            data-sal-duration="1000"
       >

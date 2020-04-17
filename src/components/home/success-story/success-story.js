@@ -246,7 +246,7 @@ class SuccessStories extends React.Component {
             </div>
             <div className="success-story-header-two"
                  data-sal="fade"
-                 data-sal-delay="300"
+
                  data-sal-easing="ease"
                  data-sal-duration="1000"
             >

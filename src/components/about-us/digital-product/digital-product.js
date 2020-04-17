@@ -29,7 +29,7 @@ const DigitalProduct = () => {
       <div className="digital-product-wrapper container">
         <div className="digital-product-wrapper-left"
              data-sal="slide-right"
-             data-sal-delay="500"
+
              data-sal-easing="ease"
              data-sal-duration="1000"
         >
@@ -48,7 +48,7 @@ const DigitalProduct = () => {
         <div className="digital-product-wrapper-right">
           <img className="digital-product-wrapper-img" src={data.digitalProductMainImg.publicURL}
                data-sal="slide-left"
-               data-sal-delay="500"
+
                data-sal-easing="ease"
                data-sal-duration="1000"
           />
