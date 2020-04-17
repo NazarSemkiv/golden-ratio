@@ -19,7 +19,7 @@ const OurClients = () => {
       <img src={data.background.publicURL}/>
       <div className="our-client-main"
            data-sal="fade"
-           data-sal-delay="300"
+
            data-sal-easing="ease-in-back"
            data-sal-duration="1000"
       >

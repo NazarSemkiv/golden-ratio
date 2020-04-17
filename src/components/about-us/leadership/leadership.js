@@ -92,7 +92,7 @@ class Leadership extends React.Component {
          <h5 className="leadership-pre-title">the team</h5>
          <h2 className="leadership-title"
              data-sal="fade"
-             data-sal-delay="300"
+
              data-sal-easing="ease"
              data-sal-duration="1000"
          >Our leadership</h2>

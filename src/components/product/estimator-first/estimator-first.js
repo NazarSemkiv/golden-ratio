@@ -25,7 +25,7 @@ const EstimatorFirst = () => {
         <img className="estimator-first-content-img" src={data.estimatorThirdImgBg.publicURL}/>
         <div className="estimator-first-content"
              data-sal="slide-down"
-             data-sal-delay="300"
+
              data-sal-easing="ease-in-cubic"
              data-sal-duration="1000"
         >

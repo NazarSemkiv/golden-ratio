@@ -66,7 +66,7 @@ const SalesforceConsultingSecond = () => {
       <div id="salesforce-consulting-second">
         <h2 className="salesforce-consulting-second-title"
             data-sal="fade"
-            data-sal-delay="300"
+
             data-sal-easing="ease"
             data-sal-duration="1000"
         >Salesforce consulting</h2>

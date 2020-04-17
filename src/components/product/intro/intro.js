@@ -15,7 +15,7 @@ const Intro = () => {
     <div className="products-container container">
       <div className="products-left"
            data-sal="slide-right"
-           data-sal-delay="300"
+
            data-sal-easing="ease-in-cubic"
            data-sal-duration="1000"
       >

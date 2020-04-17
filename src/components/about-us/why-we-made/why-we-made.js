@@ -32,27 +32,27 @@ const WhyWeMade = () => {
         <div className="why-we-made-top container">
           <h5 className="why-we-made-pre-title"
               data-sal="slide-left"
-              data-sal-delay="300"
+
               data-sal-easing="ease"
               data-sal-duration="1000"
           >the reason</h5>
           <h2 className="why-we-made-title">
             <p
               data-sal="slide-right"
-              data-sal-delay="300"
+
               data-sal-easing="ease"
               data-sal-duration="1000"
             >Why we made</p>
             <p
               data-sal="slide-left"
-              data-sal-delay="300"
+
               data-sal-easing="ease"
               data-sal-duration="1000"
             >Golden Ratio System?</p>
           </h2>
           <p className="why-we-made-text"
              data-sal="slide-right"
-             data-sal-delay="300"
+
              data-sal-easing="ease"
              data-sal-duration="1000"
           > Golden info created lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -61,13 +61,13 @@ const WhyWeMade = () => {
           </p>
           <h3 className="why-we-made-quotes"
               data-sal="slide-left"
-              data-sal-delay="300"
+
               data-sal-easing="ease"
               data-sal-duration="1000"
           >"What if we could do something different?"</h3>
           <p className="why-we-made-text"
              data-sal="slide-right"
-             data-sal-delay="300"
+
              data-sal-easing="ease"
              data-sal-duration="1000"
           >And so, they built Golden Ratio Systems.</p>
@@ -76,7 +76,7 @@ const WhyWeMade = () => {
         <div className="why-we-made-bottom container">
           <div className="why-we-made-bottom-content"
                data-sal="slide-right"
-               data-sal-delay="300"
+
                data-sal-easing="ease"
                data-sal-duration="1000"
           >
@@ -86,7 +86,7 @@ const WhyWeMade = () => {
           </div>
           <div className="why-we-made-bottom-content"
                data-sal="slide-right"
-               data-sal-delay="300"
+
                data-sal-easing="ease"
                data-sal-duration="1000"
           >
@@ -96,7 +96,7 @@ const WhyWeMade = () => {
           </div>
           <div className="why-we-made-bottom-content"
                data-sal="slide-right"
-               data-sal-delay="300"
+
                data-sal-easing="ease"
                data-sal-duration="1000"
           >

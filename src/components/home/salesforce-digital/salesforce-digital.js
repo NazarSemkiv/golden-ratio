@@ -22,7 +22,7 @@ const SalesforceDigital = () => {
       <div className="salesforce-digital-container container">
         <div className="salesforce-digital-left"
              data-sal="zoom-out"
-             data-sal-delay="300"
+
              data-sal-easing="ease"
              data-sal-duration="1000"
         >
@@ -33,7 +33,7 @@ const SalesforceDigital = () => {
         </div>
         <div className="salesforce-digital-right"
              data-sal="zoom-out"
-             data-sal-delay="300"
+
              data-sal-easing="ease"
              data-sal-duration="1000"
         >

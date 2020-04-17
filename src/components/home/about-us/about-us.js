@@ -22,7 +22,7 @@ const AboutUs = () => {
         <img className="about-us-main-img"
              src={data.aboutUsMainImg.publicURL}
              data-sal="slide-right"
-             data-sal-delay="300"
+
              data-sal-easing="ease"
              data-sal-duration="1000"
         />
@@ -32,7 +32,7 @@ const AboutUs = () => {
       </div>
       <div className="about-us-right"
            data-sal="slide-left"
-           data-sal-delay="300"
+
            data-sal-easing="ease"
            data-sal-duration="1000"
       >

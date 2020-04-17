@@ -23,7 +23,7 @@ const DigitalProduct = () => {
     <div className="digital-product">
       <div className="digital-product-left"
            data-sal="slide-right"
-           data-sal-delay="300"
+
            data-sal-easing="ease"
            data-sal-duration="1000"
       >

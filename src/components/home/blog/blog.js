@@ -33,14 +33,14 @@ const Blog = () => {
         <h5 id="blog">Our</h5>
         <h2
           data-sal="fade"
-          data-sal-delay="300"
+
           data-sal-easing="ease"
           data-sal-duration="1000"
         >Blog</h2>
         <div className="blog-wrapper-bottom">
           <div className="blog-wrapper-bottom-content"
                data-sal="zoom-out"
-               data-sal-delay="300"
+
                data-sal-easing="ease"
                data-sal-duration="1000"
           >
@@ -56,7 +56,7 @@ const Blog = () => {
           </div>
           <div className="blog-wrapper-bottom-content"
                data-sal="zoom-out"
-               data-sal-delay="300"
+
                data-sal-easing="ease"
                data-sal-duration="1000"
           >
@@ -72,7 +72,7 @@ const Blog = () => {
           </div>
           <div className="blog-wrapper-bottom-content"
                data-sal="zoom-out"
-               data-sal-delay="300"
+
                data-sal-easing="ease"
                data-sal-duration="1000"
           >

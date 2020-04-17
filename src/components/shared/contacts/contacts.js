@@ -65,7 +65,7 @@ const Contacts = (switcher) => {
       <div className={switcher.page === 'stories' ? 'contacts-left-right-container container contacts-left-right-container-hide' : 'contacts-left-right-container container'}>
         <div className="contacts-left"
              data-sal="slide-right"
-             data-sal-delay="300"
+
              data-sal-easing="ease-in-back"
              data-sal-duration="1000"
         >
@@ -125,7 +125,7 @@ const Contacts = (switcher) => {
         </div>
         <div className="contacts-right"
              data-sal="slide-left"
-             data-sal-delay="300"
+
              data-sal-easing="ease-in-back"
              data-sal-duration="1000"
         >
