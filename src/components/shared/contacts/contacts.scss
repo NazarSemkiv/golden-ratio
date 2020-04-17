@@ -292,9 +292,6 @@
         padding-right: 60px !important;
     }
     .contacts-left {
-        // .contacts-pre-title {
-
-        // }
         .contacts-title {
             font-size: 42px !important;
         }
@@ -386,6 +383,10 @@
                     .reach-us-title {
                         margin: 0 0 22px 0;
                     }
+
+                    .reach-us-icons-container {
+                        margin-left: -216px;
+                    }
                 }
             }
             .contacts-right {
@@ -436,6 +437,25 @@
                     }
                     .contact-form-user-data > * {
                         font-size: 22px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .contacts-container, .contacts-container-success {
+        .contacts-left-right-container {
+            .contacts-right {
+                .contact-form-container {
+                    .contact-form-top {
+                        .contact-form-title {
+                            font-size: 21px !important;
+                        }
+                    }
+                    .contact-form-user-data > * {
+                        font-size: 21px !important;
                     }
                 }
             }
