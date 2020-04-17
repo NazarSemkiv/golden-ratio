@@ -40,30 +40,26 @@
         height: 18px;
 
         .links-list-li {
-          color: #333234;
-          //font-family: "Proxima Nova";
-          font-size: 20px;
-          font-weight: 400;
-          letter-spacing: 0.5px;
-          text-decoration: none;
           position: relative;
 
           a {
-            &:link {
-              text-decoration: none;
-              color: #333234;
-              //font-family: "Proxima Nova";
-              font-size: 20px;
-              font-weight: 400;
-              letter-spacing: 0.5px;
-            }
-
-            &:active {
-              color: #333234;
-            }
+            transition: all .3s;
+            text-decoration: none;
+            color: #333234;
+            //font-family: "Proxima Nova";
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 0.5px;
 
             &:visited {
               color: #333234;
+            }
+            &.active {
+              color: #f4f05e;
+            }
+            &:hover {
+              transition: all .3s;
+              color: #f4f05e;
             }
           }
         }

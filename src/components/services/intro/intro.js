@@ -13,7 +13,12 @@ const Intro = () => {
 
   return (
     <div className="services-container container">
-      <div className="services-left">
+      <div className="services-left"
+           data-sal="slide-right"
+           data-sal-delay="300"
+           data-sal-easing="ease-in-cubic"
+           data-sal-duration="1000"
+      >
         <div className="services-left-title">Services</div>
         <div className="services-left-text">
           <p>Golden Ratio Systems is a digital product development and 

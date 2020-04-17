@@ -18,7 +18,12 @@ const Intro = () => {
   `)
   return (
     <div className="intro-software container">
-      <div className="intro-software-left">
+      <div className="intro-software-left"
+           data-sal="slide-right"
+           data-sal-delay="300"
+           data-sal-easing="ease-in-cubic"
+           data-sal-duration="1000"
+      >
         <h2>Helps you to make software you need</h2>
         <button className="yellow-btn">Get Started</button>
       </div>

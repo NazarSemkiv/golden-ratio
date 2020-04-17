@@ -49,25 +49,25 @@ class Header extends Component {
               <li className="yellow-circle">
               </li>
               <li className="links-list-li">
-                <Link to="/">Home</Link>
+                <Link to="/" activeClassName="active">Home</Link>
               </li>
               <li className="links-list-li">
-                <Link to="/about-us/">About</Link>
+                <Link to="/about-us/" activeClassName="active">About</Link>
               </li>
               <li className="links-list-li">
-                <Link to="/services/">Services</Link>
+                <Link to="/services/" activeClassName="active">Services</Link>
               </li>
               <li className="links-list-li">
-                <Link to="/product/">Products</Link>
+                <Link to="/product/" activeClassName="active">Products</Link>
               </li>
               <li className="links-list-li">
-                <Link to="/success-stories/">Success Stories</Link>
+                <Link to="/success-stories/" activeClassName="active">Success Stories</Link>
               </li>
               <li className="links-list-li">
-                <Link to="/#blog">Blog</Link>
+                <Link to="/#blog" activeClassName="active">Blog</Link>
               </li>
               <li className="links-list-li">
-                <Link to="/#contact">Contact</Link>
+                <Link to="/#contact" activeClassName="active">Contact</Link>
               </li>
               <li className="brown-circle-one">
               </li>

@@ -65,7 +65,12 @@ const SalesforceProduct = () => {
 
     return (
       <div id="salesforce-product">
-        <h2 className="salesforce-product-title">Salesforce product development</h2>
+        <h2 className="salesforce-product-title"
+            data-sal="fade"
+            data-sal-delay="300"
+            data-sal-easing="ease"
+            data-sal-duration="1000"
+        >Salesforce product development</h2>
 
         <div className="salesforce-product-scroll">
         <div className='salesforce-product-tabs'>

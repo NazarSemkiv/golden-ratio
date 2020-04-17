@@ -72,3 +72,10 @@ p {
     overflow: hidden;
   }
 }
+
+@media screen and (max-width: 768px ) {
+  [data-sal] {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+}

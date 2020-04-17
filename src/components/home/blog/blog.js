@@ -27,12 +27,23 @@ const Blog = () => {
   `)
   return (
     <div className="blog">
+      <img className="blog-curvy-bg" src={data.blogCurvyBg.publicURL}/>
       <img className="blog-bg" src={data.blogBg.publicURL}/>
       <div className="blog-wrapper">
         <h5 id="blog">Our</h5>
-        <h2>Blog</h2>
+        <h2
+          data-sal="fade"
+          data-sal-delay="300"
+          data-sal-easing="ease"
+          data-sal-duration="1000"
+        >Blog</h2>
         <div className="blog-wrapper-bottom">
-          <div className="blog-wrapper-bottom-content">
+          <div className="blog-wrapper-bottom-content"
+               data-sal="zoom-out"
+               data-sal-delay="300"
+               data-sal-easing="ease"
+               data-sal-duration="1000"
+          >
             <img src={data.scalableComplexEnterpriseFirst.publicURL}/>
             <div className="bottom-block">
               <div className="calendar-content">
@@ -43,7 +54,12 @@ const Blog = () => {
               <button className="transparent-btn">Read more</button>
             </div>
           </div>
-          <div className="blog-wrapper-bottom-content">
+          <div className="blog-wrapper-bottom-content"
+               data-sal="zoom-out"
+               data-sal-delay="300"
+               data-sal-easing="ease"
+               data-sal-duration="1000"
+          >
             <img src={data.scalableComplexEnterpriseSecond.publicURL}/>
             <div className="bottom-block">
               <div className="calendar-content">
@@ -54,8 +70,12 @@ const Blog = () => {
               <button className="transparent-btn">Read more</button>
             </div>
           </div>
-          <div className="blog-wrapper-bottom-content">
-            <img className="blog-curvy-bg" src={data.blogCurvyBg.publicURL}/>
+          <div className="blog-wrapper-bottom-content"
+               data-sal="zoom-out"
+               data-sal-delay="300"
+               data-sal-easing="ease"
+               data-sal-duration="1000"
+          >
             <img src={data.scalableComplexEnterpriseThird.publicURL}/>
             <div className="bottom-block">
               <div className="calendar-content">

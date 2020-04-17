@@ -23,7 +23,12 @@ const EstimatorFirst = () => {
         <img className="estimator-first-content-img" src={data.estimatorFirstImgBg.publicURL}/>
         <img className="estimator-first-content-img" src={data.estimatorSecondImgBg.publicURL}/>
         <img className="estimator-first-content-img" src={data.estimatorThirdImgBg.publicURL}/>
-        <div className="estimator-first-content">
+        <div className="estimator-first-content"
+             data-sal="slide-down"
+             data-sal-delay="300"
+             data-sal-easing="ease-in-cubic"
+             data-sal-duration="1000"
+        >
           <h3 className="estimator-first-content-title">Estimator</h3>
           <p className="estimator-first-content-text">Golden Ratio Systems is a digital product development and consulting 
             company. Specialize primarily in sales force.com development. We build 
