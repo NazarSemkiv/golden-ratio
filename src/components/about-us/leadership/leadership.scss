@@ -102,7 +102,7 @@
 @media screen and(max-width: 1386px) {
   #leadership-content {
     .slider, .slider-two {
-      width: 80vw;
+      //width: 80vw;
 
       .slick-list {
         .slider-item {
@@ -134,7 +134,7 @@
       .slick-arrow  {
         width: 55px;
         height: 55px;
-        top: 40%;
+        top: 49%;
       }
 
       .slick-prev {
@@ -162,7 +162,7 @@
       .slick-arrow {
         width: 55px;
         height: 55px;
-        top: 48%;
+        //top: 48%;
       }
 
       .slick-prev {
@@ -186,16 +186,6 @@
   #leadership-content {
     .slider {
       width: 229px;
-    }
-  }
-}
-
-@media screen and(max-width: 545px) {
-  #leadership-content {
-    .leadership-title {
-      font-size: 62px;
-      margin-top: 13px;
-      margin-bottom: 36px;
     }
   }
 }

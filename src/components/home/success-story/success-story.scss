@@ -404,7 +404,7 @@ div.slick-slider {
       .slick-list {
         .slider-item {
           .success-story-comment {
-            padding: 42px 55px 31px 55px;
+            // padding: 42px 55px 31px 55px;
 
             .success-story-comment-text {
               font-size: 20px;
@@ -423,6 +423,22 @@ div.slick-slider {
 @media screen and (max-width: 600px) {
   div.slick-slider.slick-list {
     height: auto !important;
+  }
+
+  .success-story {
+    .slider {
+      .slick-list {
+        .slider-item {
+          width: 92vw !important;
+          display: flex !important;
+
+          .success-story-comment {
+            padding: 23px 21px 25px 21px;
+            width: 92vw;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -445,11 +461,12 @@ div.slick-slider {
       .slick-list {
         .slider-item {
           //margin-left: -43px;
-          margin-left: 0 !important;
+          // width: 92vw !important;
+          // display: flex !important;
 
           .success-story-comment {
-            padding: 23px 21px 25px 21px;
-            //width: 87vw;
+            // padding: 23px 21px 25px 21px;
+            // width: 92vw;
 
             .success-story-comment-text {
               font-size: 18px;
@@ -514,14 +531,13 @@ div.slick-slider {
 
 @media screen and(max-width: 451px) {
   .success-story {
-    
-    .slider, .success-story-logos {
-      .slick-list {
-        .slider-item {
-          margin-left: -37px;
-        }
-      }
-    }
+    // .slider, .success-story-logos {
+    //   .slick-list {
+    //     .slider-item {
+    //       //margin-left: -37px;
+    //     }
+    //   }
+    // }
 
     ul.slick-dots {
       left: 41.5vw;
@@ -540,7 +556,7 @@ div.slick-slider {
           display: flex !important;
           .success-story-comment {
             &-text {
-              font-size: 16px !important;
+              font-size: 17px !important;
             }
             &-author span {
               font-size: 16px !important;
