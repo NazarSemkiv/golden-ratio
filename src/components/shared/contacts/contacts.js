@@ -34,6 +34,21 @@ const Contacts = (switcher) => {
     },
     contactForm: file(relativePath: { eq: "contact-form.png" }) {
       publicURL
+    },
+    instagramIcon: file(relativePath: { eq: "instagram-icon-2.svg" }) {
+      publicURL
+    },
+    pinterestIcon: file(relativePath: { eq: "pinterest-icon.svg" }) {
+      publicURL
+    },
+    facebookIcon: file(relativePath: { eq: "facebook-icon-2.svg" }) {
+      publicURL
+    },
+    twitterIcon: file(relativePath: { eq: "twitter-icon.svg" }) {
+      publicURL
+    },
+    linkedinIcon: file(relativePath: { eq: "linkedin-icon.svg" }) {
+      publicURL
     }
   }
 `)
@@ -71,7 +86,34 @@ const Contacts = (switcher) => {
               <p className="reach-us-title">Reach us here</p>
               <div className="reach-us-icons-container">
                 <div className="reach-us-icons">
-                  <img src={data.reachUsIcons.publicURL}/>
+                  <ul className="reach-us-icons-ul">
+                    <li className="reach-us-icons-li">
+                      <a href="#">
+                        <img src={data.instagramIcon.publicURL}/>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src={data.pinterestIcon.publicURL}/>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src={data.facebookIcon.publicURL}/>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src={data.twitterIcon.publicURL}/>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <img src={data.linkedinIcon.publicURL}/>
+                      </a>
+                    </li>
+                  </ul>
+                  {/* <img src={data.reachUsIcons.publicURL}/> */}
                 </div>
               </div>
             </div>

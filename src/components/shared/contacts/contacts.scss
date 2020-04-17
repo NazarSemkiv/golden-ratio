@@ -118,12 +118,20 @@
                 }
 
                 .reach-us-icons-container {
-                    width: 220px;
-                    height: 36px;
                     position: relative;
 
                     .reach-us-icons {
                         position: absolute;
+                        .reach-us-icons-ul {
+                            display: flex;
+                            justify-content: space-between;
+                            width: 220px;
+
+                            .reach-us-icons-li, a, img {
+                                width: 38px;
+                                height: 38px;
+                            }
+                        }
                     }
                 }
             }
