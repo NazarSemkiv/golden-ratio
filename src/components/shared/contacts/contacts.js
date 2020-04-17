@@ -48,7 +48,12 @@ const Contacts = (switcher) => {
       }
       <img className={switcher.page === 'stories' ? 'contacts-bg-two-hide success-background' : 'contacts-bg-two'} src={data.contactsBgTwo.publicURL} id="contact"/>
       <div className={switcher.page === 'stories' ? 'contacts-left-right-container container contacts-left-right-container-hide' : 'contacts-left-right-container container'}>
-        <div className="contacts-left">
+        <div className="contacts-left"
+             data-sal="slide-right"
+             data-sal-delay="300"
+             data-sal-easing="ease-in-back"
+             data-sal-duration="1000"
+        >
           <h5 className="contacts-pre-title">get in touch</h5>
           <h2 className="contacts-title">Let’s work together</h2>
             <div className="contacts-left-content">
@@ -76,7 +81,12 @@ const Contacts = (switcher) => {
               </div>
             </div>
         </div>
-        <div className="contacts-right">
+        <div className="contacts-right"
+             data-sal="slide-left"
+             data-sal-delay="300"
+             data-sal-easing="ease-in-back"
+             data-sal-duration="1000"
+        >
           <div className="contact-form-container">
             <div className="contact-form-top">
               <p className="contact-form-title">We'd love to hear from you!</p>

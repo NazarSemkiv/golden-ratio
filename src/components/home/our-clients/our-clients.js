@@ -17,7 +17,12 @@ const OurClients = () => {
     <div className="our-client">
       {/* <img src={data.logo.publicURL}/> */}
       <img src={data.background.publicURL}/>
-      <div className="our-client-main">
+      <div className="our-client-main"
+           data-sal="fade"
+           data-sal-delay="300"
+           data-sal-easing="ease-in-back"
+           data-sal-duration="1000"
+      >
         <p>our</p>
         <p>Clients</p>
         <div><span>See All Customer</span></div>

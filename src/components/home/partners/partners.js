@@ -29,7 +29,12 @@ const Partners = () => {
       <div className="partners-logos-container"></div>
       {/* <img className="partners-logos" src={data.partnersLogos.publicURL}/> */}
       <img className="partners-clouds-bg" src={data.partnersCloudsBg.publicURL}/>
-      <div className="partners-content">
+      <div className="partners-content"
+           data-sal="fade"
+           data-sal-delay="300"
+           data-sal-easing="ease-in-back"
+           data-sal-duration="1000"
+      >
         <h5>Our</h5>
         <h2>Partners</h2>
         <button className="transparent-btn">Learn more</button>

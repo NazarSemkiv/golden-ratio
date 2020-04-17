@@ -244,10 +244,16 @@ class SuccessStories extends React.Component {
             <div className="success-story-header-one">
               happy client
             </div>
-            <div className="success-story-header-two">
+            <div className="success-story-header-two"
+                 data-sal="fade"
+                 data-sal-delay="300"
+                 data-sal-easing="ease"
+                 data-sal-duration="1000"
+            >
               Success Stories
             </div>
-            <Slider {...settingsOne} asNavFor={this.state.nav2} ref={slider => (this.slider1 = slider)} className="success-story-logos container">
+            <Slider {...settingsOne} asNavFor={this.state.nav2} ref={slider => (this.slider1 = slider)}
+                    className="success-story-logos container">
               <SuccessItemOne/>
               <SuccessItemTwo/>
               <SuccessItemNine/>
@@ -259,7 +265,8 @@ class SuccessStories extends React.Component {
               <SuccessItemEleven/>
             </Slider>
 
-            <Slider {...settings} asNavFor={this.state.nav1} ref={slider => (this.slider2 = slider)} className="slider container">
+            <Slider {...settings} asNavFor={this.state.nav1} ref={slider => (this.slider2 = slider)}
+                    className="slider container">
               <div className="slider-item">
                 <div className="success-story-comment">
                   <p className="success-story-comment-text"><span>“</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sus

@@ -27,7 +27,12 @@ const DigitalProduct = () => {
     <div className="digital-product-content">
       <img className="digital-product-content-img" src={data.digitalProductDev.publicURL}/>
       <div className="digital-product-wrapper container">
-        <div className="digital-product-wrapper-left">
+        <div className="digital-product-wrapper-left"
+             data-sal="slide-right"
+             data-sal-delay="500"
+             data-sal-easing="ease"
+             data-sal-duration="1000"
+        >
           <h5 className="digital-product-pre-title">who we are</h5>
           <h3 className="digital-product-title">Digital product development</h3>
           <p className="digital-product-text">Golden Ratio Systems is a digital product development and 
@@ -41,7 +46,12 @@ const DigitalProduct = () => {
           <p className="digital-product-text">with multiple systems.</p>
         </div>
         <div className="digital-product-wrapper-right">
-          <img className="digital-product-wrapper-img" src={data.digitalProductMainImg.publicURL}/>
+          <img className="digital-product-wrapper-img" src={data.digitalProductMainImg.publicURL}
+               data-sal="slide-left"
+               data-sal-delay="500"
+               data-sal-easing="ease"
+               data-sal-duration="1000"
+          />
           <img className="digital-product-yellow-stars" src={data.digitalProductYellowStars.publicURL}/>
           <img className="digital-product-grey-grid" src={data.digitalProductGreyGrid.publicURL}/>
           <div className="digital-product-yellow-circle"></div>

@@ -2,6 +2,13 @@
   position: relative;
   display: flex;
   justify-content: center;
+  .blog-curvy-bg {
+    position: absolute;
+    bottom: 404px;
+    //left: 1211px;
+    left: 75.6875%;
+    z-index: -1;
+  }
 
   .blog-bg {
     position: absolute;
@@ -42,17 +49,10 @@
       justify-content: space-between;
 
       .blog-wrapper-bottom-content {
-        position: relative;
+        //position: relative;
         width: 383px;
         background-color: #f7f7f7;
         border-radius: 30px;
-
-        .blog-curvy-bg {
-          position: absolute;
-          bottom: 404px;
-          left: 185px;
-          z-index: -1;
-        }
 
         .bottom-block {
           padding: 42px 39px 47px 39px;
@@ -151,6 +151,14 @@
           }
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .blog {
+    .blog-curvy-bg {
+      display: none;
     }
   }
 }
