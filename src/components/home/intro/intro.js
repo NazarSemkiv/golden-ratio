@@ -5,7 +5,7 @@ import { graphql, useStaticQuery } from "gatsby";
 const Intro = () => {
   const data = useStaticQuery(graphql`
     query {
-      introImg: file(relativePath: { eq: "intro-img.png" }) {
+      introImg: file(relativePath: { eq: "assets-3.svg" }) {
         publicURL
       }
     }
@@ -17,6 +17,7 @@ const Intro = () => {
         <button className="yellow-btn">Get Started</button>
       </div>
       <div className="make-software-right">
+        {/* <div className="grey-circle"></div> */}
         <img src={data.introImg.publicURL}/>
       </div>
     </div>
