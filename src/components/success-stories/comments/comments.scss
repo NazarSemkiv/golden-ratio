@@ -165,9 +165,10 @@
 
 @media screen and (min-width: 1600px) {
   .comments{
+    width: 100%;
     .slider {
       .slick-list {
-        overflow: visible;
+        //overflow: visible;
       }
     }
   }
