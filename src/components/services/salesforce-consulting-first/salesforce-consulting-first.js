@@ -26,7 +26,7 @@ const SalesforceConsultingFirst = () => {
       <div className="salesforce-consulting-content">
         <div className="content-left content"
              data-sal="zoom-in"
-
+             data-sal-delay="400"
              data-sal-easing="ease"
              data-sal-duration="1000"
         >
@@ -37,7 +37,7 @@ const SalesforceConsultingFirst = () => {
         </div>
         <div className="content-right content"
              data-sal="zoom-in"
-
+             data-sal-delay="800"
              data-sal-easing="ease"
              data-sal-duration="1000"
         >

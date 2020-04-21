@@ -76,7 +76,7 @@ const WhyWeMade = () => {
         <div className="why-we-made-bottom container">
           <div className="why-we-made-bottom-content"
                data-sal="slide-right"
-
+               data-sal-delay="900"
                data-sal-easing="ease"
                data-sal-duration="1000"
           >
@@ -86,7 +86,7 @@ const WhyWeMade = () => {
           </div>
           <div className="why-we-made-bottom-content"
                data-sal="slide-right"
-
+               data-sal-delay="600"
                data-sal-easing="ease"
                data-sal-duration="1000"
           >
@@ -96,7 +96,7 @@ const WhyWeMade = () => {
           </div>
           <div className="why-we-made-bottom-content"
                data-sal="slide-right"
-
+               data-sal-delay="300"
                data-sal-easing="ease"
                data-sal-duration="1000"
           >

@@ -33,15 +33,14 @@ const Blog = () => {
         <h5 id="blog">Our</h5>
         <h2
           data-sal="fade"
-
           data-sal-easing="ease"
           data-sal-duration="1000"
         >Blog</h2>
         <div className="blog-wrapper-bottom">
           <div className="blog-wrapper-bottom-content"
                data-sal="zoom-out"
-
                data-sal-easing="ease"
+               data-sal-delay="200"
                data-sal-duration="1000"
           >
             <img src={data.scalableComplexEnterpriseFirst.publicURL}/>
@@ -56,7 +55,7 @@ const Blog = () => {
           </div>
           <div className="blog-wrapper-bottom-content"
                data-sal="zoom-out"
-
+               data-sal-delay="400"
                data-sal-easing="ease"
                data-sal-duration="1000"
           >
@@ -72,7 +71,7 @@ const Blog = () => {
           </div>
           <div className="blog-wrapper-bottom-content"
                data-sal="zoom-out"
-
+               data-sal-delay="600"
                data-sal-easing="ease"
                data-sal-duration="1000"
           >

@@ -24,7 +24,7 @@ const Intro = () => {
         <img className="golden-ration-system-inner-goldenBgTwo" src={data.goldenRationSystemBackgroundTwo.publicURL}/>
           <h2 className="golden-ration-system-inner-title"
               data-sal="slide-left"
-
+              data-sal-delay="300"
               data-sal-easing="ease"
               data-sal-duration="1000"
           >
@@ -33,7 +33,7 @@ const Intro = () => {
             </h2>
           <p className="golden-ration-system-inner-text"
              data-sal="slide-right"
-
+             data-sal-delay="600"
              data-sal-easing="ease"
              data-sal-duration="1000"
           >
@@ -44,7 +44,7 @@ const Intro = () => {
           </p>
           <button className="golden-ration-system-inner-btn"
                   data-sal="slide-up"
-
+                  data-sal-delay="900"
                   data-sal-easing="ease"
                   data-sal-duration="1000"
           >Read more</button>

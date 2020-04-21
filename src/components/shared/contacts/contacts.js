@@ -66,7 +66,7 @@ const Contacts = (switcher) => {
         <div className="contacts-left"
              data-sal="slide-right"
 
-             data-sal-easing="ease-in-back"
+             data-sal-easing="ease"
              data-sal-duration="1000"
         >
           <h5 className="contacts-pre-title">get in touch</h5>
@@ -126,7 +126,7 @@ const Contacts = (switcher) => {
         <div className="contacts-right"
              data-sal="slide-left"
 
-             data-sal-easing="ease-in-back"
+             data-sal-easing="ease"
              data-sal-duration="1000"
         >
           <div className="contact-form-container">
