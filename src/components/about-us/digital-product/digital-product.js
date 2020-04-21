@@ -41,9 +41,7 @@ const DigitalProduct = () => {
             applications on salesforce that integrate with multiple systems. Golden Ratio Systems is a digital product development and 
             consulting company. Specialize primarily in salesforce.com 
             development. We build scalable complex enterprise grade 
-            applications on salesforce that integrate 
-          </p>
-          <p className="digital-product-text">with multiple systems.</p>
+            applications on salesforce that integrate with multiple systems.</p>
         </div>
         <div className="digital-product-wrapper-right">
           <img className="digital-product-wrapper-img" src={data.digitalProductMainImg.publicURL}

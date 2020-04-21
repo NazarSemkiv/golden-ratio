@@ -161,6 +161,7 @@
     padding: 0 15px;
     width: 100% !important;
     font-size: 60px !important;
+    line-height: 60px;
     word-break: break-word;
   }
 
@@ -178,6 +179,7 @@
 @media screen and (max-width: 420px) {
   .salesforce-product-title {
     font-size: 50px !important;
+    line-height: 50px !important;
   }
 }
 

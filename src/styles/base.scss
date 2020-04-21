@@ -23,6 +23,7 @@
 ///////
 
 *, a, p, span {
+  line-height: initial;
   font-family: 'ProximaNova', 'Raleway', sans-serif !important;
 
 }
@@ -79,4 +80,35 @@ p {
     opacity: 1 !important;
     transform: translateX(0) !important;
 }
+}
+
+@media screen and (max-width: 960px) {
+  main > .make-software, main > .products-container, main > .intro-software{
+    margin-top: 116px;
+  }
+  main > .golden-ration-system {
+    margin-top: 216px;
+  }
+  main > .services-container {
+    margin-top: 166px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  * {
+    letter-spacing: 0 !important;
+  }
+}
+
+@media screen and (max-width: 506px) {
+  main > .make-software, main > .products-container, main > .intro-software{
+    //margin-top: 116px;
+    margin-top: 99px;
+  }
+  main > .golden-ration-system {
+    margin-top: 199px;
+  }
+  main > .services-container {
+    margin-top: 149px;
+  }
 }

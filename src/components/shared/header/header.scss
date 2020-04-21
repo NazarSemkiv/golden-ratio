@@ -159,8 +159,17 @@
 
 @media screen and(max-width: 960px) {
   .header {
+    height: 106px;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
     .inner-header-content {
+      width: 100vw;
       align-items: flex-start;
+      margin-top: 0;
 
       .header-links {
         padding-top: 0;
@@ -181,13 +190,15 @@
           float: right;
 
           + .links-list {
+            height: 100%;
             display: flex;
             flex-direction: column;
+            justify-content: flex-start;
             text-align: center;
-            position: absolute;
+            position: fixed;
             right: 0;
             background: #fff;
-            top: 161px;
+            top: 314px;
             width: 100%;
             z-index: 99997;
             transition-timing-function: ease;
@@ -231,7 +242,8 @@
           display: none;
 
           .links-list-li {
-            padding: 6px;
+            //padding: 6px;
+            padding: 2vh;
             border-bottom: none;
           }
         }
@@ -270,6 +282,7 @@
 
 @media screen and(max-width: 506px) {
   .header {
+    height: 89px;
     .inner-header-content {
       .logo-img {
         img {
@@ -283,6 +296,7 @@
 
         .is-active {
           + .links-list {
+            top: 297px;
             .yellow-circle {
               right: 10vw;
               top: -5px;
