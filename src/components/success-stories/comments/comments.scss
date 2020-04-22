@@ -374,6 +374,14 @@
   }
 }
 
+@media screen and (max-width: 550px) {
+  .comments {
+    .comments-background1 {
+      display: none;
+    }
+  }
+}
+
 @media screen and(max-width: 494px) {
   .comments {
     .slider {
