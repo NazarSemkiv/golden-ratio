@@ -1,6 +1,6 @@
 import React from "react"
 import "./footer.scss";
-import {Link, StaticQuery} from "gatsby";
+import {Link} from "gatsby";
 import { graphql, useStaticQuery } from "gatsby";
 
 const Footer = () => {
@@ -24,10 +24,12 @@ const Footer = () => {
                 <img className="footer-bg-img" src={data.footerBg.publicURL}/>
                 <div className="footer-bg-content">
                 <Link to="/"><img className="footer-logo-img" src={data.footerLogoImg.publicURL}/></Link>
-                    {/* <img className="footer-logo-img" src={data.footerLogoImg.publicURL}/> */}
                     <ul className="footer-menu-container">
                         <li>
                             <Link to="/" activeClassName="active">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/about-us/" activeClassName="active">About</Link>
                         </li>
                         <li>
                             <Link to="/services/" activeClassName="active">Services</Link>
